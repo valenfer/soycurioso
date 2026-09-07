@@ -1,0 +1,22 @@
+---
+// Tarjeta reutilizable para listar curiosidades.
+// Recibe un `entry` de la colección Astro y genera enlaces compatibles con GitHub Pages.
+const { entry } = Astro.props;
+const data = entry.data;
+---
+<article class="card" data-category={data.category} data-tags={data.tags.join(' ')}>
+  <a href={`/soycurioso/curiosidades/${entry.id}/`}>
+    <img src={data.image} alt={`Ilustración de ${data.title}`} loading="lazy" />
+    <div class="card-body">
+      <div class="meta">
+        <span class="badge hot">{data.category}</span>
+        <span class="badge">{data.readingTime} min</span>
+      </div>
+      <h3>{data.title}</h3>
+      <p>{data.summary}</p>
+      <div class="meta" aria-label="Etiquetas">
+        {data.tags.slice(0,3).map((tag) => <span class="badge">#{tag}</span>)}
+      </div>
+    </div>
+  </a>
+</article>

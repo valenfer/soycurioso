@@ -1,0 +1,25 @@
+---
+// Sección de enigmas: separada del blog normal porque necesita dificultad,
+// pistas y solución oculta, no solo texto editorial.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const enigmas = await getCollection('enigmas');
+const first = enigmas[0];
+const { Content } = await render(first);
+---
+<BaseLayout title="Enigmas y pasatiempos — SoyCurioso">
+  <section class="wrapper article article-shell">
+    <p class="eyebrow">Pasatiempos</p>
+    <h1>{first.data.title}</h1>
+    <p class="lead">{first.data.summary}</p>
+    <div class="meta"><span class="badge hot">Dificultad {first.data.difficulty}</span><span class="badge">{first.data.estimatedTime}</span></div>
+    <div class="panel puzzle-box prose"><Content /></div>
+    <button class="button" id="show-solution">Mostrar solución de ejemplo</button>
+    <div class="hidden-solution" id="solution"><strong>Solución:</strong> en el MVP dejamos una solución de demostración. En producción cada enigma tendrá explicación paso a paso validada.</div>
+  </section>
+  <script>
+    document.querySelector('#show-solution')?.addEventListener('click', () => {
+      document.querySelector('#solution')?.classList.toggle('open');
+    });
+  </script>
+</BaseLayout>

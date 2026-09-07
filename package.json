@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "node scripts/verify-content.mjs",
+    "check:links": "node scripts/check-dist-links.mjs"
   },
   "dependencies": {
     "astro": "^7.3.1"

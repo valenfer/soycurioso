@@ -1,0 +1,19 @@
+---
+// Página de categorías: resume el mapa editorial inicial de SoyCurioso.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const curiosidades = await getCollection('curiosidades');
+const categories = [...new Set(curiosidades.map((item) => item.data.category))];
+---
+<BaseLayout title="Categorías — SoyCurioso">
+  <section class="wrapper article">
+    <p class="eyebrow">Mapa temático</p>
+    <h1>Categorías</h1>
+    <div class="grid">
+      {categories.map((category) => {
+        const total = curiosidades.filter((item) => item.data.category === category).length;
+        return <section id={category.toLowerCase()} class="card card-body"><h2>{category}</h2><p>{total} curiosidades publicadas en esta categoría dentro del MVP.</p></section>;
+      })}
+    </div>
+  </section>
+</BaseLayout>

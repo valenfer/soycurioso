@@ -1,0 +1,37 @@
+---
+// Buscador/filtro progresivo sin backend.
+// Para el MVP usa JavaScript pequeño en cliente; si el catálogo crece,
+// se sustituye por Pagefind sin cambiar el diseño general.
+const { categories = [] } = Astro.props;
+---
+<div class="filters" role="search">
+  <input id="search" class="input" type="search" placeholder="Buscar por título, resumen o etiqueta..." />
+  <select id="category" class="select" aria-label="Filtrar por categoría">
+    <option value="">Todas las categorías</option>
+    {categories.map((category) => <option value={category}>{category}</option>)}
+  </select>
+  <select id="kind" class="select" aria-label="Tipo de contenido">
+    <option value="">Todo</option>
+    <option value="curiosidad">Curiosidades</option>
+    <option value="enigma">Enigmas</option>
+  </select>
+</div>
+<script>
+  const search = document.querySelector('#search');
+  const category = document.querySelector('#category');
+  const kind = document.querySelector('#kind');
+  const cards = [...document.querySelectorAll('[data-search-card]')];
+  function applyFilters() {
+    const q = search.value.toLowerCase().trim();
+    const cat = category.value;
+    const type = kind.value;
+    for (const card of cards) {
+      const text = card.textContent.toLowerCase();
+      const okText = !q || text.includes(q);
+      const okCat = !cat || card.dataset.category === cat;
+      const okType = !type || card.dataset.kind === type;
+      card.style.display = okText && okCat && okType ? '' : 'none';
+    }
+  }
+  [search, category, kind].forEach((el) => el.addEventListener('input', applyFilters));
+</script>

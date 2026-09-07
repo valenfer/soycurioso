@@ -1,43 +1,37 @@
-# Astro Starter Kit: Minimal
+# SoyCurioso
 
-```sh
-npm create astro@latest -- --template minimal
+MVP funcional de una web de curiosidades, enigmas y suscripción diaria por email.
+
+## Qué incluye
+
+- Web pública con Astro y TypeScript.
+- 10 curiosidades iniciales con imagen SVG local, categoría, etiquetas, fuente y desarrollo breve.
+- Archivo buscable con filtros en cliente.
+- Sección inicial de enigmas con solución desplegable.
+- Formulario de suscripción simulado para validar UX sin manejar datos reales todavía.
+- Documentación técnica del sistema de email diario por suscriptor.
+- Despliegue preparado para GitHub Pages en `https://valenfer.github.io/soycurioso/`.
+
+## Comandos
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Estructura
 
 ```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+src/content/curiosidades/  # publicaciones MDX con frontmatter
+src/content/enigmas/       # pasatiempos y acertijos
+src/components/            # tarjetas, buscador y suscripción
+src/pages/                 # rutas públicas generadas por Astro
+public/images/             # imágenes SVG locales del MVP
+docs/                      # documentación del proyecto
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Nota sobre el email diario
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+El MVP no envía correos reales. La siguiente fase debe añadir base de datos, doble opt-in, baja legal y tarea diaria programada. Está documentado en `docs/EMAIL_DIARIO.md`.
