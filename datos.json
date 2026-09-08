@@ -1,0 +1,476 @@
+{
+  "curiosidades": [
+    {
+      "fecha": "2026-10-08",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "1.121 especies marinas nuevas en un año",
+      "entradilla": "Ocean Census anunció 1.121 especies previamente desconocidas, incluidas criaturas de zonas remotas y profundidades de hasta 6.575 metros.",
+      "cuerpo": [
+        "El océano sigue siendo un territorio medio invisible para la ciencia. En una sola campaña anual, Ocean Census anunció 1.121 especies previamente desconocidas: desde chimaeras o “tiburones fantasma” hasta corales, cangrejos, gambas, erizos y anémonas. Algunas proceden de profundidades donde la luz solar ni se plantea bajar, porque hasta el Sol tiene sus límites.",
+        "Importa porque muchas especies podrían desaparecer antes siquiera de recibir nombre. Nombrar vida nueva no es coleccionismo científico: es el primer paso para proteger ecosistemas que aún no entendemos."
+      ],
+      "fuente": "Ocean Census — https://oceancensus.org/press-release-scientists-discover-over-1100-new-marine-species-in-landmark-ocean-census/"
+    },
+    {
+      "fecha": "2026-10-07",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Un gusano que vive dentro de un castillo de cristal",
+      "entradilla": "Un gusano simbiótico fue descrito viviendo dentro de una esponja de vidrio con esqueleto de sílice cristalina.",
+      "cuerpo": [
+        "Entre los hallazgos de Ocean Census destaca Dalhousiella yabukii, un gusano poliqueto que vive dentro de las cámaras de una esponja de vidrio. La esponja tiene un esqueleto de sílice cristalina: básicamente, una arquitectura submarina transparente montada por la evolución sin pedir licencia de obra.",
+        "La simbiosis recuerda que la vida no siempre compite a codazos; a veces sobrevive convirtiendo a otro organismo en casa, refugio y vecindario completo."
+      ],
+      "fuente": "Ocean Census — https://oceancensus.org/press-release-scientists-discover-over-1100-new-marine-species-in-landmark-ocean-census/"
+    },
+    {
+      "fecha": "2026-10-06",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Una superfamilia nueva en el fondo del Pacífico",
+      "entradilla": "En la zona Clarion-Clipperton se describieron 24 especies nuevas de anfípodos y una superfamilia nueva.",
+      "cuerpo": [
+        "Investigadores describieron 24 nuevas especies de anfípodos en la zona Clarion-Clipperton, una región gigantesca entre Hawái y México. Lo más llamativo fue la propuesta de una nueva familia y superfamilia, Mirabestiidae y Mirabestioidea. No es “otro bichito raro”: es mover ramas del árbol evolutivo.",
+        "La zona también interesa por la minería submarina, así que conocer su biodiversidad no es un lujo académico: es saber qué podríamos romper antes de romperlo alegremente."
+      ],
+      "fuente": "ScienceDaily — https://www.sciencedaily.com/releases/2026/03/260325005912.htm"
+    },
+    {
+      "fecha": "2026-10-05",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La posible estrella agujero negro del universo temprano",
+      "entradilla": "El James Webb ayudó a identificar un objeto rojo que podría ser un agujero negro envuelto en una nube estelar de hidrógeno.",
+      "cuerpo": [
+        "Astrónomos del MIT describieron MoM-BH*-1, un punto rojo muy antiguo que parece del tamaño del sistema solar pero emite demasiada energía para una estrella normal. La explicación candidata es una “estrella agujero negro”: un agujero negro central oculto dentro de una enorme envoltura de gas.",
+        "Si se confirma, ayudaría a explicar los misteriosos “puntitos rojos” que el James Webb encuentra por todas partes en el universo temprano. El cosmos, como siempre, dejando migas de pan pero en modo críptico."
+      ],
+      "fuente": "MIT News — https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812"
+    },
+    {
+      "fecha": "2026-10-04",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Agujeros negros que podrían fabricar planetas gigantes",
+      "entradilla": "Un modelo sugiere que los bordes de discos de acreción en núcleos galácticos activos podrían formar millones de planetas.",
+      "cuerpo": [
+        "Los núcleos galácticos activos parecen lugares demasiado violentos para formar planetas, pero sus discos tienen gas y polvo de sobra. Un modelo propone que, en sus regiones externas, podrían formarse millones de planetas de masa joviana.",
+        "Es una hipótesis basada en simulación, no una foto familiar de planetas posando junto al agujero negro. Pero cambia la intuición: incluso los entornos extremos pueden tener rincones fértiles."
+      ],
+      "fuente": "Space.com — https://www.space.com/astronomy/exoplanets/we-were-astonished-millions-of-exoplanets-could-be-born-near-active-supermassive-black-holes"
+    },
+    {
+      "fecha": "2026-10-03",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Un planeta con forma de limón alrededor de un púlsar",
+      "entradilla": "PSR J2322-2650b parece estirado por la gravedad de su púlsar y tendría una atmósfera exótica rica en helio y carbono.",
+      "cuerpo": [
+        "NASA informó de un mundo de masa parecida a Júpiter orbitando un púlsar. La gravedad de esa estrella de neutrones lo deformaría hasta darle una forma parecida a un limón. Además, su atmósfera parece dominada por helio y carbono, sin las señales habituales de agua, metano o dióxido de carbono.",
+        "Las nubes de hollín y los diamantes interiores son interpretaciones de modelos, no observaciones directas. Aun así, como rareza cósmica va sobrado: planeta-limón carbonoso junto a un faro de neutrones."
+      ],
+      "fuente": "NASA — https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/"
+    },
+    {
+      "fecha": "2026-10-02",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La molécula mariposa que completó un zoo cuántico",
+      "entradilla": "Físicos observaron una molécula Rydberg tipo mariposa, una estructura ultrafría predicha durante años.",
+      "cuerpo": [
+        "Durante años se predijo una familia de moléculas Rydberg con formas extrañas. La variedad “mariposa” era una de las piezas difíciles: aparece cuando un electrón muy alejado del núcleo modifica la interacción entre átomos ultrafríos.",
+        "Estas moléculas son extremadamente sensibles a campos eléctricos, así que no son solo una extravagancia bonita: pueden servir como herramientas para estudiar fenómenos cuánticos delicados."
+      ],
+      "fuente": "Phys.org — https://phys.org/news/2026-05-butterfly-molecule-year-quantum-zoo.pdf"
+    },
+    {
+      "fecha": "2026-10-01",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Neuronas que rompen su ADN para construir el cerebro",
+      "entradilla": "Durante el desarrollo cerebral, neuronas jóvenes pueden sufrir roturas de doble cadena mientras migran por espacios estrechos.",
+      "cuerpo": [
+        "Investigadores observaron que neuronas jóvenes pueden sufrir roturas de doble cadena en el ADN al migrar por espacios estrechos durante el desarrollo del cerebro. Después, esas roturas suelen repararse. La imagen mental es delicada: el cerebro montando su cableado mientras hace reformas con dinamita genética controlada.",
+        "La curiosidad importa porque muestra que cierto daño celular, en contexto y con reparación, puede formar parte de procesos normales. La biología no es limpia; es eficaz, que no es lo mismo."
+      ],
+      "fuente": "ScienceDaily — https://www.sciencedaily.com/releases/2026/06/260620100422.htm"
+    },
+    {
+      "fecha": "2026-09-15",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El CO₂ es poco en porcentaje, mucho en efecto",
+      "entradilla": "Aunque el dióxido de carbono es una fracción pequeña del aire, influye mucho en el equilibrio térmico terrestre.",
+      "cuerpo": [
+        "El CO₂ representa una parte pequeña de la atmósfera, pero absorbe radiación infrarroja y participa en el efecto invernadero. Por eso pequeñas variaciones de concentración pueden tener consecuencias climáticas importantes. Cantidad pequeña no significa impacto pequeño; el veneno también suele venir en frasco pequeño.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Carbon dioxide in the atmosphere of Earth — https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth"
+    },
+    {
+      "fecha": "2026-09-14",
+      "cat": "historia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El secuestro aéreo de D. B. Cooper sigue sin resolverse",
+      "entradilla": "En 1971, un hombre secuestró un avión, cobró un rescate, saltó en paracaídas y desapareció.",
+      "cuerpo": [
+        "El caso D. B. Cooper es uno de los misterios criminales más célebres de Estados Unidos. Tras recibir dinero y paracaídas, el secuestrador saltó desde el avión durante la noche. Nunca se le identificó de forma concluyente, lo que convirtió el caso en leyenda moderna.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "D. B. Cooper — https://en.wikipedia.org/wiki/D._B._Cooper"
+    },
+    {
+      "fecha": "2026-09-13",
+      "cat": "filosofia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Sócrates enseñaba preguntando hasta desmontarte",
+      "entradilla": "El método socrático usa preguntas encadenadas para examinar ideas y descubrir contradicciones.",
+      "cuerpo": [
+        "En vez de soltar una lección cerrada, Sócrates empujaba a su interlocutor con preguntas. El objetivo era aclarar conceptos, detectar contradicciones y llegar a una comprensión más sólida. Es incómodo, sí, pero menos que descubrir tarde que tu gran argumento era un castillo de naipes con toga.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Socratic method — https://en.wikipedia.org/wiki/Socratic_method"
+    },
+    {
+      "fecha": "2026-09-12",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El axolote puede regenerar partes de su cuerpo",
+      "entradilla": "El axolote es famoso por regenerar extremidades y otros tejidos con una capacidad extraordinaria.",
+      "cuerpo": [
+        "Este anfibio mexicano conserva rasgos juveniles durante su vida adulta y posee una capacidad regenerativa enorme. Puede reconstruir extremidades, partes de órganos e incluso tejidos nerviosos en condiciones estudiadas. Para la biología médica es una pista viviente sobre reparación corporal.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Axolotl — https://en.wikipedia.org/wiki/Axolotl"
+    },
+    {
+      "fecha": "2026-09-11",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Ecosistemas que viven sin luz solar",
+      "entradilla": "En las chimeneas hidrotermales, comunidades enteras dependen de reacciones químicas en vez de la fotosíntesis.",
+      "cuerpo": [
+        "En el fondo oceánico, el agua caliente cargada de minerales sale por grietas volcánicas. Allí viven bacterias que obtienen energía de compuestos químicos, y alrededor de ellas prosperan gusanos, moluscos y otros organismos. Es vida en modo difícil, sin sol y sin quejarse en Twitter.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Hydrothermal vent — https://en.wikipedia.org/wiki/Hydrothermal_vent"
+    },
+    {
+      "fecha": "2026-09-10",
+      "cat": "historia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Australia declaró la guerra a unos pájaros y la perdió",
+      "entradilla": "En 1932 el ejército australiano desplegó ametralladoras contra 20.000 emúes. Se retiró dos veces, y el comandante acabó comparando al enemigo con tropas invulnerables.",
+      "cuerpo": [
+        "Tras la Primera Guerra Mundial, Australia repartió tierras de cultivo en Australia Occidental entre veteranos. En 1932, unos 20.000 emúes migraron hacia esos campos de trigo buscando agua y arrasaron las cosechas. Los granjeros, muchos de ellos exsoldados, pidieron lo que conocían: ametralladoras.",
+        "El Ministerio de Defensa envió al mayor G. P. W. Meredith con dos ametralladoras Lewis y 10.000 cartuchos. El primer intento fracasó porque los emúes se dispersaron antes de entrar en el alcance efectivo. En el segundo, una ametralladora se encasquilló tras abatir una docena de aves. Meredith llegó a montar un arma sobre un camión, pero el terreno era tan irregular que resultaba imposible apuntar.",
+        "La operación se suspendió, se reanudó por presión de los granjeros y volvió a suspenderse. Las cifras oficiales hablan de unos 900 a 1.000 emúes abatidos con casi todo el arsenal disponible. El propio Meredith comentó después que, si existiera una división militar con la capacidad de esas aves para encajar balas, se enfrentaría a cualquier ejército del mundo. El gobierno terminó optando por pagar recompensas a los granjeros: funcionó mucho mejor."
+      ],
+      "fuente": "Registros del Ministerio de Defensa australiano, 1932; Murray Johnson, Journal of Australian Studies (2006)."
+    },
+    {
+      "fecha": "2026-09-10",
+      "cat": "historia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La piedra que abrió la puerta a los jeroglíficos",
+      "entradilla": "La Piedra de Rosetta permitió comparar un mismo texto en varios sistemas de escritura y descifrar jeroglíficos egipcios.",
+      "cuerpo": [
+        "La inscripción contenía versiones del mismo decreto en jeroglífico, demótico y griego antiguo. Esa comparación permitió a investigadores como Champollion descifrar la escritura jeroglífica. Fue una especie de diccionario de piedra, bastante menos cómodo que una app, pero infinitamente más épico.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Rosetta Stone — https://en.wikipedia.org/wiki/Rosetta_Stone"
+    },
+    {
+      "fecha": "2026-09-09",
+      "cat": "ciencia",
+      "nivel": 5,
+      "min": 4,
+      "titular": "La gota que nadie ha conseguido ver caer",
+      "entradilla": "Un experimento lleva goteando desde 1927. En casi un siglo han caído nueve gotas y ningún ser humano ha presenciado una en directo.",
+      "cuerpo": [
+        "En 1927, el profesor Thomas Parnell calentó un poco de brea, la vertió en un embudo de cristal y la dejó asentarse tres años. En 1930 cortó el tallo del embudo y empezó la espera. La brea parece un sólido: si la golpeas con un martillo, se rompe en esquirlas. Pero es un líquido unos 230.000 millones de veces más viscoso que el agua, y gotea. Muy despacio.",
+        "La primera gota cayó en 1938. Desde entonces han caído nueve. Parnell murió en 1948 habiendo visto caer dos, ninguna en el momento exacto. John Mainstone heredó el experimento y lo custodió durante 52 años: en 1977 se perdió una caída, en 1988 salió a tomarse un café justo cuando ocurrió, y en el año 2000 instalaron una cámara web que se apagó por un corte de luz veinte minutos antes de la caída. Mainstone murió en 2013 sin haber visto ninguna.",
+        "El experimento sigue en marcha en la Universidad de Queensland, con cámara encendida las 24 horas. El primer goteo de brea grabado en vídeo de la historia no fue el suyo: lo consiguió en 2013 un montaje gemelo del Trinity College de Dublín que llevaba décadas olvidado en una estantería."
+      ],
+      "fuente": "Universidad de Queensland, experimento de la gota de brea (en marcha desde 1927). Premio Ig Nobel de Física, 2005."
+    },
+    {
+      "fecha": "2026-09-09",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los pulpos tienen una inteligencia inquietante",
+      "entradilla": "Los pulpos resuelven problemas, manipulan objetos y poseen un sistema nervioso distribuido por sus brazos.",
+      "cuerpo": [
+        "Los cefalópodos, especialmente los pulpos, muestran aprendizaje, memoria y conductas de exploración. Sus brazos pueden ejecutar acciones con gran autonomía porque contienen muchas neuronas fuera del cerebro central. Básicamente, son como ocho manos con criterio propio. Muy tranquilizador, sí.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Cephalopod intelligence — https://en.wikipedia.org/wiki/Cephalopod_intelligence"
+    },
+    {
+      "fecha": "2026-09-08",
+      "cat": "tecnologia",
+      "nivel": 5,
+      "min": 4,
+      "titular": "La NASA reparó un ordenador a 24.000 millones de kilómetros",
+      "entradilla": "La Voyager 1 tiene menos memoria que una foto de WhatsApp, y en 2024 la arreglaron por control remoto con 45 horas de retardo entre pregunta y respuesta.",
+      "cuerpo": [
+        "Los ordenadores de las Voyager guardan unos 70 kilobytes. Menos que el icono de cualquier aplicación de tu móvil. Están programados en ensamblador y en un lenguaje interno que hoy casi nadie sabe leer: la NASA ha llegado a llamar a ingenieros jubilados para descifrar código escrito en los años setenta.",
+        "La señal que envía la nave sale con unos 20 vatios de potencia, lo mismo que una bombilla floja de nevera. Cuando llega a la Tierra, tras casi un día de viaje, es del orden de una milbillonésima de vatio, y hacen falta antenas de setenta metros de diámetro para distinguirla del ruido de fondo del universo.",
+        "En noviembre de 2023 la Voyager 1 empezó a mandar datos sin sentido: un único chip de memoria dañado había corrompido parte del código de vuelo. El equipo tardó meses en localizar el fallo, reescribir esa porción y repartirla por huecos libres de la memoria. En abril de 2024 la nave volvió a responder con sentido. Cada instrucción tardaba unas 22 horas y media en llegar, y otras tantas en volver la confirmación."
+      ],
+      "fuente": "NASA / JPL, informes de estado de la misión Voyager, 2023-2024."
+    },
+    {
+      "fecha": "2026-09-08",
+      "cat": "historia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El hormigón romano que resistió siglos",
+      "entradilla": "Algunas mezclas romanas incorporaban cal y ceniza volcánica, logrando construcciones marítimas muy duraderas.",
+      "cuerpo": [
+        "Los romanos combinaron cal, rocas y materiales volcánicos para crear morteros muy resistentes. En ambientes marinos, ciertas reacciones minerales podían reforzar la estructura con el paso del tiempo. No era magia imperial, aunque a veces lo parezca: era química práctica aprendida a base de ensayo, error y mucha piedra.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Roman concrete — https://en.wikipedia.org/wiki/Roman_concrete"
+    },
+    {
+      "fecha": "2026-09-07",
+      "cat": "historia",
+      "nivel": 5,
+      "min": 4,
+      "titular": "El papa que sentó a un cadáver en el banquillo",
+      "entradilla": "En enero del año 897, el papa Esteban VI desenterró a su predecesor, muerto nueve meses antes, lo vistió, lo sentó en un trono y lo sometió a juicio.",
+      "cuerpo": [
+        "El acusado era Formoso, papa entre 891 y 896, enterrado desde hacía nueve meses. Lo exhumaron, le pusieron las vestiduras pontificias y lo sentaron en un trono en la basílica de San Juan de Letrán. Un diácono adolescente se colocó detrás del cuerpo para responder por él a las preguntas del tribunal. Esteban VI interrogó al cadáver a gritos.",
+        "El veredicto era previsible: culpable de perjurio y de haber accedido al papado de forma ilegítima. Anularon todos sus actos y ordenaciones, le arrancaron las vestiduras y le cortaron los tres dedos de la mano derecha con los que se imparte la bendición. El cuerpo acabó arrojado al Tíber. Según las crónicas, un monje lo recuperó río abajo.",
+        "La historia terminó rápido. Un terremoto derrumbó parte de la basílica pocos meses después, y Roma lo leyó como señal. Esteban VI fue depuesto, encarcelado y estrangulado en su celda ese mismo año 897. Su sucesor anuló la sentencia y prohibió juzgar a los muertos. El episodio se conoce como el Concilio Cadavérico."
+      ],
+      "fuente": "Liber Pontificalis; crónicas de Auxilio de Nápoles y Liutprando de Cremona."
+    },
+    {
+      "fecha": "2026-09-07",
+      "cat": "historia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El ordenador griego de hace más de 2.000 años",
+      "entradilla": "El mecanismo de Anticitera calculaba posiciones astronómicas con engranajes de una complejidad asombrosa.",
+      "cuerpo": [
+        "Hallado en un pecio cerca de la isla griega de Anticitera, este artefacto utilizaba engranajes para representar ciclos astronómicos. Su sofisticación cambió la forma de mirar la tecnología antigua: no era un juguete, sino una máquina de cálculo mecánico que anticipa principios de relojería y computación analógica.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Antikythera mechanism — https://en.wikipedia.org/wiki/Antikythera_mechanism"
+    },
+    {
+      "fecha": "2026-09-06",
+      "cat": "filosofia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Nadie puede demostrar que ayer existiera",
+      "entradilla": "Bertrand Russell lo formuló en 1921: el universo pudo crearse hace cinco minutos, con recuerdos incluidos. No es una idea razonable, pero es lógicamente irrefutable.",
+      "cuerpo": [
+        "La hipótesis es sencilla. Imagina que el universo entero apareció hace cinco minutos exactamente tal como está ahora: con las montañas erosionadas, los fósiles enterrados, los libros escritos y tu cabeza llena de recuerdos de una infancia que nunca ocurrió. Cualquier prueba que aportes contra esa idea (una foto antigua, una cicatriz, un testigo) forma parte del paquete que se creó hace cinco minutos.",
+        "Russell no lo proponía como creencia. Lo usaba como bisturí para separar dos cosas que solemos confundir: lo que es lógicamente imposible y lo que es razonable creer. La hipótesis de los cinco minutos no se puede refutar, y aun así nadie la sostiene, porque no explica nada nuevo y complica todo. Ese es exactamente el trabajo de la navaja de Occam.",
+        "El argumento tiene descendencia incómoda. El creacionismo del jueves pasado lo usa como parodia, y en cosmología reaparece bajo la forma del cerebro de Boltzmann: en un universo suficientemente grande y duradero, las fluctuaciones aleatorias producirían más observadores momentáneos con recuerdos falsos que observadores con una historia real detrás. Que la física seria tenga que buscar salidas a ese cálculo dice mucho del problema."
+      ],
+      "fuente": "Bertrand Russell, The Analysis of Mind (1921), capítulo IX."
+    },
+    {
+      "fecha": "2026-09-06",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "¿Por qué el cielo es azul?",
+      "entradilla": "La atmósfera dispersa más la luz azul que la roja, por eso el cielo diurno toma ese color.",
+      "cuerpo": [
+        "La luz solar parece blanca, pero contiene muchos colores. Al entrar en la atmósfera, las moléculas del aire dispersan con más eficacia las longitudes de onda cortas, como el azul. Por eso, cuando miramos lejos del Sol, recibimos luz azul repartida por todo el cielo. Al atardecer la luz recorre más atmósfera, se pierde mucho azul y predominan tonos rojizos.",
+        "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
+      ],
+      "fuente": "Diffuse sky radiation — https://en.wikipedia.org/wiki/Diffuse_sky_radiation"
+    },
+    {
+      "fecha": "2026-09-05",
+      "cat": "psicologia",
+      "nivel": 5,
+      "min": 3,
+      "titular": "Los pacientes convencidos de que están muertos",
+      "entradilla": "El síndrome de Cotard hace que una persona lúcida sostenga que no tiene órganos, que su cuerpo se está pudriendo o que lleva años muerta.",
+      "cuerpo": [
+        "El neurólogo Jules Cotard describió el cuadro en 1880 a partir de una paciente a la que llamó Mademoiselle X. Sostenía que no tenía cerebro, ni nervios, ni entrañas, y que por tanto no podía morir de forma natural ni necesitaba comer. Murió de inanición.",
+        "La explicación más aceptada apunta a una desconexión entre las áreas que reconocen el mundo y las que le asignan carga emocional. Todo se sigue viendo, pero nada se siente como propio ni como real. El cerebro, obligado a explicar esa sensación, produce la conclusión más literal disponible: estoy muerto. Es la imagen especular del síndrome de Capgras, donde el fallo lleva a concluir que un familiar ha sido sustituido por un impostor.",
+        "En 2013 un equipo británico escaneó con PET a un paciente que afirmaba haber muerto meses antes. Su actividad metabólica frontoparietal era comparable a la de una persona bajo anestesia o en sueño profundo, estando él despierto y hablando. El cuadro suele responder a tratamiento; a veces, notablemente bien."
+      ],
+      "fuente": "Cotard, Du délire des négations (1882); Charland-Verville et al., Cortex (2013)."
+    },
+    {
+      "fecha": "2026-09-04",
+      "cat": "antropologia",
+      "nivel": 5,
+      "min": 4,
+      "titular": "Un funeral que provocó una epidemia y luego una mutación",
+      "entradilla": "Los fore de Papúa comían a sus muertos por respeto. Aquello desató una enfermedad mortal y, décadas después, dejó en la población una defensa genética inédita.",
+      "cuerpo": [
+        "Entre los fore de las tierras altas de Papúa Nueva Guinea, el cuerpo del difunto lo consumía la familia. No era hambre ni desprecio: era la forma de que la persona volviera a los suyos en lugar de pudrirse sola en la tierra. Mujeres y niños se ocupaban del cerebro.",
+        "A mediados del siglo XX empezaron a morir por cientos de una enfermedad que ellos llamaban kuru, temblar. Llegó a matar a cerca del dos por ciento de la población al año, sobre todo mujeres. No era un virus ni una bacteria: eran priones, proteínas mal plegadas que arrastran a otras proteínas al mismo error, indestructibles por cocción. La investigación del kuru abrió el camino a entender el mal de las vacas locas y le valió a Carleton Gajdusek el Nobel de Medicina en 1976.",
+        "La práctica funeraria se abandonó en los años cincuenta, pero seguían apareciendo casos cincuenta años después: el periodo de incubación puede superar el medio siglo. Y hay un giro final. Al estudiar a los supervivientes se encontró una variante del gen PRNP, bautizada V127, que no existe en ninguna otra población humana conocida y que bloquea la propagación de priones. Una epidemia funeraria dejó escrita en el ADN de un pueblo su propia vacuna."
+      ],
+      "fuente": "Mead et al., Nature (2009 y 2015); Gajdusek, Premio Nobel de Medicina 1976."
+    },
+    {
+      "fecha": "2026-09-03",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Tu cabeza envejece más rápido que tus pies",
+      "entradilla": "En 2010 se midió con relojes atómicos: subir un reloj 33 centímetros basta para que el tiempo pase mediblemente más deprisa.",
+      "cuerpo": [
+        "La relatividad general dice que cuanto más lejos estás de una masa, más rápido corre tu tiempo. Durante casi un siglo eso solo se pudo comprobar con aviones, satélites o estrellas. En 2010, un equipo del NIST lo hizo sobre una mesa de laboratorio con dos relojes ópticos de aluminio y una diferencia de altura de 33 centímetros.",
+        "El reloj de arriba adelantaba. La diferencia era de unas 90 milmillonésimas de segundo a lo largo de 79 años, aproximadamente una vida humana. Es diminuta, pero estaba ahí, y era exactamente la predicha. En el mismo experimento midieron también la dilatación por velocidad moviendo un reloj a diez metros por segundo, la marcha de un ciclista tranquilo.",
+        "La consecuencia doméstica es literal: si duermes tumbado, tu cabeza y tus pies acumulan edades distintas, del orden de nanosegundos en toda una vida. La consecuencia práctica es tu móvil. Los satélites GPS orbitan a 20.000 kilómetros y sus relojes se desvían unos 38 microsegundos al día respecto a los de tierra. Sin corregir ese efecto, la posición que te da el mapa se iría acumulando unos diez kilómetros de error cada jornada."
+      ],
+      "fuente": "Chou, Hume, Rosenband y Wineland, Science, vol. 329 (2010)."
+    },
+    {
+      "fecha": "2026-09-02",
+      "cat": "historia",
+      "nivel": 5,
+      "min": 3,
+      "titular": "El hombre que dijo que no dentro de un submarino",
+      "entradilla": "El 27 de octubre de 1962, tres oficiales soviéticos tenían que autorizar un torpedo nuclear. Dos votaron a favor.",
+      "cuerpo": [
+        "El submarino B-59 llevaba días sumergido en el Caribe durante la crisis de los misiles. El aire estaba viciado, la temperatura interior rondaba los cincuenta grados y hacía tiempo que no recibían órdenes de Moscú. Cuando la Marina estadounidense empezó a lanzar cargas de profundidad de práctica para forzarlos a emerger, la tripulación no tenía forma de saber que eran de práctica ni de saber si la guerra había estallado arriba.",
+        "El B-59 llevaba un torpedo con cabeza nuclear de unos diez kilotones, comparable a la bomba de Hiroshima. El capitán Savitsky ordenó prepararlo. El oficial político estuvo de acuerdo. Hacía falta el tercer voto, el del jefe de flotilla Vasili Arjípov, y Arjípov se negó. Discutió, aguantó la presión e impuso emerger para restablecer contacto.",
+        "Arjípov tenía prestigio interno: el año anterior había estado en el submarino K-19 cuando falló su reactor y había vivido de cerca las consecuencias. Murió en 1998 sin ninguna condecoración por aquello, y el episodio no se conoció públicamente hasta 2002, cuando se desclasificó y salió a la luz en una conferencia sobre la crisis celebrada en La Habana."
+      ],
+      "fuente": "Archivos desclasificados del National Security Archive; conferencia de La Habana, 2002."
+    },
+    {
+      "fecha": "2026-09-01",
+      "cat": "citas",
+      "nivel": 3,
+      "min": 2,
+      "titular": "La frase de Nietzsche que casi todo el mundo usa al revés",
+      "entradilla": "«Quien lucha con monstruos debe cuidar de no convertirse en monstruo. Y si miras largo tiempo a un abismo, el abismo también mira dentro de ti.»",
+      "cuerpo": [
+        "Es el aforismo 146 de Más allá del bien y del mal, publicado en 1886. Suele citarse como advertencia genérica sobre el peligro de obsesionarse con algo oscuro, y en el cine sirve casi siempre para justificar a un policía que se pasa de la raya.",
+        "En su contexto, Nietzsche no habla de detectives atormentados. Habla de moralistas: de quienes hacen del combate contra el mal su identidad y acaban adoptando la crueldad, el fanatismo y la mirada inquisitorial de aquello que persiguen. La sección del libro va sobre la genealogía de la moral y sobre cómo la indignación permanente deforma a quien la practica. El monstruo no es el enemigo; es el método.",
+        "Detalle para la sobremesa: el aforismo siguiente, el 147, es una sola línea burlona tomada de un refranero italiano. Nietzsche no escribía sentencias solemnes aisladas, escribía series de golpes cortos, y arrancar uno del conjunto es justo lo que él criticaba de sus lectores."
+      ],
+      "fuente": "Friedrich Nietzsche, Jenseits von Gut und Böse (1886), aforismo 146."
+    },
+    {
+      "fecha": "2026-08-31",
+      "cat": "logica",
+      "nivel": 4,
+      "min": 2,
+      "titular": "El acertijo que se resolvió cambiando la pregunta",
+      "entradilla": "Doce bolas idénticas, una pesa distinto y no sabes si más o menos. Solo tres pesadas. Durante la guerra circuló como sabotaje para bloquear laboratorios enteros.",
+      "cuerpo": [
+        "El problema es de 1945 y se hizo famoso porque parece imposible: doce bolas, una defectuosa de peso desconocido, tres usos de una balanza de platillos. Circuló tanto entre matemáticos británicos que alguien propuso en broma lanzarlo sobre Alemania para paralizar su ciencia durante un mes.",
+        "La trampa mental está en la estrategia intuitiva: dividir en dos grupos de seis. Esa primera pesada no aporta información útil, porque siempre habrá un platillo más bajo y sigues con doce candidatas. La solución empieza pesando cuatro contra cuatro, y sobre todo exige diseñar la segunda pesada mezclando bolas de los dos grupos anteriores, algo que casi nadie hace de forma espontánea.",
+        "La razón profunda es de teoría de la información. Cada pesada tiene tres resultados posibles, así que tres pesadas distinguen como máximo 27 situaciones. Hay 24 casos posibles (doce bolas, cada una pesada o ligera). Cabe justo, con tres de margen. Por eso el mismo acertijo con trece bolas ya no tiene solución si además quieres saber si la falsa pesa más o menos."
+      ],
+      "fuente": "Problema de las doce monedas; Eureka, revista de la Sociedad Matemática de Cambridge (1945)."
+    },
+    {
+      "fecha": "2026-08-30",
+      "cat": "tecnologia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Un ordenador de bronce mil años antes de tiempo",
+      "entradilla": "El mecanismo de Anticitera predecía eclipses con engranajes de precisión en el siglo II a. C. No volvió a construirse nada parecido hasta el siglo XIV.",
+      "cuerpo": [
+        "Unos buscadores de esponjas lo sacaron en 1901 de un naufragio frente a la isla de Anticitera, y durante décadas fue un bulto de bronce corroído que nadie sabía interpretar. Las tomografías de alta resolución revelaron al menos treinta engranajes encajados, algunos con dientes de poco más de un milímetro.",
+        "La máquina modelaba el cielo. Con una manivela se avanzaba o retrocedía en el tiempo y las esferas mostraban la posición del Sol y la Luna, las fases lunares, el calendario de eclipses y el ciclo de los juegos panhelénicos, incluidas las Olimpiadas. Incorporaba un engranaje de pasador y ranura que reproduce la velocidad irregular de la Luna en su órbita: alguien había convertido en piezas de bronce una anomalía astronómica observada a ojo.",
+        "Lo relevante no es que existiera, sino el vacío que dejó. No hay nada de complejidad comparable hasta los relojes astronómicos europeos del siglo XIV. Todo ese conocimiento mecánico se perdió durante mil cuatrocientos años, y lo sabemos solo porque un barco se hundió en el lugar adecuado."
+      ],
+      "fuente": "Freeth et al., Nature (2006); University College London, proyecto Anticitera (2021)."
+    },
+    {
+      "fecha": "2026-08-29",
+      "cat": "psicologia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "La ciudad que bailó hasta caerse muerta",
+      "entradilla": "En julio de 1518, en Estrasburgo, cientos de personas bailaron durante semanas sin poder parar. Las autoridades decidieron ponerles música.",
+      "cuerpo": [
+        "Empezó con una mujer, Frau Troffea, que salió a la calle y se puso a bailar sin música. A los pocos días eran decenas; en un mes, según las crónicas municipales, cientos. Bailaban hasta desplomarse, con los pies destrozados, y algunos murieron de agotamiento o de un colapso.",
+        "Los médicos de la ciudad descartaron causa sobrenatural y dictaminaron sangre demasiado caliente, cuyo remedio era bailar hasta agotarla. Así que las autoridades habilitaron gremios, contrataron músicos y montaron un escenario para que los afectados siguieran. Fue, con toda probabilidad, la peor decisión sanitaria posible.",
+        "Hay dos explicaciones principales. Una apunta al cornezuelo del centeno, un hongo con compuestos emparentados con el LSD, aunque no explica bien la coordinación del movimiento durante días. La otra, más aceptada hoy, habla de un trastorno psicógeno masivo en una población castigada por el hambre, la enfermedad y un contexto religioso que ya asociaba la danza involuntaria a un castigo divino. No fue un caso aislado: hay episodios documentados de manía danzante en el Rin desde el siglo XIV."
+      ],
+      "fuente": "Archivos municipales de Estrasburgo; John Waller, A Time to Dance, a Time to Die (2008)."
+    },
+    {
+      "fecha": "2026-08-28",
+      "cat": "antropologia",
+      "nivel": 3,
+      "min": 2,
+      "titular": "Hay más árboles en la Tierra que estrellas en la Vía Láctea",
+      "entradilla": "Tres billones contra unos cien mil millones. Y aun así, la cifra buena de la historia es otra: la que había antes de nosotros.",
+      "cuerpo": [
+        "Hasta 2015 la estimación aceptada era de unos 400.000 millones de árboles en todo el planeta. Un estudio dirigido desde Yale, combinando 429.775 mediciones sobre el terreno con imágenes de satélite, la corrigió a unos 3,04 billones. Es decir, se había subestimado por un factor de casi ocho.",
+        "La Vía Láctea contiene entre 100.000 y 400.000 millones de estrellas. Con las cifras en la mano, hay entre siete y treinta árboles por estrella de nuestra galaxia. El dato suele contarse como una nota optimista, y ahí está la trampa.",
+        "El mismo trabajo estimó que el número de árboles ha caído en torno a un 46 por ciento desde el inicio de la civilización humana, y que se pierden unos 15.000 millones al año frente a unos 5.000 millones que se plantan o regeneran. La frase completa, la que sirve de verdad en una sobremesa, es que hay más árboles que estrellas en la galaxia y que hace diez mil años había casi el doble."
+      ],
+      "fuente": "Crowther et al., Mapping tree density at a global scale, Nature (2015)."
+    }
+  ],
+  "enigmas": [
+    {
+      "fecha": "2026-09-09",
+      "titulo": "El enigma de la barra",
+      "reto": "Te encierran en una sala. Sobre la mesa hay dos mechas y un mechero. Cada mecha tarda exactamente 60 minutos en consumirse entera, pero arde de forma irregular: la primera mitad puede tardar 50 minutos y la segunda 10. La puerta se abre si mides 45 minutos exactos. ¿Cuántos extremos de mecha tienes que encender en total?",
+      "pista": "Una mecha encendida por los dos extremos se consume en 30 minutos, arda como arda. Cuando termine, aún te faltan 15. ¿Qué te queda en la mesa en ese momento?",
+      "respuestas": [
+        "3",
+        "tres",
+        "3 extremos",
+        "tres extremos"
+      ],
+      "solucion": "Tres. Enciende la mecha A por los dos extremos y la B por uno solo: cuando A se acaba han pasado 30 minutos. Ahí enciendes el otro extremo de B, que se consumirá en 15. Total, 45."
+    },
+    {
+      "fecha": "2026-09-10",
+      "titulo": "El enigma de la barra",
+      "reto": "En una sala cerrada hay una bombilla. Fuera, tres interruptores: solo uno la enciende. Puedes accionarlos cuantas veces quieras, pero únicamente puedes entrar en la sala una vez, y desde fuera no ves nada. ¿Qué propiedad de la bombilla te da la respuesta?",
+      "pista": "Una bombilla apagada no siempre está en el mismo estado que otra bombilla apagada.",
+      "respuestas": [
+        "calor",
+        "el calor",
+        "la temperatura",
+        "temperatura",
+        "que se calienta"
+      ],
+      "solucion": "El calor. Enciende el primer interruptor diez minutos y apágalo, enciende el segundo y entra: la bombilla encendida es del segundo, la apagada pero caliente es del primero, y la apagada y fría es del tercero."
+    },
+    {
+      "fecha": "2026-09-08",
+      "titulo": "El enigma de la barra",
+      "reto": "Un caracol trepa por un pozo de 10 metros. Cada día sube 3 metros y cada noche resbala 2 mientras duerme. ¿Cuántos días tarda en salir?",
+      "pista": "El último día no hay noche que valga: cuenta qué pasa el día en que asoma por el borde.",
+      "respuestas": [
+        "8",
+        "ocho",
+        "8 dias",
+        "ocho dias"
+      ],
+      "solucion": "Ocho. Avanza un metro neto al día, así que al empezar el octavo día está a 7 metros; ese día sube 3 y sale por el borde antes de resbalar."
+    }
+  ]
+}

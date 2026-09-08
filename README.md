@@ -1,37 +1,31 @@
 # SoyCurioso
 
-MVP funcional de una web de curiosidades, enigmas y suscripción diaria por email.
+Sitio estático de curiosidades diarias y enigmas, con estética de bar de barrio basada en la arquitectura enviada por Valentín.
 
-## Qué incluye
+## Arquitectura actual
 
-- Web pública con Astro y TypeScript.
-- 10 curiosidades iniciales con imagen SVG local, categoría, etiquetas, fuente y desarrollo breve.
-- Archivo buscable con filtros en cliente.
-- Sección inicial de enigmas con solución desplegable.
-- Formulario de suscripción simulado para validar UX sin manejar datos reales todavía.
-- Documentación técnica del sistema de email diario por suscriptor.
-- Despliegue preparado para GitHub Pages en `https://valenfer.github.io/soycurioso/`.
+```text
+datos.json      Fuente única de curiosidades y enigmas.
+publicar.mjs    Generador Node sin dependencias.
+estilo.css      Estilos compartidos por portada y fichas.
+publico/        Web generada para GitHub Pages.
+```
 
 ## Comandos
 
 ```bash
-npm install
-npm run dev
-npm run build
-npm run preview
+npm run build        # genera publico/
+npm run build:local  # genera publico/ con CSS incrustado
+npm run new          # añade una curiosidad nueva en datos.json
+npm test             # verifica estructura, contenido y workflow de Pages
 ```
 
-## Estructura
+## Publicación
+
+GitHub Actions ejecuta `npm run build` y publica `publico/` en GitHub Pages.
+
+URL pública prevista:
 
 ```text
-src/content/curiosidades/  # publicaciones MDX con frontmatter
-src/content/enigmas/       # pasatiempos y acertijos
-src/components/            # tarjetas, buscador y suscripción
-src/pages/                 # rutas públicas generadas por Astro
-public/images/             # imágenes SVG locales del MVP
-docs/                      # documentación del proyecto
+https://valenfer.github.io/soycurioso/
 ```
-
-## Nota sobre el email diario
-
-El MVP no envía correos reales. La siguiente fase debe añadir base de datos, doble opt-in, baja legal y tarea diaria programada. Está documentado en `docs/EMAIL_DIARIO.md`.
