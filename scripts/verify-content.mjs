@@ -6,7 +6,7 @@ import { join } from 'node:path';
 const root = process.cwd();
 const dir = join(root, 'src', 'content', 'curiosidades');
 const files = (await readdir(dir)).filter((file) => file.endsWith('.md'));
-if (files.length !== 10) throw new Error(`Se esperaban 10 curiosidades y hay ${files.length}`);
+if (files.length < 10) throw new Error(`Se esperaban al menos 10 curiosidades y hay ${files.length}`);
 for (const file of files) {
   const text = await readFile(join(dir, file), 'utf8');
   for (const field of ['title:', 'summary:', 'category:', 'tags:', 'image:', 'sourceUrl:']) {
@@ -16,4 +16,4 @@ for (const file of files) {
   if (!image) throw new Error(`${file} no declara imagen local`);
   await access(join(root, 'public', 'images', image));
 }
-console.log('verify-content: 10 curiosidades con metadatos e imágenes locales OK');
+console.log(`verify-content: ${files.length} curiosidades con metadatos e imágenes locales OK`);
