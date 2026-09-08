@@ -45,6 +45,10 @@ else {
   if (!html.includes('Soy<span>Curioso</span>')) fail('la portada no usa marca SoyCurioso');
   if (html.includes('sobremesa.example')) fail('quedan URLs de sobremesa.example');
   if (html.includes('SoyCurioso — curiosidades y enigmas diarios')) fail('queda el título viejo de la versión Astro');
+  const css = readFileSync(join(out, 'estilo.css'), 'utf8');
+  if (/\.barra__int\{[^}]*overflow-x\s*:\s*auto/.test(css)) fail('los filtros siguen usando barra horizontal');
+  if (!/\.barra__int\{[^}]*flex-wrap\s*:\s*wrap/.test(css)) fail('los filtros no permiten salto de línea sin scroll');
+  if (!css.includes('linear-gradient(135deg')) fail('los chips no tienen estilo colorido/dinámico');
   if (!readFileSync(dataPath, 'utf8').includes('Australia declaró la guerra a unos pájaros y la perdió')) fail('no se guardó la curiosidad programada de Australia');
 }
 
