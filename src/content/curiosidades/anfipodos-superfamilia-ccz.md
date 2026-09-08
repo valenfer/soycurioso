@@ -7,7 +7,7 @@ tags:
   - evolución
   - Pacífico
 image: "/soycurioso/images/anfipodos-superfamilia-ccz.svg"
-publishedAt: "2026-09-06"
+publishedAt: "2026-10-06"
 readingTime: 3
 sourceTitle: "ScienceDaily"
 sourceUrl: "https://www.sciencedaily.com/releases/2026/03/260325005912.htm"

@@ -7,7 +7,7 @@ tags:
   - simbiosis
   - fondo marino
 image: "/soycurioso/images/gusano-castillo-cristal.svg"
-publishedAt: "2026-09-07"
+publishedAt: "2026-10-07"
 readingTime: 3
 sourceTitle: "Ocean Census"
 sourceUrl: "https://oceancensus.org/press-release-scientists-discover-over-1100-new-marine-species-in-landmark-ocean-census/"

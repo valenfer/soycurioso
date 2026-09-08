@@ -7,7 +7,7 @@ tags:
   - agujeros negros
   - modelos
 image: "/soycurioso/images/planetas-cerca-agujeros-negros.svg"
-publishedAt: "2026-09-04"
+publishedAt: "2026-10-04"
 readingTime: 3
 sourceTitle: "Space.com"
 sourceUrl: "https://www.space.com/astronomy/exoplanets/we-were-astonished-millions-of-exoplanets-could-be-born-near-active-supermassive-black-holes"

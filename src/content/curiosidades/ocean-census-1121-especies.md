@@ -7,7 +7,7 @@ tags:
   - biodiversidad
   - descubrimientos
 image: "/soycurioso/images/ocean-census-1121-especies.svg"
-publishedAt: "2026-09-08"
+publishedAt: "2026-10-08"
 readingTime: 3
 sourceTitle: "Ocean Census"
 sourceUrl: "https://oceancensus.org/press-release-scientists-discover-over-1100-new-marine-species-in-landmark-ocean-census/"

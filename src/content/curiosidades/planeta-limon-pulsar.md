@@ -7,7 +7,7 @@ tags:
   - púlsares
   - carbono
 image: "/soycurioso/images/planeta-limon-pulsar.svg"
-publishedAt: "2026-09-03"
+publishedAt: "2026-10-03"
 readingTime: 3
 sourceTitle: "NASA"
 sourceUrl: "https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/"

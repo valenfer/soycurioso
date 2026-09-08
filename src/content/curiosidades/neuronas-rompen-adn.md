@@ -7,7 +7,7 @@ tags:
   - ADN
   - neurociencia
 image: "/soycurioso/images/neuronas-rompen-adn.svg"
-publishedAt: "2026-09-01"
+publishedAt: "2026-10-01"
 readingTime: 3
 sourceTitle: "ScienceDaily"
 sourceUrl: "https://www.sciencedaily.com/releases/2026/06/260620100422.htm"

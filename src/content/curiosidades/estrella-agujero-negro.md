@@ -7,7 +7,7 @@ tags:
   - JWST
   - agujeros negros
 image: "/soycurioso/images/estrella-agujero-negro.svg"
-publishedAt: "2026-09-05"
+publishedAt: "2026-10-05"
 readingTime: 3
 sourceTitle: "MIT News"
 sourceUrl: "https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812"

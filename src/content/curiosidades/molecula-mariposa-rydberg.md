@@ -7,7 +7,7 @@ tags:
   - moléculas
   - física
 image: "/soycurioso/images/molecula-mariposa-rydberg.svg"
-publishedAt: "2026-09-02"
+publishedAt: "2026-10-02"
 readingTime: 3
 sourceTitle: "Phys.org"
 sourceUrl: "https://phys.org/news/2026-05-butterfly-molecule-year-quantum-zoo.pdf"
