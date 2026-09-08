@@ -41,10 +41,15 @@ else {
   const cDir = join(out, 'c');
   if (!existsSync(cDir)) fail('publico/c no existe');
   else if (readdirSync(cDir).filter((f) => f.endsWith('.html')).length !== globalThis.__publicadas) fail('el número de fichas generadas no coincide con las publicadas');
+  const imgDir = join(out, 'img');
+  if (!existsSync(imgDir)) fail('publico/img no existe');
+  else if (readdirSync(imgDir).filter((f) => f.endsWith('.svg')).length !== globalThis.__publicadas) fail('el número de imágenes generadas no coincide con las publicadas');
   const html = existsSync(join(out, 'index.html')) ? readFileSync(join(out, 'index.html'), 'utf8') : '';
   if (!html.includes('Soy<span>Curioso</span>')) fail('la portada no usa marca SoyCurioso');
   if (html.includes('sobremesa.example')) fail('quedan URLs de sobremesa.example');
   if (html.includes('SoyCurioso — curiosidades y enigmas diarios')) fail('queda el título viejo de la versión Astro');
+  if (!html.includes('<img class="ilustracion"')) fail('la portada no usa imágenes relacionadas en las tarjetas');
+  if (html.includes('<svg viewBox="0 0 400 260"')) fail('la portada sigue incrustando azulejos genéricos en tarjetas');
   const css = readFileSync(join(out, 'estilo.css'), 'utf8');
   if (/\.barra__int\{[^}]*overflow-x\s*:\s*auto/.test(css)) fail('los filtros siguen usando barra horizontal');
   if (!/\.barra__int\{[^}]*flex-wrap\s*:\s*wrap/.test(css)) fail('los filtros no permiten salto de línea sin scroll');

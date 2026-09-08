@@ -120,6 +120,74 @@ function azulejo(cat, alt = '') {
 </svg>`;
 }
 
+
+const temaVisual = d => {
+  const t = `${d.titular} ${d.entradilla} ${(d.cuerpo || []).join(' ')}`.toLowerCase();
+  const reglas = [
+    ['aves', /(em[uú]|p[aá]jar|ave|animal|caracol|pulpo|axolote|gusano)/],
+    ['espacio', /(nasa|voyager|estrella|galaxia|v[ií]a l[aá]ctea|planeta|agujero negro|gps|sat[eé]lite)/],
+    ['religion', /(papa|cad[aá]ver|formoso|iglesia|bas[ií]lica|bendici[oó]n)/],
+    ['mente', /(cerebro|paciente|cotard|capgras|psicolog|recuerdo|muerto|anestesia)/],
+    ['tiempo', /(tiempo|reloj|gota|brea|minuto|segundo|a[yñ]o|envejece)/],
+    ['guerra', /(guerra|submarino|torpedo|nuclear|ej[eé]rcito|ametralladora|misiles)/],
+    ['filosofia', /(nietzsche|russell|occam|abismo|filosof|moral|l[oó]gica)/],
+    ['ritual', /(funeral|kuru|prion|pap[uú]a|fore|mutaci[oó]n|adn)/],
+    ['mecanica', /(anticitera|engranaje|ordenador|bronce|m[aá]quina|tecnolog)/]
+  ];
+  return (reglas.find(([, rx]) => rx.test(t)) || [d.cat, null])[0];
+};
+
+const MOTIVOS_RELACIONADOS = {
+  aves: `<path d="M96 178c34-70 88-98 146-88 38 7 63 31 75 64" fill="none" stroke="${AZUL}" stroke-width="8" stroke-linecap="round"/>
+    <path d="M135 185c36 18 96 17 137-10 22-15 34-36 34-64" fill="${LOZA}" stroke="${HONDO}" stroke-width="7"/>
+    <circle cx="282" cy="105" r="8" fill="${ROJO}"/><path d="M303 113l38 13-36 13z" fill="${ROJO}"/>
+    <path d="M170 191l-24 42M222 190l-13 43" stroke="${HONDO}" stroke-width="7" stroke-linecap="round"/>
+    <path d="M72 218c58-18 105-20 154-8" stroke="${ROJO}" stroke-width="6" stroke-linecap="round"/>`,
+  espacio: `<circle cx="276" cy="76" r="18" fill="${ROJO}"/><circle cx="98" cy="70" r="4" fill="${AZUL}"/><circle cx="335" cy="166" r="5" fill="${AZUL}"/>
+    <path d="M78 204c78-100 168-117 244-84" fill="none" stroke="${AZUL}" stroke-width="7" stroke-linecap="round"/>
+    <path d="M116 198l58-34 22 38-80 27z" fill="${HONDO}"/>
+    <path d="M184 167l94-64" stroke="${ROJO}" stroke-width="5" stroke-dasharray="10 9" stroke-linecap="round"/>
+    <path d="M230 205a72 72 0 0 1 72-72" fill="none" stroke="${AZUL}" stroke-width="9"/>`,
+  religion: `<path d="M200 43v168" stroke="${HONDO}" stroke-width="11" stroke-linecap="round"/><path d="M150 92h100" stroke="${HONDO}" stroke-width="11" stroke-linecap="round"/>
+    <rect x="104" y="142" width="192" height="72" fill="${LOZA}" stroke="${AZUL}" stroke-width="7"/>
+    <circle cx="200" cy="180" r="28" fill="none" stroke="${ROJO}" stroke-width="7"/>
+    <path d="M126 226h148" stroke="${HONDO}" stroke-width="8" stroke-linecap="round"/>`,
+  mente: `<path d="M124 218V156c-22-18-31-52-18-82 18-42 75-55 112-29 28-18 72-6 82 31 35 12 43 61 12 87v55" fill="none" stroke="${AZUL}" stroke-width="8"/>
+    <path d="M144 119c30-6 49 7 56 28 16-23 42-28 69-13" fill="none" stroke="${HONDO}" stroke-width="7" stroke-linecap="round"/>
+    <path d="M152 184h96M186 214h68" stroke="${ROJO}" stroke-width="7" stroke-linecap="round"/>`,
+  tiempo: `<circle cx="200" cy="139" r="78" fill="${LOZA}" stroke="${AZUL}" stroke-width="8"/><path d="M200 139V90M200 139l42 24" stroke="${HONDO}" stroke-width="8" stroke-linecap="round"/>
+    <path d="M200 35c-18 23-28 39-28 54a28 28 0 0 0 56 0c0-15-10-31-28-54z" fill="${ROJO}"/>
+    <path d="M134 226h132" stroke="${HONDO}" stroke-width="8" stroke-linecap="round"/>`,
+  guerra: `<path d="M65 178h202c40 0 59-24 68-50H125c-32 0-53 18-60 50z" fill="${LOZA}" stroke="${AZUL}" stroke-width="8"/>
+    <path d="M114 128l-20-42h72l18 42" fill="${HONDO}"/><circle cx="145" cy="181" r="12" fill="${ROJO}"/>
+    <path d="M288 98l44-24M292 122l56 0M286 146l45 25" stroke="${ROJO}" stroke-width="6" stroke-linecap="round"/>`,
+  filosofia: `<path d="M64 130c62-75 210-75 272 0-62 75-210 75-272 0z" fill="${LOZA}" stroke="${AZUL}" stroke-width="8"/>
+    <circle cx="200" cy="130" r="42" fill="${HONDO}"/><circle cx="200" cy="130" r="14" fill="${LOZA}"/>
+    <path d="M80 216h240" stroke="${ROJO}" stroke-width="8" stroke-linecap="round"/><path d="M126 216c32-46 68-66 108-61" stroke="${HONDO}" stroke-width="6" stroke-linecap="round"/>`,
+  ritual: `<path d="M200 42c58 0 98 40 98 91 0 30-14 52-34 67v32H136v-32c-20-15-34-37-34-67 0-51 40-91 98-91z" fill="${LOZA}" stroke="${AZUL}" stroke-width="8"/>
+    <circle cx="164" cy="130" r="22" fill="${HONDO}"/><circle cx="236" cy="130" r="22" fill="${HONDO}"/>
+    <path d="M187 174h26l-13 24z" fill="${ROJO}"/><path d="M124 74c32 18 66 18 104 0" stroke="${ROJO}" stroke-width="6" fill="none"/>`,
+  mecanica: `<circle cx="154" cy="124" r="58" fill="none" stroke="${AZUL}" stroke-width="10"/><circle cx="248" cy="150" r="42" fill="none" stroke="${HONDO}" stroke-width="9"/>
+    <circle cx="154" cy="124" r="14" fill="${ROJO}"/><circle cx="248" cy="150" r="10" fill="${ROJO}"/>
+    <path d="M154 57v32M154 159v32M87 124h32M189 124h32M248 103v24M248 173v25M206 150h24M266 150h35" stroke="${AZUL}" stroke-width="7" stroke-linecap="round"/>`
+};
+
+function ilustracionSvg(d) {
+  const tema = temaVisual(d);
+  const motivo = MOTIVOS_RELACIONADOS[tema] || MOTIVOS[d.cat] || MOTIVOS.ciencia;
+  const etiqueta = esc((SECCIONES[d.cat] || tema).toUpperCase());
+  return `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(d.titular)}">
+  <defs><pattern id="fondo" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.5" fill="${AZUL}" opacity=".16"/></pattern></defs>
+  <rect width="400" height="260" fill="#fff"/><rect width="400" height="260" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="368" height="228" rx="22" fill="none" stroke="${AZUL}" stroke-width="5" opacity=".55"/>
+  ${motivo}
+  <rect x="22" y="22" rx="12" width="150" height="30" fill="${ROJO}"/><text x="36" y="43" font-family="Karla, Arial, sans-serif" font-size="13" font-weight="800" fill="${LOZA}">${etiqueta.slice(0, 18)}</text>
+</svg>`;
+}
+
+const rutaImagen = (d, ruta = '') => d.imagen ? `${ruta}${d.imagen}` : `${ruta}img/${d.slug}.svg`;
+const imagenHTML = (d, ruta = '') => `<img class="ilustracion" src="${rutaImagen(d, ruta)}" alt="Ilustración de ${esc(d.titular)}" loading="lazy">`;
+
 function aceitunas(n) {
   let s = '';
   for (let i = 1; i <= 5; i++) {
@@ -210,7 +278,7 @@ function portada(hero, resto, enigma, hoy) {
 
   const piezas = resto.map((d, i) => `
     <a class="pieza" href="c/${d.slug}.html" data-cat="${d.cat}" style="animation-delay:${Math.min(i * 45, 450)}ms">
-      <div class="pieza__lamina">${azulejo(d.cat, d.titular)}</div>
+      <div class="pieza__lamina">${imagenHTML(d)}</div>
       <div class="pieza__txt">
         <p class="pieza__seccion">${esc(SECCIONES[d.cat])}</p>
         <h3>${esc(d.titular)}</h3>
@@ -246,7 +314,7 @@ function portada(hero, resto, enigma, hoy) {
 <article class="carta">
   <div class="carta__cinta"><span>El plato del día</span><span>${esc(SECCIONES[hero.cat])}</span></div>
   <div class="carta__cuerpo">
-    <div class="carta__lamina">${azulejo(hero.cat, hero.titular)}</div>
+    <div class="carta__lamina">${imagenHTML(hero)}</div>
     <div class="carta__texto">
       <p class="carta__seccion">${esc(SECCIONES[hero.cat])}</p>
       <h2>${esc(hero.titular)}</h2>
@@ -359,7 +427,7 @@ function ficha(d, siguiente) {
   <article class="ficha">
     <div class="ficha__cinta"><span>${esc(SECCIONES[d.cat])}</span><span>Se lee en ${d.min || 3} minutos</span></div>
     <div class="ficha__cuerpo">
-      <div class="ficha__lamina">${azulejo(d.cat, d.titular)}</div>
+      <div class="ficha__lamina">${imagenHTML(d, '../')}</div>
       <h1>${esc(d.titular)}</h1>
       <p class="ficha__entradilla">${esc(d.entradilla)}</p>
       ${d.cuerpo.map(p => `<p>${esc(p)}</p>`).join('\n      ')}
@@ -470,6 +538,11 @@ function construir() {
 
   rmSync(SALIDA, { recursive: true, force: true });
   mkdirSync(join(SALIDA, 'c'), { recursive: true });
+  mkdirSync(join(SALIDA, 'img'), { recursive: true });
+
+  publicadas.forEach(d => {
+    if (!d.imagen) writeFileSync(join(SALIDA, 'img', `${d.slug}.svg`), ilustracionSvg(d));
+  });
 
   writeFileSync(join(SALIDA, 'index.html'), portada(hero, resto, enigma, hoy));
   publicadas.forEach((d, i) => {

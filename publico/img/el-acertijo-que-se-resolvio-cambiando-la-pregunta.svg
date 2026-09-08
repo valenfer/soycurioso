@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="El acertijo que se resolvió cambiando la pregunta">
+  <defs><pattern id="fondo" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.5" fill="#1449A8" opacity=".16"/></pattern></defs>
+  <rect width="400" height="260" fill="#fff"/><rect width="400" height="260" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="368" height="228" rx="22" fill="none" stroke="#1449A8" stroke-width="5" opacity=".55"/>
+  <path d="M65 178h202c40 0 59-24 68-50H125c-32 0-53 18-60 50z" fill="#FBFAF5" stroke="#1449A8" stroke-width="8"/>
+    <path d="M114 128l-20-42h72l18 42" fill="#0D2B63"/><circle cx="145" cy="181" r="12" fill="#C4362B"/>
+    <path d="M288 98l44-24M292 122l56 0M286 146l45 25" stroke="#C4362B" stroke-width="6" stroke-linecap="round"/>
+  <rect x="22" y="22" rx="12" width="150" height="30" fill="#C4362B"/><text x="36" y="43" font-family="Karla, Arial, sans-serif" font-size="13" font-weight="800" fill="#FBFAF5">LÓGICA Y ESCAPE RO</text>
+</svg>

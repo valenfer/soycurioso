@@ -137,7 +137,8 @@ button,input{font:inherit;color:inherit}
 @keyframes asentar{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
 .pieza:hover{transform:translateY(-4px);box-shadow:0 10px 0 -3px rgba(20,73,168,.5);border-color:var(--hule)}
 .pieza[hidden]{display:none}
-.pieza__lamina{background:#fff;border-bottom:3px solid var(--tinta)}
+.pieza__lamina{background:#fff;border-bottom:3px solid var(--tinta);overflow:hidden}
+.ilustracion{width:100%;height:auto;display:block;aspect-ratio:20/13;object-fit:cover}
 .pieza__txt{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
 .pieza__seccion{font-family:'Caveat',cursive;font-size:1.3rem;color:var(--hule);line-height:1;margin:0}
 .pieza h3{font-size:1.24rem;margin:6px 0 8px}
@@ -192,7 +193,7 @@ button,input{font:inherit;color:inherit}
 .ficha__cuerpo h1{font-size:clamp(1.7rem,4.4vw,2.7rem);margin-bottom:16px}
 .ficha__entradilla{font-size:1.15rem;font-weight:600;max-width:60ch;margin:0 0 22px}
 .ficha__cuerpo p{max-width:68ch}
-.ficha__lamina{max-width:330px;float:right;margin:4px 0 20px 26px;border:3px solid var(--tinta)}
+.ficha__lamina{max-width:330px;float:right;margin:4px 0 20px 26px;border:3px solid var(--tinta);background:#fff;overflow:hidden}
 .ficha__pie{clear:both;border-top:3px solid var(--tinta);padding-top:18px;margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .fuente{font-size:.86rem;color:#5b544d;flex:1;min-width:220px;margin:0}
 .siguiente{display:block;background:var(--azulejo);color:var(--loza);text-decoration:none;padding:22px 26px;margin:34px auto 0;max-width:860px;border:3px solid var(--tinta)}

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hay más árboles en la Tierra que estrellas en la Vía Láctea">
+  <defs><pattern id="fondo" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.5" fill="#1449A8" opacity=".16"/></pattern></defs>
+  <rect width="400" height="260" fill="#fff"/><rect width="400" height="260" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="368" height="228" rx="22" fill="none" stroke="#1449A8" stroke-width="5" opacity=".55"/>
+  <circle cx="276" cy="76" r="18" fill="#C4362B"/><circle cx="98" cy="70" r="4" fill="#1449A8"/><circle cx="335" cy="166" r="5" fill="#1449A8"/>
+    <path d="M78 204c78-100 168-117 244-84" fill="none" stroke="#1449A8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M116 198l58-34 22 38-80 27z" fill="#0D2B63"/>
+    <path d="M184 167l94-64" stroke="#C4362B" stroke-width="5" stroke-dasharray="10 9" stroke-linecap="round"/>
+    <path d="M230 205a72 72 0 0 1 72-72" fill="none" stroke="#1449A8" stroke-width="9"/>
+  <rect x="22" y="22" rx="12" width="150" height="30" fill="#C4362B"/><text x="36" y="43" font-family="Karla, Arial, sans-serif" font-size="13" font-weight="800" fill="#FBFAF5">ANTROPOLOGÍA DESQU</text>
+</svg>
