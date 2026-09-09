@@ -10,12 +10,14 @@
  * Lo que tenga fecha futura queda programado y no aparece.
  */
 
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, existsSync } from 'node:fs';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = dirname(fileURLToPath(import.meta.url));
 const SALIDA = join(RAIZ, 'publico');
+const limpiarTexto = texto => texto.replace(/[ \t]+$/gm, '');
+const escribirTexto = (ruta, texto) => writeFileSync(ruta, limpiarTexto(texto));
 
 /* ======================= CONFIGURACIÓN ======================= */
 const SITIO = {
@@ -510,7 +512,7 @@ function nuevaEntrada() {
     cuerpo: ['Primer párrafo.', 'Segundo párrafo.', 'Tercer párrafo con el giro final.'],
     fuente: 'Autor, publicación (año).'
   });
-  writeFileSync(ruta, JSON.stringify(datos, null, 2) + '\n');
+  escribirTexto(ruta, JSON.stringify(datos, null, 2) + '\n');
   console.log(`Añadida una entrada en blanco para el ${fecha}. Edítala en datos.json (está la primera).`);
   console.log(`Secciones disponibles: ${Object.keys(SECCIONES).join(', ')}`);
 }
@@ -541,16 +543,24 @@ function construir() {
   mkdirSync(join(SALIDA, 'img'), { recursive: true });
 
   publicadas.forEach(d => {
-    if (!d.imagen) writeFileSync(join(SALIDA, 'img', `${d.slug}.svg`), ilustracionSvg(d));
+    if (d.imagen) {
+      const origen = join(RAIZ, d.imagen);
+      const destino = join(SALIDA, d.imagen);
+      if (!existsSync(origen)) throw new Error(`No existe la imagen configurada para "${d.titular}": ${d.imagen}`);
+      mkdirSync(dirname(destino), { recursive: true });
+      copyFileSync(origen, destino);
+    } else {
+      escribirTexto(join(SALIDA, 'img', `${d.slug}.svg`), ilustracionSvg(d));
+    }
   });
 
-  writeFileSync(join(SALIDA, 'index.html'), portada(hero, resto, enigma, hoy));
+  escribirTexto(join(SALIDA, 'index.html'), portada(hero, resto, enigma, hoy));
   publicadas.forEach((d, i) => {
-    writeFileSync(join(SALIDA, 'c', `${d.slug}.html`), ficha(d, publicadas[i + 1] || null));
+    escribirTexto(join(SALIDA, 'c', `${d.slug}.html`), ficha(d, publicadas[i + 1] || null));
   });
-  writeFileSync(join(SALIDA, 'feed.xml'), feed(publicadas.slice(0, 20)));
-  writeFileSync(join(SALIDA, 'sitemap.xml'), sitemap(publicadas));
-  writeFileSync(join(SALIDA, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITIO.url}/sitemap.xml\n`);
+  escribirTexto(join(SALIDA, 'feed.xml'), feed(publicadas.slice(0, 20)));
+  escribirTexto(join(SALIDA, 'sitemap.xml'), sitemap(publicadas));
+  escribirTexto(join(SALIDA, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITIO.url}/sitemap.xml\n`);
   copyFileSync(join(RAIZ, 'estilo.css'), join(SALIDA, 'estilo.css'));
 
   console.log(`SoyCurioso publicado en /publico`);

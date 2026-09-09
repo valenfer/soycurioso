@@ -43,7 +43,7 @@ else {
   else if (readdirSync(cDir).filter((f) => f.endsWith('.html')).length !== globalThis.__publicadas) fail('el número de fichas generadas no coincide con las publicadas');
   const imgDir = join(out, 'img');
   if (!existsSync(imgDir)) fail('publico/img no existe');
-  else if (readdirSync(imgDir).filter((f) => f.endsWith('.svg')).length !== globalThis.__publicadas) fail('el número de imágenes generadas no coincide con las publicadas');
+  else if (readdirSync(imgDir).filter((f) => /\.(svg|png|jpe?g|webp)$/i.test(f)).length !== globalThis.__publicadas) fail('el número de imágenes generadas no coincide con las publicadas');
   const html = existsSync(join(out, 'index.html')) ? readFileSync(join(out, 'index.html'), 'utf8') : '';
   if (!html.includes('Soy<span>Curioso</span>')) fail('la portada no usa marca SoyCurioso');
   if (html.includes('sobremesa.example')) fail('quedan URLs de sobremesa.example');
