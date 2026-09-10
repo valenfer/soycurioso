@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="La piedra que abrió la puerta a los jeroglíficos">
+  <defs><pattern id="fondo" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.5" fill="#1449A8" opacity=".16"/></pattern></defs>
+  <rect width="400" height="260" fill="#fff"/><rect width="400" height="260" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="368" height="228" rx="22" fill="none" stroke="#1449A8" stroke-width="5" opacity=".55"/>
+  <rect x="92" y="34" width="216" height="192" fill="none" stroke="#1449A8" stroke-width="8"/>
+    <g fill="#0D2B63"><rect x="118" y="70" width="120" height="15"/><rect x="118" y="102" width="164" height="15"/>
+    <rect x="118" y="134" width="88" height="15"/><rect x="118" y="166" width="140" height="15"/></g>
+    <g transform="rotate(-14 262 178)"><circle cx="262" cy="178" r="46" fill="none" stroke="#C4362B" stroke-width="8"/>
+    <circle cx="262" cy="178" r="30" fill="none" stroke="#C4362B" stroke-width="5"/></g>
+  <rect x="22" y="22" rx="12" width="150" height="30" fill="#C4362B"/><text x="36" y="43" font-family="Karla, Arial, sans-serif" font-size="13" font-weight="800" fill="#FBFAF5">LA CARA OCULTA DE </text>
+</svg>

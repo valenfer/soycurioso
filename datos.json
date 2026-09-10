@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-10",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Las ranas de cristal esconden la sangre para desaparecer",
+      "entradilla": "Cuando descansan, algunas ranas de cristal retiran casi el 90 % de sus glóbulos rojos de la circulación y los guardan en el hígado.",
+      "cuerpo": [
+        "Las ranas de cristal ya eran raras por tener piel y músculos muy transparentes, pero el truco fino estaba en la sangre. Un equipo de Duke y otros centros observó que, mientras duermen, estas ranas sacan casi el 90 % de sus glóbulos rojos de la circulación y los concentran en el hígado, que actúa como un escondite reflectante.",
+        "El resultado es que el animal se vuelve entre dos y tres veces más transparente cuando está quieto bajo una hoja. Lo elegante —y un pelín inquietante— es que luego recupera la sangre circulante al activarse, sin montar el festival de coágulos que esperaríamos en un vertebrado menos fino. Camuflaje con gestión vascular: la naturaleza, otra vez, presumiendo de ingeniería sin manual."
+      ],
+      "fuente": "Duke Pratt School of Engineering — https://pratt.duke.edu/news/glassfrogs-hide-red-blood-cells-their-liver-become-transparent/",
+      "imagen": "img/las-ranas-de-cristal-esconden-la-sangre-para-desaparecer.webp"
+    },
+    {
       "fecha": "2026-10-08",
       "cat": "ciencia",
       "nivel": 4,
