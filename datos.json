@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-11",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Urano tiene una luna que Voyager no vio",
+      "entradilla": "El James Webb detectó una diminuta luna interior de Urano, de unos 10 kilómetros, invisible para la Voyager 2 hace casi 40 años.",
+      "cuerpo": [
+        "Urano acaba de ganar compañía oficial en la lista de cosas que escondía con cara de no haber roto un plato. Un equipo liderado por el Southwest Research Institute identificó con el James Webb una luna previamente desconocida, detectada el 2 de febrero de 2025 en diez exposiciones largas de 40 minutos tomadas con NIRCam.",
+        "La luna tendría unos 10 kilómetros de diámetro y orbita a unos 56.000 kilómetros del centro de Urano, entre Ofelia y Bianca. Es tan pequeña y tenue que la Voyager 2 no la vio durante su sobrevuelo de 1986. La gracia del asunto es que Urano ya era raro por su sistema de anillos y lunas interiores; ahora suma otra pieza a ese pequeño caos elegante. El espacio: siempre ordenado, hasta que miras mejor."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/blogs/webb/2025/08/19/new-moon-discovered-orbiting-uranus-using-nasas-webb-telescope/",
+      "imagen": "img/uranus-tiene-una-luna-que-voyager-no-vio.webp"
+    },
+    {
       "fecha": "2026-09-10",
       "cat": "ciencia",
       "nivel": 4,
