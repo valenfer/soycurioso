@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-12",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El magnetar que pudo nacer sin supernova",
+      "entradilla": "Hubble y Gaia han señalado un magnetar de la Vía Láctea cuyo lugar de nacimiento ya no encaja con la supernova vecina.",
+      "cuerpo": [
+        "Los magnetares son estrellas de neutrones con campos magnéticos descomunales, miles de millones de veces más intensos que los imanes terrestres más potentes. Lo normal es imaginarlos como restos de una supernova: una estrella masiva explota y deja detrás un núcleo ultradenso de unos 20 kilómetros. Limpio, dramático y muy de manual cósmico.",
+        "Pero SGR 0501+4516 se ha salido del guion. Parecía asociado al remanente de supernova HB9, hasta que un estudio de una década con Hubble, apoyado por datos de Gaia, midió su movimiento y puso esa relación en duda. La ESA lo presenta como el candidato más probable de nuestra galaxia a magnetar nacido sin supernova, quizá por el colapso de una enana blanca. El universo, otra vez, entregando el examen con una pregunta que no venía en el temario."
+      ],
+      "fuente": "ESA — https://esa.int/Science_Exploration/Space_Science/Hubble_investigates_a_magnetar_s_birthplace",
+      "imagen": "img/el-magnetar-que-pudo-nacer-sin-supernova.webp"
+    },
+    {
       "fecha": "2026-09-11",
       "cat": "ciencia",
       "nivel": 4,
