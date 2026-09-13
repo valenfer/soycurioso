@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-13",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Las abejas entienden el cero",
+      "entradilla": "Un estudio de RMIT y colaboradores mostró que las abejas pueden ordenar el conjunto vacío como menor que uno o más elementos.",
+      "cuerpo": [
+        "El cero parece una idea sencilla hasta que intentas explicársela a un cerebro: no es ver algo pequeño, es representar la ausencia de algo. Por eso resulta tan llamativo que las abejas melíferas, con menos de un millón de neuronas, superaran pruebas diseñadas para comprobar si podían situar el conjunto vacío en el extremo inferior de una serie numérica.",
+        "Los investigadores entrenaron a abejas individuales para elegir la imagen con menos elementos y recibir agua azucarada. Después les presentaron una tarjeta sin elementos frente a otra con uno o más. Las abejas eligieron la tarjeta vacía como la cantidad menor, aunque no habían sido entrenadas con ese conjunto vacío. La nada, al parecer, también cabe en un cerebro diminuto; luego nosotros nos quejamos de la calculadora."
+      ],
+      "fuente": "RMIT University — https://www.rmit.edu.au/news/all-news/2018/jun/honeybees-zero-in-on-nothing",
+      "imagen": "img/las-abejas-entienden-el-cero.webp"
+    },
+    {
       "fecha": "2026-09-12",
       "cat": "ciencia",
       "nivel": 4,

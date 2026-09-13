@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sócrates enseñaba preguntando hasta desmontarte">
+  <defs><pattern id="fondo" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1.5" fill="#1449A8" opacity=".16"/></pattern></defs>
+  <rect width="400" height="260" fill="#fff"/><rect width="400" height="260" fill="url(#fondo)"/>
+  <rect x="16" y="16" width="368" height="228" rx="22" fill="none" stroke="#1449A8" stroke-width="5" opacity=".55"/>
+  <path d="M64 130c62-75 210-75 272 0-62 75-210 75-272 0z" fill="#FBFAF5" stroke="#1449A8" stroke-width="8"/>
+    <circle cx="200" cy="130" r="42" fill="#0D2B63"/><circle cx="200" cy="130" r="14" fill="#FBFAF5"/>
+    <path d="M80 216h240" stroke="#C4362B" stroke-width="8" stroke-linecap="round"/><path d="M126 216c32-46 68-66 108-61" stroke="#0D2B63" stroke-width="6" stroke-linecap="round"/>
+  <rect x="22" y="22" rx="12" width="150" height="30" fill="#C4362B"/><text x="36" y="43" font-family="Karla, Arial, sans-serif" font-size="13" font-weight="800" fill="#FBFAF5">FILOSOFÍA RADICAL</text>
+</svg>

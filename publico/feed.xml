@@ -5,6 +5,22 @@
 <description>Una ración diaria de conocimiento que no cabe en una conversación normal.</description>
 <language>es</language>
 <item>
+  <title>Las abejas entienden el cero</title>
+  <link>https://valenfer.github.io/soycurioso/c/las-abejas-entienden-el-cero.html</link>
+  <guid>https://valenfer.github.io/soycurioso/c/las-abejas-entienden-el-cero.html</guid>
+  <pubDate>Sun, 13 Sep 2026 06:00:00 GMT</pubDate>
+  <category>Ciencia al límite</category>
+  <description>Un estudio de RMIT y colaboradores mostró que las abejas pueden ordenar el conjunto vacío como menor que uno o más elementos.</description>
+</item>
+<item>
+  <title>Sócrates enseñaba preguntando hasta desmontarte</title>
+  <link>https://valenfer.github.io/soycurioso/c/socrates-ensenaba-preguntando-hasta-desmontarte.html</link>
+  <guid>https://valenfer.github.io/soycurioso/c/socrates-ensenaba-preguntando-hasta-desmontarte.html</guid>
+  <pubDate>Sun, 13 Sep 2026 06:00:00 GMT</pubDate>
+  <category>Filosofía radical</category>
+  <description>El método socrático usa preguntas encadenadas para examinar ideas y descubrir contradicciones.</description>
+</item>
+<item>
   <title>El magnetar que pudo nacer sin supernova</title>
   <link>https://valenfer.github.io/soycurioso/c/el-magnetar-que-pudo-nacer-sin-supernova.html</link>
   <guid>https://valenfer.github.io/soycurioso/c/el-magnetar-que-pudo-nacer-sin-supernova.html</guid>
@@ -147,21 +163,5 @@
   <pubDate>Thu, 03 Sep 2026 06:00:00 GMT</pubDate>
   <category>Ciencia al límite</category>
   <description>En 2010 se midió con relojes atómicos: subir un reloj 33 centímetros basta para que el tiempo pase mediblemente más deprisa.</description>
-</item>
-<item>
-  <title>El hombre que dijo que no dentro de un submarino</title>
-  <link>https://valenfer.github.io/soycurioso/c/el-hombre-que-dijo-que-no-dentro-de-un-submarino.html</link>
-  <guid>https://valenfer.github.io/soycurioso/c/el-hombre-que-dijo-que-no-dentro-de-un-submarino.html</guid>
-  <pubDate>Wed, 02 Sep 2026 06:00:00 GMT</pubDate>
-  <category>La cara oculta de la historia</category>
-  <description>El 27 de octubre de 1962, tres oficiales soviéticos tenían que autorizar un torpedo nuclear. Dos votaron a favor.</description>
-</item>
-<item>
-  <title>La frase de Nietzsche que casi todo el mundo usa al revés</title>
-  <link>https://valenfer.github.io/soycurioso/c/la-frase-de-nietzsche-que-casi-todo-el-mundo-usa-al-reves.html</link>
-  <guid>https://valenfer.github.io/soycurioso/c/la-frase-de-nietzsche-que-casi-todo-el-mundo-usa-al-reves.html</guid>
-  <pubDate>Tue, 01 Sep 2026 06:00:00 GMT</pubDate>
-  <category>Citas que rompen la mesa</category>
-  <description>«Quien lucha con monstruos debe cuidar de no convertirse en monstruo. Y si miras largo tiempo a un abismo, el abismo también mira dentro de ti.»</description>
 </item>
 </channel></rss>
