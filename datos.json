@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-14",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los tardígrados se secan para resistir el espacio",
+      "entradilla": "Estos animales microscópicos pueden entrar en un estado casi suspendido y sobrevivir a condiciones que harían dimitir a cualquier célula normal.",
+      "cuerpo": [
+        "Los tardígrados, también llamados osos de agua, son animales microscópicos de ocho patas famosos por aguantar frío extremo, calor, radiación, falta de agua y hasta el vacío del espacio. La NASA los estudia porque entender sus trucos puede ayudar a proteger material biológico —como alimentos o medicinas— en misiones largas.",
+        "La clave no es que vayan por ahí en modo invencible todo el rato. Muchas especies pueden perder casi toda el agua corporal y entrar en criptobiosis: se encogen en una forma llamada “tun”, frenan su metabolismo y estabilizan sus moléculas como si guardaran la vida en pausa. No es inmortalidad, pero para un bicho de medio milímetro es bastante chulería."
+      ],
+      "fuente": "NASA — https://nasa.gov/humans-in-space/microscopic-superheroes-to-help-protect-astronaut-health-in-space",
+      "imagen": "img/los-tardigrados-se-secan-para-resistir-el-espacio.webp"
+    },
+    {
       "fecha": "2026-09-13",
       "cat": "ciencia",
       "nivel": 4,
