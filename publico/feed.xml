@@ -5,6 +5,22 @@
 <description>Una ración diaria de conocimiento que no cabe en una conversación normal.</description>
 <language>es</language>
 <item>
+  <title>Pando, el bosque que es un solo árbol</title>
+  <link>https://valenfer.github.io/soycurioso/c/pando-el-bosque-que-es-un-solo-arbol.html</link>
+  <guid>https://valenfer.github.io/soycurioso/c/pando-el-bosque-que-es-un-solo-arbol.html</guid>
+  <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+  <category>Ciencia al límite</category>
+  <description>En Utah hay un álamo temblón con decenas de miles de troncos que parecen un bosque, pero comparten el mismo genotipo y una raíz común.</description>
+</item>
+<item>
+  <title>El CO₂ es poco en porcentaje, mucho en efecto</title>
+  <link>https://valenfer.github.io/soycurioso/c/el-co-es-poco-en-porcentaje-mucho-en-efecto.html</link>
+  <guid>https://valenfer.github.io/soycurioso/c/el-co-es-poco-en-porcentaje-mucho-en-efecto.html</guid>
+  <pubDate>Tue, 15 Sep 2026 06:00:00 GMT</pubDate>
+  <category>Ciencia al límite</category>
+  <description>Aunque el dióxido de carbono es una fracción pequeña del aire, influye mucho en el equilibrio térmico terrestre.</description>
+</item>
+<item>
   <title>Los tardígrados se secan para resistir el espacio</title>
   <link>https://valenfer.github.io/soycurioso/c/los-tardigrados-se-secan-para-resistir-el-espacio.html</link>
   <guid>https://valenfer.github.io/soycurioso/c/los-tardigrados-se-secan-para-resistir-el-espacio.html</guid>
@@ -147,21 +163,5 @@
   <pubDate>Sun, 06 Sep 2026 06:00:00 GMT</pubDate>
   <category>Filosofía radical</category>
   <description>Bertrand Russell lo formuló en 1921: el universo pudo crearse hace cinco minutos, con recuerdos incluidos. No es una idea razonable, pero es lógicamente irrefutable.</description>
-</item>
-<item>
-  <title>¿Por qué el cielo es azul?</title>
-  <link>https://valenfer.github.io/soycurioso/c/por-que-el-cielo-es-azul.html</link>
-  <guid>https://valenfer.github.io/soycurioso/c/por-que-el-cielo-es-azul.html</guid>
-  <pubDate>Sun, 06 Sep 2026 06:00:00 GMT</pubDate>
-  <category>Ciencia al límite</category>
-  <description>La atmósfera dispersa más la luz azul que la roja, por eso el cielo diurno toma ese color.</description>
-</item>
-<item>
-  <title>Los pacientes convencidos de que están muertos</title>
-  <link>https://valenfer.github.io/soycurioso/c/los-pacientes-convencidos-de-que-estan-muertos.html</link>
-  <guid>https://valenfer.github.io/soycurioso/c/los-pacientes-convencidos-de-que-estan-muertos.html</guid>
-  <pubDate>Sat, 05 Sep 2026 06:00:00 GMT</pubDate>
-  <category>Psicología radical</category>
-  <description>El síndrome de Cotard hace que una persona lúcida sostenga que no tiene órganos, que su cuerpo se está pudriendo o que lleva años muerta.</description>
 </item>
 </channel></rss>

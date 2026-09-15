@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-15",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Pando, el bosque que es un solo árbol",
+      "entradilla": "En Utah hay un álamo temblón con decenas de miles de troncos que parecen un bosque, pero comparten el mismo genotipo y una raíz común.",
+      "cuerpo": [
+        "Pando no es un árbol solitario con complejo de rascacielos, sino una colonia clonal de álamo temblón en Fish Lake, Utah. Un estudio genético del Servicio Forestal de EE. UU. estimó que ocupa más de 40 hectáreas y reúne unos 47.000 tallos: desde lejos ves un bosque; por debajo, el asunto funciona como una sola red viva.",
+        "La gracia está en que cada tronco brota del sistema de raíces y es genéticamente idéntico a los demás. Por eso Pando suele presentarse como uno de los organismos documentados más grandes del planeta. También recuerda una lección muy poco humilde: a veces la naturaleza no construye algo enorme hacia arriba, sino repitiendo discretamente la misma idea hasta ocupar una colina entera."
+      ],
+      "fuente": "USDA Forest Service — https://www.fs.usda.gov/NFGEL/documents/publications/DeWoody_etal_pando_2008.pdf",
+      "imagen": "img/pando-el-bosque-que-es-un-solo-arbol.webp"
+    },
+    {
       "fecha": "2026-09-14",
       "cat": "ciencia",
       "nivel": 4,
