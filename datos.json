@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-16",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El cangrejo herradura vigila un puerto espacial",
+      "entradilla": "En el Centro Espacial Kennedy, un animal de sangre azul ayuda a medir la salud del ecosistema que rodea a los cohetes.",
+      "cuerpo": [
+        "El Centro Espacial Kennedy no es solo hormigón, lanzaderas y épica de cuenta atrás. También comparte paisaje con refugios naturales donde viven más de 1.500 tipos de animales y plantas. Entre ellos está el cangrejo herradura americano, un artrópodo tan antiguo que lleva más de 450 millones de años haciendo de veterano del planeta sin pedir placa conmemorativa.",
+        "NASA lo destaca como especie clave en costas y estuarios: sus huevos alimentan aves migratorias y su actividad ayuda a modelar comunidades del fondo. Además, sus poblaciones sirven como indicador de contaminación o pérdida de hábitat. Y hay un giro biomédico: su sangre azul, basada en cobre, contiene Limulus Amebocyte Lysate, usado para detectar contaminación bacteriana en material médico, fármacos y vacunas. Así que sí: junto a los cohetes también hay un bicho prehistórico pasando revista al ecosistema."
+      ],
+      "fuente": "NASA — https://www.nasa.gov/centers-and-facilities/kennedy/animal-that-once-lived-with-dinosaurs-helps-keep-nasa-kennedy-in-balance/",
+      "imagen": "img/el-cangrejo-herradura-vigila-un-puerto-espacial.webp"
+    },
+    {
       "fecha": "2026-09-15",
       "cat": "ciencia",
       "nivel": 4,
