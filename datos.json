@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-17",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los peces de hielo viven sin sangre roja",
+      "entradilla": "Algunos peces antárticos perdieron la hemoglobina y transportan oxígeno disuelto en una sangre casi transparente.",
+      "cuerpo": [
+        "Los peces de hielo antárticos son una rareza evolutiva con cara de haber perdido el manual de vertebrado. A diferencia de casi todos sus parientes, no tienen glóbulos rojos funcionales ni hemoglobina: su sangre transporta el oxígeno disuelto directamente en el plasma. En aguas normales eso sería un plan bastante regulero; en el Océano Austral, frío y rico en oxígeno, pudo funcionar.",
+        "La trampa es que no salió gratis. Estos peces compensan la pérdida con corazones grandes, más volumen sanguíneo y sistemas vasculares adaptados. Además, muchos nototenioideos producen glicoproteínas anticongelantes que se pegan a los cristales de hielo e impiden que crezcan. Es decir: menos sangre roja, más fontanería biológica y un anticongelante propio. La Antártida no perdona, pero al menos obliga a innovar."
+      ],
+      "fuente": "Nature Ecology & Evolution — https://www.nature.com/articles/s41559-019-0812-7; ScienceDaily / University of Illinois — https://www.sciencedaily.com/releases/2023/04/230405090438.htm",
+      "imagen": "img/los-peces-de-hielo-viven-sin-sangre-roja.webp"
+    },
+    {
       "fecha": "2026-09-16",
       "cat": "ciencia",
       "nivel": 4,
