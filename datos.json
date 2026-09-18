@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-18",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La gamba mantis lleva gafas polarizadas de serie",
+      "entradilla": "Algunos crustáceos ven la polarización de la luz; en la gamba mantis, ese canal podría servir incluso para mensajes casi secretos.",
+      "cuerpo": [
+        "Para nosotros la luz suele venir con dos etiquetas: brillo y color. En el mar hay otra pista visual muy útil, la polarización, parecida a lo que filtran unas gafas de sol polarizadas cuando quitan reflejos del agua. Peces, cangrejos y gambas han evolucionado visión polarizada incorporada, sin pasar por la óptica de la gasolinera.",
+        "La gamba mantis lleva esa rareza con bastante chulería: al mirarla con filtros polarizados, partes de su cuerpo cambian de aspecto, una señal que pocos animales pueden ver. Los investigadores no dan por cerrado qué significa exactamente, pero la hipótesis bonita es que funcione como comunicación discreta bajo el agua. Básicamente, WhatsApp visual para bichos con ojos de ciencia ficción."
+      ],
+      "fuente": "Smithsonian Ocean — https://ocean.si.edu/ocean-life/invertebrates/built-underwater-polarized-lenses",
+      "imagen": "img/la-gamba-mantis-lleva-gafas-polarizadas-de-serie.webp"
+    },
+    {
       "fecha": "2026-09-17",
       "cat": "ciencia",
       "nivel": 4,
