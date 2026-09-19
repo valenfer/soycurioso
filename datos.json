@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-19",
+      "cat": "ciencia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "En Venus un día dura más que un año",
+      "entradilla": "Venus gira tan despacio que tarda 243 días terrestres en completar una vuelta, más que sus 225 días alrededor del Sol.",
+      "cuerpo": [
+        "Venus tiene pinta de planeta cercano y manejable, pero su calendario viene diseñado por alguien con ganas de trolear. Según NASA, una rotación completa dura 243 días terrestres, mientras que su vuelta alrededor del Sol tarda 225. Es decir: allí el “día” sideral es más largo que el año. Para pedir un lunes libre habría que hablar con recursos humanos interplanetarios.",
+        "La rareza continúa: Venus gira en sentido contrario al de la Tierra y la mayoría de planetas. Por eso, visto desde su superficie —si sobrevivieras al calor capaz de fundir plomo y a una presión brutal— el Sol saldría por el oeste y se pondría por el este. Eso sí, con calma: de amanecer a atardecer pasarían 117 días terrestres. Ni la sobremesa española compite con eso."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/venus/facts",
+      "imagen": "img/en-venus-un-dia-dura-mas-que-un-ano.webp"
+    },
+    {
       "fecha": "2026-09-18",
       "cat": "ciencia",
       "nivel": 4,
