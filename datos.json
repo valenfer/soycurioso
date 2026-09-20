@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-20",
+      "cat": "ciencia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "Las medusas piensan sin cerebro",
+      "entradilla": "No tienen cerebro, corazón, huesos ni sangre, pero una red nerviosa les permite responder a luz, temperatura y señales químicas.",
+      "cuerpo": [
+        "Las medusas llevan más de 500 millones de años flotando por los mares, así que algo han tenido que hacer bien, aunque no puedan presumir de expediente académico. El Natural History Museum recuerda que no tienen huesos, cerebro, corazón, dientes ni sangre. Lo suyo es ir ligeras de equipaje biológico, como quien se va de escapada solo con una mochila.",
+        "La trampa está en que ausencia de cerebro no significa ausencia total de coordinación. En vez de una centralita en la cabeza, poseen una red nerviosa distribuida que procesa pistas del entorno, como la luz, la temperatura y cambios químicos del agua. Algunas especies incluso producen bioluminiscencia. Vamos, que no tienen “jefa”, pero el equipo se organiza sorprendentemente bien."
+      ],
+      "fuente": "Natural History Museum — https://www.nhm.ac.uk/discover/what-is-a-jellyfish.html",
+      "imagen": "img/las-medusas-piensan-sin-cerebro.webp"
+    },
+    {
       "fecha": "2026-09-19",
       "cat": "ciencia",
       "nivel": 3,

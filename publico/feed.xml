@@ -5,6 +5,14 @@
 <description>Una ración diaria de conocimiento que no cabe en una conversación normal.</description>
 <language>es</language>
 <item>
+  <title>Las medusas piensan sin cerebro</title>
+  <link>https://valenfer.github.io/soycurioso/c/las-medusas-piensan-sin-cerebro.html</link>
+  <guid>https://valenfer.github.io/soycurioso/c/las-medusas-piensan-sin-cerebro.html</guid>
+  <pubDate>Sun, 20 Sep 2026 06:00:00 GMT</pubDate>
+  <category>Ciencia al límite</category>
+  <description>No tienen cerebro, corazón, huesos ni sangre, pero una red nerviosa les permite responder a luz, temperatura y señales químicas.</description>
+</item>
+<item>
   <title>En Venus un día dura más que un año</title>
   <link>https://valenfer.github.io/soycurioso/c/en-venus-un-dia-dura-mas-que-un-ano.html</link>
   <guid>https://valenfer.github.io/soycurioso/c/en-venus-un-dia-dura-mas-que-un-ano.html</guid>
@@ -155,13 +163,5 @@
   <pubDate>Wed, 09 Sep 2026 06:00:00 GMT</pubDate>
   <category>Ciencia al límite</category>
   <description>Los pulpos resuelven problemas, manipulan objetos y poseen un sistema nervioso distribuido por sus brazos.</description>
-</item>
-<item>
-  <title>La NASA reparó un ordenador a 24.000 millones de kilómetros</title>
-  <link>https://valenfer.github.io/soycurioso/c/la-nasa-reparo-un-ordenador-a-24-000-millones-de-kilometros.html</link>
-  <guid>https://valenfer.github.io/soycurioso/c/la-nasa-reparo-un-ordenador-a-24-000-millones-de-kilometros.html</guid>
-  <pubDate>Tue, 08 Sep 2026 06:00:00 GMT</pubDate>
-  <category>Tecnología extrema</category>
-  <description>La Voyager 1 tiene menos memoria que una foto de WhatsApp, y en 2024 la arreglaron por control remoto con 45 horas de retardo entre pregunta y respuesta.</description>
 </item>
 </channel></rss>
