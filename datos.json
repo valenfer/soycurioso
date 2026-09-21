@@ -1,6 +1,20 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-21",
+      "cat": "antropologia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La montaña peruana que parece un ábaco gigante",
+      "entradilla": "Monte Sierpe reúne unos 5.200 hoyos alineados; nuevos análisis sugieren que sirvió para intercambio y contabilidad andina.",
+      "cuerpo": [
+        "En el valle de Pisco, al sur de Perú, hay una ladera que parece haber sido picada por una máquina de hacer lunares con mucha paciencia. Se llama Monte Sierpe, o Band of Holes: una franja de 1,5 kilómetros con aproximadamente 5.200 hoyos alineados, de entre uno y dos metros de ancho y hasta un metro de profundidad.",
+        "La gracia no está solo en la foto aérea, que ya es bastante de “¿quién ha dejado esto aquí?”. Un equipo liderado por Jacob Bongers combinó imágenes de dron y análisis de sedimentos: encontró patrones numéricos, parecidos con khipus incas y restos de polen de maíz y juncos usados para cestas. Su hipótesis es que primero pudo funcionar como mercado de trueque chincha y después como sistema de contabilidad bajo dominio inca. O sea: una hoja de cálculo excavada en la montaña, sin suscripción mensual."
+      ],
+      "fuente": "University of Sydney — https://www.sydney.edu.au/news-opinion/news/2025/11/10/mysterious-holes-in-the-andes-may-have-been-an-ancient-marketplace-new-research-suggests.html; Antiquity / Cambridge Core — https://www.cambridge.org/core/journals/antiquity/article/indigenous-accounting-and-exchange-at-monte-sierpe-band-of-holes-in-the-pisco-valley-peru/41D83389D230D99CFF18194CF274A9A3",
+      "imagen": "img/la-montana-peruana-que-parece-un-abaco-gigante.webp"
+    },
+    {
       "fecha": "2026-09-20",
       "cat": "ciencia",
       "nivel": 3,
