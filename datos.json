@@ -3,6 +3,24 @@
     {
       "fecha": "2026-09-22",
       "cat": "ciencia",
+      "nivel": 4,
+      "min": 4,
+      "titular": "El grupo sanguíneo O no es el original: es una adaptación con un precio",
+      "entradilla": "Una mutación dejó al grupo O sin los antígenos A y B. Esa aparente carencia pudo proteger frente a algunos patógenos, pero también aumentó otros riesgos.",
+      "cuerpo": [
+        "El grupo sanguíneo O suele describirse como si fuera la versión básica de la sangre humana. La historia real es bastante más interesante: en los glóbulos rojos de una persona O falta la modificación molecular que añade los azúcares A o B al antígeno H. No es sangre “vacía”, sino una configuración distinta del sistema AB0.",
+        "En las variantes A y B, unas enzimas colocan azúcares concretos sobre esa estructura. En la variante O más común, una pequeña deleción altera el marco de lectura del gen y produce una enzima que ya no funciona como transferasa. La célula conserva el sustrato, pero no le añade la decoración. La evolución, como siempre, reciclando errores de copia con una sorprendente falta de elegancia.",
+        "La idea de que O fue el primer grupo sanguíneo humano tampoco encaja bien con la filogenia. El sistema AB0 es mucho más antiguo que nuestra especie y aparece en otros primates; los análisis comparativos apuntan a que A precede a la mutación que originó muchas variantes O. Su frecuencia posterior pudo cambiar según los patógenos y las condiciones de cada población, no según ninguna supuesta jerarquía de “sangres”.",
+        "Ahí aparece la paradoja. El grupo O parece ofrecer cierta protección frente a formas graves de malaria porque dificulta la formación de rosetas que obstruyen los capilares. Pero esa misma configuración se ha asociado con cuadros más severos de cólera y con niveles medios más bajos de factor von Willebrand y factor VIII. Los grupos no O, en cambio, presentan mayor riesgo trombótico en ciertos estudios. Una ventaja en un escenario puede convertirse en inconveniente en otro: la evolución no entrega garantías, solo intercambios.",
+        "Esto también desmonta la llamada dieta según el grupo sanguíneo. Que una dieta con más vegetales y menos ultraprocesados mejore ciertos indicadores no demuestra que el grupo O necesite comer como un supuesto cazador-recolector. Los beneficios observados pueden explicarse por la calidad de la dieta, no por el sistema AB0; atribuirlos a la sangre es ponerle bata blanca a una coincidencia.",
+        "La investigación actual intenta aprovechar precisamente esa “desnudez” molecular: algunas enzimas pueden retirar azúcares de los glóbulos rojos A y B para convertirlos en células más compatibles. Mientras tanto, la sangre O negativo sigue siendo crucial en emergencias, aunque “donante universal” se refiere sobre todo a sus glóbulos rojos y no significa que cualquier transfusión sea automáticamente segura. El grupo O no es el original ni el superior: es una variante evolutiva que, en el quirófano, puede salvar una vida."
+      ],
+      "fuente": "Artículo base: Inmunohematología y Evolución: El Fenotipo O como Adaptación Biológica (PDF aportado). Para contraste: sistema AB0, malaria, hemostasia y dieta según grupo sanguíneo; las cifras y asociaciones deben interpretarse como resultados poblacionales, no como diagnóstico individual.",
+      "imagen": "img/el-grupo-sanguineo-o-no-es-el-original.jpg"
+    },
+    {
+      "fecha": "2026-09-22",
+      "cat": "ciencia",
       "nivel": 3,
       "min": 3,
       "titular": "El murciélago que se zampó la ensalada entera",
