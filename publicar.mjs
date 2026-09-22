@@ -208,6 +208,9 @@ const cabezaHTML = ({ titulo, descripcion, ruta, canonica }) => `<!DOCTYPE html>
 <title>${esc(titulo)}</title>
 <meta name="description" content="${esc(descripcion)}">
 <link rel="canonical" href="${SITIO.url}${canonica}">
+<link rel="icon" type="image/png" sizes="512x512" href="${ruta}favicon.png">
+<link rel="apple-touch-icon" sizes="512x512" href="${ruta}favicon.png">
+<meta name="theme-color" content="#0069FF">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(SITIO.nombre)}">
 <meta property="og:title" content="${esc(titulo)}">
@@ -541,6 +544,7 @@ function construir() {
   rmSync(SALIDA, { recursive: true, force: true });
   mkdirSync(join(SALIDA, 'c'), { recursive: true });
   mkdirSync(join(SALIDA, 'img'), { recursive: true });
+  copyFileSync(join(RAIZ, 'img', 'soycurioso-icon.png'), join(SALIDA, 'favicon.png'));
 
   publicadas.forEach(d => {
     if (d.imagen) {
