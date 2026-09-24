@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-24",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El reptil triásico con cresta falsa de plumas",
+      "entradilla": "Mirasaura grauvogeli lucía una cresta que parece plumaje, pero evolucionó de forma independiente hace más de 247 millones de años.",
+      "cuerpo": [
+        "Mirasaura grauvogeli parece el resultado de pedirle a la evolución “un reptil arborícola con peinado de estrella del glam”. El Natural History Museum explica que este drepanosaurio del Triásico tenía boca en forma de pico, cola prensil y una cresta alargada en la espalda que, a primera vista, recuerda muchísimo a unas plumas.",
+        "La gracia está en que no eran plumas. Al estudiar la estructura, los investigadores vieron que aquellas prolongaciones sólidas no tenían las barbas características del plumaje de aves y dinosaurios. Es decir: la naturaleza llegó a una silueta parecida por otro camino, como quien copia el peinado sin copiar la receta.",
+        "El fósil sugiere que los reptiles ya estaban experimentando con apéndices cutáneos complejos hace más de 247 millones de años, mucho antes de que el jurásico se pusiera de moda en camisetas. Probablemente la cresta servía para exhibirse ante parejas, rivales o depredadores. Porque incluso en el Triásico había que hacerse notar, faltaría más."
+      ],
+      "fuente": "Natural History Museum — https://nhm.ac.uk/discover/news/2025/july/bizarre-new-fossil-reptile-had-crest-unlike-anything-seen-before.html",
+      "imagen": "img/el-reptil-triasico-con-cresta-falsa-de-plumas.webp"
+    },
+    {
       "fecha": "2026-09-23",
       "cat": "ciencia",
       "nivel": 3,
