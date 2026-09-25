@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-25",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Europa esconde lagos en el hielo",
+      "entradilla": "La luna de Júpiter muestra terrenos caóticos que podrían haberse formado sobre bolsas de agua o hielo blando cerca de la superficie.",
+      "cuerpo": [
+        "Europa, la luna helada de Júpiter, parece una bola de billar que alguien ha rayado con mala leche cósmica. NASA describe una superficie cruzada por bandas, grietas, manchas oscuras, “puddles” y regiones de caos donde bloques de corteza se han movido, girado y vuelto a congelar como piezas de un puzle que nadie recogió.",
+        "La parte jugosa está debajo. La misión Galileo midió una señal magnética que apunta a un océano global de agua salada bajo la corteza; NASA estima que esa capa de hielo podría tener entre 15 y 25 kilómetros de grosor y cubrir un océano de 60 a 150 kilómetros de profundidad. Aunque Europa es mucho más pequeña que la Tierra, ese océano podría contener aproximadamente el doble de agua que todos nuestros mares.",
+        "Algunos terrenos caóticos se han interpretado como zonas donde la superficie colapsó sobre lagos lenticulares incrustados en el hielo. Si muestras del océano o de esos depósitos suben hacia la superficie, una nave podría estudiarlas sin tener que llevar taladro de película de ciencia ficción. Europa no promete extraterrestres con sombrero; promete algo mejor para la ciencia: una luna que quizá deja pistas de su océano al alcance de una mirada robótica."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/missions/europa-clipper/europa-clipper-resources/landscapes-and-features-of-europa/; NASA Science — https://science.nasa.gov/jupiter/jupiter-moons/europa/europa-facts/",
+      "imagen": "img/europa-esconde-lagos-en-el-hielo.webp"
+    },
+    {
       "fecha": "2026-09-24",
       "cat": "ciencia",
       "nivel": 4,
