@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-26",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El delfín que cobra peaje en vómito",
+      "entradilla": "En la Gran Barrera de Coral, un delfín mular persigue peces hasta que regurgitan su comida y luego se queda el aperitivo ajeno.",
+      "cuerpo": [
+        "Bubbles no es el típico delfín que persigue peces para comérselos sin más. Este macho de delfín mular, observado cerca de Lady Elliot Island, en la Gran Barrera de Coral, ha sido grabado acosando jureles ojones hasta que regurgitan su última comida. Entonces llega él y se zampa el botín expulsado. Elegante no es; eficaz, parece que bastante.",
+        "Entre junio de 2021 y octubre de 2025, el equipo documentó 20 intentos de esta estrategia y 11 comidas conseguidas. En algunas sesiones, Bubbles repitió hasta diez persecuciones en media hora. Antes de acercarse al banco de peces hacía clics y movía la cabeza, así que los investigadores sospechan que podría usar la ecolocalización para escoger víctimas con el estómago lleno. Sí: auditoría gastronómica por ultrasonidos.",
+        "La conducta se interpreta como cleptoparasitismo, es decir, robar comida obtenida por otro animal. Lo llamativo es que en cetáceos apenas se había descrito con este nivel de detalle. Bubbles no demuestra que todos los delfines tengan modales de pirata, pero sí recuerda algo muy SoyCurioso: la inteligencia animal a veces aparece en forma de truco brillante y un poco asquerosillo."
+      ],
+      "fuente": "Smithsonian Magazine — https://smithsonianmag.com/smart-news/meet-bubbles-a-dolphin-in-australia-that-chases-fish-until-they-barf-then-eats-their-upchucked-meals-180989547",
+      "imagen": "img/el-delfin-que-cobra-peaje-en-vomito.webp"
+    },
+    {
       "fecha": "2026-09-25",
       "cat": "ciencia",
       "nivel": 4,
