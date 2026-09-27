@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-27",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Bennu traía caldo salado con letras de la vida",
+      "entradilla": "La muestra prístina del asteroide Bennu contiene aminoácidos, las cinco nucleobases del ADN y ARN, y sales formadas al evaporarse agua antigua.",
+      "cuerpo": [
+        "Bennu no ha enviado alienígenas en una fiambrera, calma. Lo que sí devolvió OSIRIS-REx a la Tierra en 2023 es casi más fino: polvo y roca recogidos directamente de un asteroide, sin pasar por el filtro guarro de nuestra atmósfera, nuestros microbios y nuestras manos curiosas.",
+        "Los primeros análisis detallados publicados por equipos de NASA y otras instituciones detectaron 14 de los 20 aminoácidos que usa la vida terrestre para fabricar proteínas y las cinco nucleobases que forman parte del ADN y el ARN. También hallaron mucha amoníaco y formaldehído, una pareja química que, en condiciones adecuadas, puede participar en la formación de moléculas más complejas.",
+        "La otra pista es casi culinaria: los científicos identificaron 11 minerales salinos que se forman cuando agua con sales disueltas se evapora durante mucho tiempo. Eso apunta a un entorno antiguo de salmuera en el cuerpo del que procede Bennu. No es prueba de vida, pero sí de que el Sistema Solar temprano repartía ingredientes y cazuelas por más sitios de los que sospechábamos. La sopa primordial, al parecer, tenía servicio a domicilio cósmico."
+      ],
+      "fuente": "NASA — https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+      "imagen": "img/bennu-traia-caldo-salado-con-letras-de-la-vida.webp"
+    },
+    {
       "fecha": "2026-09-26",
       "cat": "ciencia",
       "nivel": 4,
