@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-09-28",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La chinche que pone huevos con escudo de hongos",
+      "entradilla": "Megymenum gracilicorne guarda hongos en órganos de las patas traseras y los unta sobre sus huevos para frenar a avispas parasitoides.",
+      "cuerpo": [
+        "Hay madres que preparan la cuna; esta chinche prepara una manta antifascistas de hongos. En Megymenum gracilicorne, las hembras tienen unos órganos especiales en las patas traseras que alojan hongos, una rareza que al principio se interpretó como parte de su sistema auditivo.",
+        "Cuando llega la puesta, la hembra rasca esos órganos con la punta de las patas y embadurna los huevos. El hongo crece sobre una capa de carbohidratos de la superficie y forma una barrera que dificulta que avispas parasitoides como Trissolcus brevinotaulus introduzcan sus propios huevos dentro. Sí: guardería infantil con moho contratado como seguridad privada.",
+        "El Natural History Museum destaca que cada órgano puede contener hasta 2.000 poros cultivadores de hongos, una arquitectura difícil de comparar con la de otros animales. No convierte a la chinche en jardinera profesional, pero sí enseña una lección estupenda: en la naturaleza, incluso un hongo pegado a una pata puede ser tecnología defensiva de alto nivel."
+      ],
+      "fuente": "Natural History Museum — https://www.nhm.ac.uk/discover/news/2025/october/stinkbugs-evolved-fungus-filled-leg-organs-protect-eggs.html",
+      "imagen": "img/la-chinche-que-pone-huevos-con-escudo-de-hongos.webp"
+    },
+    {
       "fecha": "2026-09-27",
       "cat": "ciencia",
       "nivel": 4,
