@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-01",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El mosquito antártico duerme con dos calendarios",
+      "entradilla": "Belgica antarctica, el único insecto nativo conocido de la Antártida, alterna dos modos de pausa para encajar su vida en veranos brevísimos.",
+      "cuerpo": [
+        "Cuando pensamos en la Antártida salen pingüinos, hielo y documentales con música solemne. Pero allí también vive Belgica antarctica, un mosquito sin alas que mide pocos milímetros y se las apaña siendo el único insecto nativo conocido del continente. No vuela, no presume y, aun así, lleva una agenda biológica que ya querría cualquier opositor.",
+        "Un equipo liderado por Osaka Metropolitan University crió la especie durante seis años y resolvió parte del truco. En su ciclo de dos años, las larvas pasan el primer invierno en quiescencia: una pausa flexible que se levanta cuando vuelven condiciones mejores. En el segundo invierno, ya en el cuarto estadio larvario, entran en diapausa obligada, una parada programada que no se salta porque haga un día agradable.",
+        "La jugada sincroniza la salida de los adultos en verano, justo cuando tienen solo unos pocos días para encontrar pareja. Es decir: primero siesta táctica, luego hibernación con alarma colectiva. La Antártida no perdona retrasos; este insecto ha convertido el calendario en una pieza de supervivencia."
+      ],
+      "fuente": "Osaka Metropolitan University — https://www.omu.ac.jp/en/info/research-news/entry-73480.html; Scientific Reports — https://www.nature.com/articles/s41598-025-86617-4",
+      "imagen": "img/el-mosquito-antartico-duerme-con-dos-calendarios.webp"
+    },
+    {
       "fecha": "2026-09-30",
       "cat": "ciencia",
       "nivel": 4,
