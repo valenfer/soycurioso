@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-02",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La ameba de fuego bate el termómetro de la vida compleja",
+      "entradilla": "Incendiamoeba cascadensis puede dividirse a 63 ºC, un récord para células eucariotas observado en aguas calientes de Lassen.",
+      "cuerpo": [
+        "La vida compleja suele ponerse remilgada con el calor: proteínas que se desordenan, membranas que sufren y orgánulos que empiezan a mirar la salida. Por eso llama tanto la atención Incendiamoeba cascadensis, apodada la ameba de fuego, encontrada en aguas calientes del Parque Nacional Volcánico Lassen, en California.",
+        "Según NASA, el equipo observó que esta ameba eucariota puede reproducirse por división a 63 ºC, un récord para organismos con células complejas. Por encima de esa temperatura deja de dividirse, pero aún se mueve y busca comida hasta unos 64 ºC. La marca anterior para eucariotas estaba en torno a 60 ºC, sostenida por algunas especies de hongos y algas rojas.",
+        "La gracia no es solo ganar una competición absurda de sauna microscópica. Al secuenciar su genoma, los investigadores vieron genes relacionados con estabilizar el ADN, detectar el entorno y mantener las proteínas plegadas bajo calor. Para la astrobiología, estos bichos amplían el mapa de dónde podría resistir vida con células complejas. Vamos: no todos los eucariotas son tan dramáticos como nosotros en agosto."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat",
+      "imagen": "img/la-ameba-de-fuego-bate-el-termometro-de-la-vida-compleja.webp"
+    },
+    {
       "fecha": "2026-10-01",
       "cat": "ciencia",
       "nivel": 4,
