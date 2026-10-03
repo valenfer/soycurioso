@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-03",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El ictiosaurio que nadaba en modo sigilo",
+      "entradilla": "Un fósil de Temnodontosaurus conserva tejidos blandos de una aleta con punta flexible y borde serrado para moverse con menos ruido.",
+      "cuerpo": [
+        "Temnodontosaurus no era precisamente una sardina tímida: algunos ictiosaurios de este grupo superaban los diez metros y tenían ojos enormes para cazar en aguas oscuras. Lo nuevo es que un fósil de aleta hallado en el sur de Alemania ha conservado algo rarísimo en reptiles marinos grandes: tejido blando suficiente para imaginar cómo se movía.",
+        "El Natural History Museum explica que la aleta, de un metro, tenía una punta carnosa más allá del esqueleto, parecida en función a un winglet de avión: podía ayudar a cambiar el flujo del agua, reducir resistencia y permitir nadar con menos golpe de cola. Menos movimiento, menos ruido; muy de depredador jurásico entrando en la sala sin que cruja el parqué.",
+        "Además, los investigadores describen una estructura llamada chondroderm, cartílago reforzado con calcio, que endurecía el borde posterior y formaba una silueta de ala con serraciones capaces de reducir sonidos de baja frecuencia. La comparación inevitable son las alas silenciosas de los búhos. Conclusión: hace 180 millones de años ya había ingeniería acústica bajo el mar, sin patente y con dientes."
+      ],
+      "fuente": "Natural History Museum — https://www.nhm.ac.uk/discover/news/2025/july/giant-ichthyosaurs-evolved-stealthy-flippers-sneak-up-prey.html",
+      "imagen": "img/el-ictiosaurio-que-nadaba-en-modo-sigilo.webp"
+    },
+    {
       "fecha": "2026-10-02",
       "cat": "ciencia",
       "nivel": 4,
