@@ -167,12 +167,13 @@ button,input{font:inherit;color:inherit}
 .reserva{
   background:var(--mostaza);border:3px solid var(--tinta);padding:36px 30px;
   display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:34px;align-items:center;
+  min-width:0;overflow:hidden;
 }
-.reserva h2{font-size:clamp(1.8rem,4.6vw,3rem);margin-bottom:12px}
-.reserva p{margin:0;max-width:48ch}
-.reserva form{display:flex;border:3px solid var(--tinta);background:var(--loza)}
-.reserva input{flex:1;min-width:0;border:0;background:transparent;padding:14px 16px}
-.reserva button{border:0;border-left:3px solid var(--tinta);background:var(--azulejo);color:var(--loza);font-weight:800;padding:14px 20px;cursor:pointer}
+.reserva h2{font-size:clamp(1.8rem,4.6vw,3rem);margin-bottom:12px;overflow-wrap:anywhere}
+.reserva p{margin:0;max-width:48ch;overflow-wrap:anywhere}
+.reserva form{display:flex;width:100%;max-width:100%;min-width:0;border:3px solid var(--tinta);background:var(--loza)}
+.reserva input{flex:1 1 auto;width:1%;min-width:0;border:0;background:transparent;padding:14px 16px}
+.reserva button{flex:0 1 auto;min-width:0;border:0;border-left:3px solid var(--tinta);background:var(--azulejo);color:var(--loza);font-weight:800;padding:14px 20px;cursor:pointer;white-space:normal}
 .reserva button:hover{background:var(--hondo)}
 .aviso{font-size:.86rem;margin-top:10px;min-height:1.4em;font-weight:600}
 .aviso.mal{color:var(--hule)}
@@ -208,6 +209,13 @@ button,input{font:inherit;color:inherit}
   .pie__cols{grid-template-columns:1fr}
   .ficha__lamina{float:none;margin:0 0 18px;max-width:100%}
   .ficha__cuerpo{padding:22px 20px 26px}
+}
+@media (max-width:520px){
+  .envoltorio{padding-left:14px;padding-right:14px}
+  .reserva{padding:28px 18px;gap:22px}
+  .reserva form{flex-direction:column}
+  .reserva input{width:100%;padding:13px 14px}
+  .reserva button{width:100%;border-left:0;border-top:3px solid var(--tinta);padding:13px 14px}
 }
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
