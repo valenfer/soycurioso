@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-04",
+      "cat": "antropologia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los monos capuchinos que secuestran bebés aulladores",
+      "entradilla": "En una isla de Panamá, jóvenes capuchinos macho aprendieron a cargar crías de mono aullador durante días, sin beneficio aparente.",
+      "cuerpo": [
+        "En Jicarón, una isla del Parque Nacional Coiba, los capuchinos de cara blanca ya eran famosos por usar piedras como herramientas. Pero las cámaras trampa captaron una rareza bastante más incómoda: jóvenes machos llevando encima crías de mono aullador, como si hubieran estrenado una moda que nadie pidió.",
+        "El estudio en Current Biology documentó 11 crías distintas transportadas por cinco capuchinos inmaduros durante 15 meses. La conducta empezó con un macho apodado Joker y después se extendió a otros jóvenes; algunas crías fueron llevadas hasta nueve días, mientras los capuchinos seguían desplazándose o rompiendo frutos con herramientas.",
+        "Lo prudente es no convertirlo en maldad de dibujo animado. Los investigadores no vieron heridas ni depredación, y sugieren una tradición social o “moda” aprendida, quizá favorecida por la curiosidad, el tiempo libre y la vida insular. El problema es que las crías necesitaban leche: al menos cuatro murieron por probable malnutrición. La cultura animal también puede tener consecuencias feas; la naturaleza no firma cláusulas de buen gusto."
+      ],
+      "fuente": "Smithsonian Tropical Research Institute — https://stri.si.edu/story/monkey-nappers; Current Biology — https://www.cell.com/current-biology/fulltext/S0960-9822%2825%2900372-0",
+      "imagen": "img/los-monos-capuchinos-que-secuestran-bebes-aulladores.webp"
+    },
+    {
       "fecha": "2026-10-03",
       "cat": "ciencia",
       "nivel": 4,
