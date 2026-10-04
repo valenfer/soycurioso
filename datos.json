@@ -2,6 +2,21 @@
   "curiosidades": [
     {
       "fecha": "2026-10-04",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 4,
+      "titular": "El número 137 que obsesionó a Pauli",
+      "entradilla": "La constante de estructura fina parece un número sencillo, pero conecta la luz, los electrones y uno de los grandes misterios de la física.",
+      "cuerpo": [
+        "Hay números que aparecen en una cuenta y desaparecen. El 137 no tuvo esa educación: durante décadas persiguió a Wolfgang Pauli, premio Nobel y uno de los arquitectos de la mecánica cuántica. En realidad, la cifra es la aproximación redonda de la inversa de α, la constante de estructura fina: 1/α vale aproximadamente 137,036.",
+        "α no tiene unidades, así que no depende de si medimos en metros, millas o cualquier otra cosa. En términos sencillos, funciona como una medida de la intensidad con la que las partículas cargadas, como los electrones, interactúan con la luz. NIST la describe como una constante de acoplamiento del electromagnetismo; su valor aparece relacionado con la carga elemental, la constante de Planck y la velocidad de la luz. Tres pilares de la física moderna metidos en una cifra diminuta. La física también sabe hacer equipaje de mano.",
+        "Sommerfeld introdujo esta constante en 1916 al estudiar la llamada estructura fina de las líneas espectrales del hidrógeno. Desde entonces, el número ha alimentado especulaciones porque todavía no sabemos deducir su valor a partir de una teoría más profunda: lo medimos con una precisión extraordinaria, pero no sabemos por qué el universo escogió ese número y no otro.",
+        "Pauli llegó a bromear con que, al morir, preguntaría al Diablo por el significado de 137. La anécdota final cuenta que murió en Zúrich en la habitación 137, un remate tan perfecto que parece escrito por un guionista con demasiado tiempo libre. La coincidencia no demuestra ninguna ley cósmica, claro; pero explica por qué este número se convirtió en una leyenda entre físicos."
+      ],
+      "fuente": "Tuit de Iván Famil — https://x.com/ivanfamil/status/2096267617594159389; NIST — https://physics.nist.gov/cuu/Constants/alpha.html; Nobel Prize, conferencia de Pauli — https://www.nobelprize.org/uploads/2018/06/pauli-lecture.pdf"
+    },
+    {
+      "fecha": "2026-10-04",
       "cat": "antropologia",
       "nivel": 4,
       "min": 3,
