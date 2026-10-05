@@ -278,22 +278,59 @@ if (f) f.addEventListener('submit', function(e){
 });`;
 
 /* ======================= PORTADA ======================= */
-function portada(hero, resto, enigma, hoy) {
-  const cats = Object.keys(SECCIONES).filter(c => resto.some(d => d.cat === c));
-
-  const piezas = resto.map((d, i) => `
-    <a class="pieza" href="c/${d.slug}.html" data-cat="${d.cat}" style="animation-delay:${Math.min(i * 45, 450)}ms">
-      <div class="pieza__lamina">${imagenHTML(d)}</div>
+function tarjetaHTML(d, i = 0, ruta = '') {
+  return `
+    <a class="pieza" href="${ruta}c/${d.slug}.html" data-cat="${d.cat}" style="animation-delay:${Math.min(i * 45, 450)}ms">
+      <div class="pieza__lamina">${imagenHTML(d, ruta)}</div>
       <div class="pieza__txt">
         <p class="pieza__seccion">${esc(SECCIONES[d.cat])}</p>
         <h3>${esc(d.titular)}</h3>
         <p>${esc(d.entradilla)}</p>
         <div class="pieza__pie">${aceitunas(d.nivel)}<span class="pieza__enlace">Leer el desarrollo</span></div>
       </div>
-    </a>`).join('');
+    </a>`;
+}
 
-  const chips = ['todo', ...cats].map(c =>
-    `<button class="chip" type="button" data-filtro="${c}" aria-pressed="${c === 'todo'}">${c === 'todo' ? 'Toda la carta' : esc(SECCIONES[c])}</button>`
+function archivo(items, pagina, totalPaginas) {
+  const inicio = (pagina - 1) * MAX_EN_PORTADA;
+  const lote = items.slice(inicio, inicio + MAX_EN_PORTADA);
+  const navegacion = `<nav class="paginacion" aria-label="Paginación del archivo">
+    ${pagina > 1 ? `<a class="boton boton--fino" href="${pagina === 2 ? '../' : `pagina-${pagina - 1}.html`}">← Anteriores</a>` : '<span></span>'}
+    <span>Página ${pagina} de ${totalPaginas}</span>
+    ${pagina < totalPaginas ? `<a class="boton boton--fino boton--azul" href="pagina-${pagina + 1}.html">Siguientes →</a>` : '<span></span>'}
+  </nav>`;
+  return `${cabezaHTML({
+    titulo: `${SITIO.nombre} · Archivo · Página ${pagina}`,
+    descripcion: 'Archivo completo de curiosidades y enigmas de SoyCurioso.',
+    ruta: '../', canonica: `/archivo/${pagina === 1 ? '' : `pagina-${pagina}.html`}`
+  })}
+<header class="cabecera cabecera--baja">
+  <div class="envoltorio">
+    <a class="marca marca--chica" href="../">Soy<span>Curioso</span></a>
+    <p class="pizarrita" style="margin-top:8px"><span>Archivo completo</span><span>${items.length} curiosidades</span></p>
+  </div>
+</header>
+<main class="envoltorio">
+  <section class="muro">
+    <div class="muro__titulo"><h1>La carta completa</h1><p style="margin:0;font-weight:600">12 raciones por página</p></div>
+    <div class="rejilla">${lote.map((d, i) => tarjetaHTML(d, i, '../')).join('')}</div>
+    ${navegacion}
+  </section>
+  ${suscripcionHTML()}
+</main>
+${pieHTML('../', null)}
+<script>${guionSuscripcion}</script>
+</body></html>`;
+}
+
+function portada(hero, resto, enigma, hoy) {
+  const cats = Object.keys(SECCIONES).filter(c => resto.some(d => d.cat === c));
+
+  const piezas = resto.map((d, i) => tarjetaHTML(d, i)).join('');
+
+  const chips = ['todo', ...cats].map(c => c === 'todo'
+    ? '<a class="chip" href="archivo/">Toda la carta</a>'
+    : `<button class="chip" type="button" data-filtro="${c}" aria-pressed="false">${esc(SECCIONES[c])}</button>`
   ).join('');
 
   return `${cabezaHTML({
@@ -559,6 +596,12 @@ function construir() {
   });
 
   escribirTexto(join(SALIDA, 'index.html'), portada(hero, resto, enigma, hoy));
+  const totalPaginas = Math.ceil(publicadas.length / MAX_EN_PORTADA);
+  mkdirSync(join(SALIDA, 'archivo'), { recursive: true });
+  escribirTexto(join(SALIDA, 'archivo', 'index.html'), archivo(publicadas, 1, totalPaginas));
+  for (let pagina = 2; pagina <= totalPaginas; pagina++) {
+    escribirTexto(join(SALIDA, 'archivo', `pagina-${pagina}.html`), archivo(publicadas, pagina, totalPaginas));
+  }
   publicadas.forEach((d, i) => {
     escribirTexto(join(SALIDA, 'c', `${d.slug}.html`), ficha(d, publicadas[i + 1] || null));
   });
