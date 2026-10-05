@@ -335,13 +335,13 @@ ${pieHTML(ruta, null)}
 }
 
 function portada(hero, resto, enigma, hoy) {
-  const cats = Object.keys(SECCIONES).filter(c => resto.some(d => d.cat === c));
+  const cats = Object.keys(SECCIONES);
 
   const piezas = resto.map((d, i) => tarjetaHTML(d, i)).join('');
 
   const chips = ['todo', ...cats].map(c => c === 'todo'
     ? '<a class="chip" href="archivo/">Toda la carta</a>'
-    : `<button class="chip" type="button" data-filtro="${c}" aria-pressed="false">${esc(SECCIONES[c])}</button>`
+    : `<a class="chip" href="archivo/categoria-${c}/">${esc(SECCIONES[c])}</a>`
   ).join('');
 
   return `${cabezaHTML({
