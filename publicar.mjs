@@ -291,34 +291,45 @@ function tarjetaHTML(d, i = 0, ruta = '') {
     </a>`;
 }
 
-function archivo(items, pagina, totalPaginas) {
+function archivo(items, pagina, totalPaginas, categoria = null) {
   const inicio = (pagina - 1) * MAX_EN_PORTADA;
   const lote = items.slice(inicio, inicio + MAX_EN_PORTADA);
+  const enCategoria = Boolean(categoria);
+  const carpeta = enCategoria ? `categoria-${categoria}` : '';
+  const ruta = enCategoria ? '../../' : '../';
+  const base = enCategoria ? '../' : '';
+  const anterior = pagina > 1 ? (pagina === 2 ? `${base}` : `pagina-${pagina - 1}.html`) : '';
+  const siguiente = pagina < totalPaginas ? `pagina-${pagina + 1}.html` : '';
   const navegacion = `<nav class="paginacion" aria-label="Paginación del archivo">
-    ${pagina > 1 ? `<a class="boton boton--fino" href="${pagina === 2 ? '../' : `pagina-${pagina - 1}.html`}">← Anteriores</a>` : '<span></span>'}
+    ${anterior ? `<a class="boton boton--fino" href="${anterior}">← Anteriores</a>` : '<span></span>'}
     <span>Página ${pagina} de ${totalPaginas}</span>
-    ${pagina < totalPaginas ? `<a class="boton boton--fino boton--azul" href="pagina-${pagina + 1}.html">Siguientes →</a>` : '<span></span>'}
+    ${siguiente ? `<a class="boton boton--fino boton--azul" href="${siguiente}">Siguientes →</a>` : '<span></span>'}
+  </nav>`;
+  const filtros = `<nav class="filtros-archivo" aria-label="Filtrar archivo">
+    <a class="chip" href="${enCategoria ? '../' : './'}">Toda la carta</a>
+    ${Object.entries(SECCIONES).map(([id, nombre]) => `<a class="chip${categoria === id ? ' chip--activo' : ''}" href="${enCategoria ? `../categoria-${id}/` : `categoria-${id}/`}">${esc(nombre)}</a>`).join('')}
   </nav>`;
   return `${cabezaHTML({
-    titulo: `${SITIO.nombre} · Archivo · Página ${pagina}`,
+    titulo: `${SITIO.nombre} · ${categoria ? SECCIONES[categoria] : 'Archivo'} · Página ${pagina}`,
     descripcion: 'Archivo completo de curiosidades y enigmas de SoyCurioso.',
-    ruta: '../', canonica: `/archivo/${pagina === 1 ? '' : `pagina-${pagina}.html`}`
+    ruta, canonica: `/archivo/${categoria ? `categoria-${categoria}/` : ''}${pagina === 1 ? '' : `pagina-${pagina}.html`}`
   })}
 <header class="cabecera cabecera--baja">
   <div class="envoltorio">
-    <a class="marca marca--chica" href="../">Soy<span>Curioso</span></a>
-    <p class="pizarrita" style="margin-top:8px"><span>Archivo completo</span><span>${items.length} curiosidades</span></p>
+    <a class="marca marca--chica" href="${ruta}">Soy<span>Curioso</span></a>
+    <p class="pizarrita" style="margin-top:8px"><span>${categoria ? esc(SECCIONES[categoria]) : 'Archivo completo'}</span><span>${items.length} curiosidades</span></p>
   </div>
 </header>
 <main class="envoltorio">
   <section class="muro">
-    <div class="muro__titulo"><h1>La carta completa</h1><p style="margin:0;font-weight:600">12 raciones por página</p></div>
-    <div class="rejilla">${lote.map((d, i) => tarjetaHTML(d, i, '../')).join('')}</div>
+    <div class="muro__titulo"><h1>${categoria ? esc(SECCIONES[categoria]) : 'La carta completa'}</h1><p style="margin:0;font-weight:600">12 raciones por página</p></div>
+    ${filtros}
+    <div class="rejilla">${lote.map((d, i) => tarjetaHTML(d, i, ruta)).join('')}</div>
     ${navegacion}
   </section>
   ${suscripcionHTML()}
 </main>
-${pieHTML('../', null)}
+${pieHTML(ruta, null)}
 <script>${guionSuscripcion}</script>
 </body></html>`;
 }
@@ -601,6 +612,17 @@ function construir() {
   escribirTexto(join(SALIDA, 'archivo', 'index.html'), archivo(publicadas, 1, totalPaginas));
   for (let pagina = 2; pagina <= totalPaginas; pagina++) {
     escribirTexto(join(SALIDA, 'archivo', `pagina-${pagina}.html`), archivo(publicadas, pagina, totalPaginas));
+  }
+  for (const categoria of Object.keys(SECCIONES)) {
+    const deCategoria = publicadas.filter(d => d.cat === categoria);
+    if (!deCategoria.length) continue;
+    const paginasCategoria = Math.ceil(deCategoria.length / MAX_EN_PORTADA);
+    const carpetaCategoria = join(SALIDA, 'archivo', `categoria-${categoria}`);
+    mkdirSync(carpetaCategoria, { recursive: true });
+    escribirTexto(join(carpetaCategoria, 'index.html'), archivo(deCategoria, 1, paginasCategoria, categoria));
+    for (let pagina = 2; pagina <= paginasCategoria; pagina++) {
+      escribirTexto(join(carpetaCategoria, `pagina-${pagina}.html`), archivo(deCategoria, pagina, paginasCategoria, categoria));
+    }
   }
   publicadas.forEach((d, i) => {
     escribirTexto(join(SALIDA, 'c', `${d.slug}.html`), ficha(d, publicadas[i + 1] || null));

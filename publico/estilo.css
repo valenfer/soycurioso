@@ -164,6 +164,15 @@ button,input{font:inherit;color:inherit}
 .pista__txt{margin-top:12px;font-size:.98rem;opacity:.85;max-width:62ch}
 
 /* ---------- Suscripción ---------- */
+.filtros-archivo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 26px;
+}
+.filtros-archivo .chip { text-decoration: none; }
+.filtros-archivo .chip--activo { background: var(--tinta); color: var(--loza); }
+
 .paginacion {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
