@@ -54,6 +54,13 @@ const hoyISO = () => new Date().toLocaleDateString('sv-SE', { timeZone: SITIO.zo
 const esc = s => String(s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+// Conserva el texto descriptivo y convierte las URLs de las fuentes en enlaces.
+const fuenteHTML = fuente => String(fuente).split(/(https?:\/\/[^\s;]+)/g)
+  .map(parte => /^https?:\/\//i.test(parte)
+    ? `<a href="${esc(parte)}" target="_blank" rel="noopener noreferrer">${esc(parte)}</a>`
+    : esc(parte))
+  .join('');
+
 const slug = s => String(s).toLowerCase()
   .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70);
@@ -495,7 +502,7 @@ function ficha(d, siguiente) {
       ${d.cuerpo.map(p => `<p>${esc(p)}</p>`).join('\n      ')}
       <div class="medida" style="margin-top:26px"><span>Nivel de cuñado:</span>${aceitunas(d.nivel)}</div>
       <div class="ficha__pie">
-        <p class="fuente">Fuente: ${esc(d.fuente)}</p>
+        <p class="fuente">Fuente: ${fuenteHTML(d.fuente)}</p>
         <button class="boton boton--fino" id="copiar" type="button">Guardarme el dato</button>
         <a class="boton boton--fino boton--azul" href="../">Volver a la carta</a>
       </div>
