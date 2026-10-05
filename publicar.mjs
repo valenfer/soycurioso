@@ -11,6 +11,7 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, copyFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -187,7 +188,15 @@ function ilustracionSvg(d) {
 </svg>`;
 }
 
-const rutaImagen = (d, ruta = '') => d.imagen ? `${ruta}${d.imagen}` : `${ruta}img/${d.slug}.svg`;
+const versionImagen = (imagen) => {
+  const archivo = join(RAIZ, imagen);
+  if (!existsSync(archivo)) return '';
+  return createHash('sha1').update(readFileSync(archivo)).digest('hex').slice(0, 10);
+};
+const rutaImagen = (d, ruta = '') => {
+  const origen = d.imagen ? `${ruta}${d.imagen}` : `${ruta}img/${d.slug}.svg`;
+  return d.imagen ? `${origen}?v=${versionImagen(d.imagen)}` : origen;
+};
 const imagenHTML = (d, ruta = '') => `<img class="ilustracion" src="${rutaImagen(d, ruta)}" alt="Ilustración de ${esc(d.titular)}" loading="lazy">`;
 
 function aceitunas(n) {
