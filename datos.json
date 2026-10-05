@@ -28,7 +28,8 @@
         "Sommerfeld introdujo esta constante en 1916 al estudiar la llamada estructura fina de las líneas espectrales del hidrógeno. Desde entonces, el número ha alimentado especulaciones porque todavía no sabemos deducir su valor a partir de una teoría más profunda: lo medimos con una precisión extraordinaria, pero no sabemos por qué el universo escogió ese número y no otro.",
         "Pauli llegó a bromear con que, al morir, preguntaría al Diablo por el significado de 137. La anécdota final cuenta que murió en Zúrich en la habitación 137, un remate tan perfecto que parece escrito por un guionista con demasiado tiempo libre. La coincidencia no demuestra ninguna ley cósmica, claro; pero explica por qué este número se convirtió en una leyenda entre físicos."
       ],
-      "fuente": "Tuit de Iván Famil — https://x.com/ivanfamil/status/2096267617594159389; NIST — https://physics.nist.gov/cuu/Constants/alpha.html; Nobel Prize, conferencia de Pauli — https://www.nobelprize.org/uploads/2018/06/pauli-lecture.pdf"
+      "fuente": "Tuit de Iván Famil — https://x.com/ivanfamil/status/2096267617594159389; NIST — https://physics.nist.gov/cuu/Constants/alpha.html; Nobel Prize, conferencia de Pauli — https://www.nobelprize.org/uploads/2018/06/pauli-lecture.pdf",
+      "imagen": "img/el-numero-137-que-obsesiono-a-pauli.png"
     },
     {
       "fecha": "2026-10-04",
@@ -445,7 +446,8 @@
         "Astrónomos del MIT describieron MoM-BH*-1, un punto rojo muy antiguo que parece del tamaño del sistema solar pero emite demasiada energía para una estrella normal. La explicación candidata es una “estrella agujero negro”: un agujero negro central oculto dentro de una enorme envoltura de gas.",
         "Si se confirma, ayudaría a explicar los misteriosos “puntitos rojos” que el James Webb encuentra por todas partes en el universo temprano. El cosmos, como siempre, dejando migas de pan pero en modo críptico."
       ],
-      "fuente": "MIT News — https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812"
+      "fuente": "MIT News — https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812",
+      "imagen": "img/la-posible-estrella-agujero-negro-del-universo-temprano.png"
     },
     {
       "fecha": "2026-10-04",
@@ -458,7 +460,8 @@
         "Los núcleos galácticos activos parecen lugares demasiado violentos para formar planetas, pero sus discos tienen gas y polvo de sobra. Un modelo propone que, en sus regiones externas, podrían formarse millones de planetas de masa joviana.",
         "Es una hipótesis basada en simulación, no una foto familiar de planetas posando junto al agujero negro. Pero cambia la intuición: incluso los entornos extremos pueden tener rincones fértiles."
       ],
-      "fuente": "Space.com — https://www.space.com/astronomy/exoplanets/we-were-astonished-millions-of-exoplanets-could-be-born-near-active-supermassive-black-holes"
+      "fuente": "Space.com — https://www.space.com/astronomy/exoplanets/we-were-astonished-millions-of-exoplanets-could-be-born-near-active-supermassive-black-holes",
+      "imagen": "img/agujeros-negros-que-podrian-fabricar-planetas-gigantes.png"
     },
     {
       "fecha": "2026-10-03",
@@ -471,7 +474,8 @@
         "NASA informó de un mundo de masa parecida a Júpiter orbitando un púlsar. La gravedad de esa estrella de neutrones lo deformaría hasta darle una forma parecida a un limón. Además, su atmósfera parece dominada por helio y carbono, sin las señales habituales de agua, metano o dióxido de carbono.",
         "Las nubes de hollín y los diamantes interiores son interpretaciones de modelos, no observaciones directas. Aun así, como rareza cósmica va sobrado: planeta-limón carbonoso junto a un faro de neutrones."
       ],
-      "fuente": "NASA — https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/"
+      "fuente": "NASA — https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/",
+      "imagen": "img/un-planeta-con-forma-de-limon-alrededor-de-un-pulsar.png"
     },
     {
       "fecha": "2026-10-02",
@@ -484,7 +488,8 @@
         "Durante años se predijo una familia de moléculas Rydberg con formas extrañas. La variedad “mariposa” era una de las piezas difíciles: aparece cuando un electrón muy alejado del núcleo modifica la interacción entre átomos ultrafríos.",
         "Estas moléculas son extremadamente sensibles a campos eléctricos, así que no son solo una extravagancia bonita: pueden servir como herramientas para estudiar fenómenos cuánticos delicados."
       ],
-      "fuente": "Phys.org — https://phys.org/news/2026-05-butterfly-molecule-year-quantum-zoo.pdf"
+      "fuente": "Phys.org — https://phys.org/news/2026-05-butterfly-molecule-year-quantum-zoo.pdf",
+      "imagen": "img/la-molecula-mariposa-que-completo-un-zoo-cuantico.png"
     },
     {
       "fecha": "2026-10-01",
@@ -497,7 +502,8 @@
         "Investigadores observaron que neuronas jóvenes pueden sufrir roturas de doble cadena en el ADN al migrar por espacios estrechos durante el desarrollo del cerebro. Después, esas roturas suelen repararse. La imagen mental es delicada: el cerebro montando su cableado mientras hace reformas con dinamita genética controlada.",
         "La curiosidad importa porque muestra que cierto daño celular, en contexto y con reparación, puede formar parte de procesos normales. La biología no es limpia; es eficaz, que no es lo mismo."
       ],
-      "fuente": "ScienceDaily — https://www.sciencedaily.com/releases/2026/06/260620100422.htm"
+      "fuente": "ScienceDaily — https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
+      "imagen": "img/neuronas-que-rompen-su-adn-para-construir-el-cerebro.png"
     },
     {
       "fecha": "2026-09-15",
@@ -510,7 +516,8 @@
         "El CO₂ representa una parte pequeña de la atmósfera, pero absorbe radiación infrarroja y participa en el efecto invernadero. Por eso pequeñas variaciones de concentración pueden tener consecuencias climáticas importantes. Cantidad pequeña no significa impacto pequeño; el veneno también suele venir en frasco pequeño.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Carbon dioxide in the atmosphere of Earth — https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth"
+      "fuente": "Carbon dioxide in the atmosphere of Earth — https://en.wikipedia.org/wiki/Carbon_dioxide_in_the_atmosphere_of_Earth",
+      "imagen": "img/el-co-es-poco-en-porcentaje-mucho-en-efecto.png"
     },
     {
       "fecha": "2026-09-14",
@@ -523,7 +530,8 @@
         "El caso D. B. Cooper es uno de los misterios criminales más célebres de Estados Unidos. Tras recibir dinero y paracaídas, el secuestrador saltó desde el avión durante la noche. Nunca se le identificó de forma concluyente, lo que convirtió el caso en leyenda moderna.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "D. B. Cooper — https://en.wikipedia.org/wiki/D._B._Cooper"
+      "fuente": "D. B. Cooper — https://en.wikipedia.org/wiki/D._B._Cooper",
+      "imagen": "img/el-secuestro-aereo-de-d-b-cooper-sigue-sin-resolverse.png"
     },
     {
       "fecha": "2026-09-13",
@@ -536,7 +544,8 @@
         "En vez de soltar una lección cerrada, Sócrates empujaba a su interlocutor con preguntas. El objetivo era aclarar conceptos, detectar contradicciones y llegar a una comprensión más sólida. Es incómodo, sí, pero menos que descubrir tarde que tu gran argumento era un castillo de naipes con toga.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Socratic method — https://en.wikipedia.org/wiki/Socratic_method"
+      "fuente": "Socratic method — https://en.wikipedia.org/wiki/Socratic_method",
+      "imagen": "img/socrates-ensenaba-preguntando-hasta-desmontarte.png"
     },
     {
       "fecha": "2026-09-12",
@@ -549,7 +558,8 @@
         "Este anfibio mexicano conserva rasgos juveniles durante su vida adulta y posee una capacidad regenerativa enorme. Puede reconstruir extremidades, partes de órganos e incluso tejidos nerviosos en condiciones estudiadas. Para la biología médica es una pista viviente sobre reparación corporal.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Axolotl — https://en.wikipedia.org/wiki/Axolotl"
+      "fuente": "Axolotl — https://en.wikipedia.org/wiki/Axolotl",
+      "imagen": "img/el-axolote-puede-regenerar-partes-de-su-cuerpo.png"
     },
     {
       "fecha": "2026-09-11",
@@ -562,7 +572,8 @@
         "En el fondo oceánico, el agua caliente cargada de minerales sale por grietas volcánicas. Allí viven bacterias que obtienen energía de compuestos químicos, y alrededor de ellas prosperan gusanos, moluscos y otros organismos. Es vida en modo difícil, sin sol y sin quejarse en Twitter.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Hydrothermal vent — https://en.wikipedia.org/wiki/Hydrothermal_vent"
+      "fuente": "Hydrothermal vent — https://en.wikipedia.org/wiki/Hydrothermal_vent",
+      "imagen": "img/ecosistemas-que-viven-sin-luz-solar.png"
     },
     {
       "fecha": "2026-09-10",
@@ -576,7 +587,8 @@
         "El Ministerio de Defensa envió al mayor G. P. W. Meredith con dos ametralladoras Lewis y 10.000 cartuchos. El primer intento fracasó porque los emúes se dispersaron antes de entrar en el alcance efectivo. En el segundo, una ametralladora se encasquilló tras abatir una docena de aves. Meredith llegó a montar un arma sobre un camión, pero el terreno era tan irregular que resultaba imposible apuntar.",
         "La operación se suspendió, se reanudó por presión de los granjeros y volvió a suspenderse. Las cifras oficiales hablan de unos 900 a 1.000 emúes abatidos con casi todo el arsenal disponible. El propio Meredith comentó después que, si existiera una división militar con la capacidad de esas aves para encajar balas, se enfrentaría a cualquier ejército del mundo. El gobierno terminó optando por pagar recompensas a los granjeros: funcionó mucho mejor."
       ],
-      "fuente": "Registros del Ministerio de Defensa australiano, 1932; Murray Johnson, Journal of Australian Studies (2006)."
+      "fuente": "Registros del Ministerio de Defensa australiano, 1932; Murray Johnson, Journal of Australian Studies (2006).",
+      "imagen": "img/australia-declaro-la-guerra-a-unos-pajaros-y-la-perdio.png"
     },
     {
       "fecha": "2026-09-10",
@@ -589,7 +601,8 @@
         "La inscripción contenía versiones del mismo decreto en jeroglífico, demótico y griego antiguo. Esa comparación permitió a investigadores como Champollion descifrar la escritura jeroglífica. Fue una especie de diccionario de piedra, bastante menos cómodo que una app, pero infinitamente más épico.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Rosetta Stone — https://en.wikipedia.org/wiki/Rosetta_Stone"
+      "fuente": "Rosetta Stone — https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "imagen": "img/la-piedra-que-abrio-la-puerta-a-los-jeroglificos.png"
     },
     {
       "fecha": "2026-09-09",
@@ -646,7 +659,8 @@
         "Los romanos combinaron cal, rocas y materiales volcánicos para crear morteros muy resistentes. En ambientes marinos, ciertas reacciones minerales podían reforzar la estructura con el paso del tiempo. No era magia imperial, aunque a veces lo parezca: era química práctica aprendida a base de ensayo, error y mucha piedra.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Roman concrete — https://en.wikipedia.org/wiki/Roman_concrete"
+      "fuente": "Roman concrete — https://en.wikipedia.org/wiki/Roman_concrete",
+      "imagen": "img/el-hormigon-romano-que-resistio-siglos.png"
     },
     {
       "fecha": "2026-09-07",
@@ -703,7 +717,8 @@
         "La luz solar parece blanca, pero contiene muchos colores. Al entrar en la atmósfera, las moléculas del aire dispersan con más eficacia las longitudes de onda cortas, como el azul. Por eso, cuando miramos lejos del Sol, recibimos luz azul repartida por todo el cielo. Al atardecer la luz recorre más atmósfera, se pierde mucho azul y predominan tonos rojizos.",
         "Esta pieza sirve como publicación inicial de prueba para validar el formato editorial de SoyCurioso: imagen, resumen, desarrollo breve, categoría, etiquetas y fuente consultable."
       ],
-      "fuente": "Diffuse sky radiation — https://en.wikipedia.org/wiki/Diffuse_sky_radiation"
+      "fuente": "Diffuse sky radiation — https://en.wikipedia.org/wiki/Diffuse_sky_radiation",
+      "imagen": "img/por-que-el-cielo-es-azul.png"
     },
     {
       "fecha": "2026-09-05",
@@ -717,7 +732,8 @@
         "La explicación más aceptada apunta a una desconexión entre las áreas que reconocen el mundo y las que le asignan carga emocional. Todo se sigue viendo, pero nada se siente como propio ni como real. El cerebro, obligado a explicar esa sensación, produce la conclusión más literal disponible: estoy muerto. Es la imagen especular del síndrome de Capgras, donde el fallo lleva a concluir que un familiar ha sido sustituido por un impostor.",
         "En 2013 un equipo británico escaneó con PET a un paciente que afirmaba haber muerto meses antes. Su actividad metabólica frontoparietal era comparable a la de una persona bajo anestesia o en sueño profundo, estando él despierto y hablando. El cuadro suele responder a tratamiento; a veces, notablemente bien."
       ],
-      "fuente": "Cotard, Du délire des négations (1882); Charland-Verville et al., Cortex (2013)."
+      "fuente": "Cotard, Du délire des négations (1882); Charland-Verville et al., Cortex (2013).",
+      "imagen": "img/los-pacientes-convencidos-de-que-estan-muertos.png"
     },
     {
       "fecha": "2026-09-04",
@@ -746,7 +762,8 @@
         "El reloj de arriba adelantaba. La diferencia era de unas 90 milmillonésimas de segundo a lo largo de 79 años, aproximadamente una vida humana. Es diminuta, pero estaba ahí, y era exactamente la predicha. En el mismo experimento midieron también la dilatación por velocidad moviendo un reloj a diez metros por segundo, la marcha de un ciclista tranquilo.",
         "La consecuencia doméstica es literal: si duermes tumbado, tu cabeza y tus pies acumulan edades distintas, del orden de nanosegundos en toda una vida. La consecuencia práctica es tu móvil. Los satélites GPS orbitan a 20.000 kilómetros y sus relojes se desvían unos 38 microsegundos al día respecto a los de tierra. Sin corregir ese efecto, la posición que te da el mapa se iría acumulando unos diez kilómetros de error cada jornada."
       ],
-      "fuente": "Chou, Hume, Rosenband y Wineland, Science, vol. 329 (2010)."
+      "fuente": "Chou, Hume, Rosenband y Wineland, Science, vol. 329 (2010).",
+      "imagen": "img/tu-cabeza-envejece-mas-rapido-que-tus-pies.png"
     },
     {
       "fecha": "2026-09-02",
@@ -760,7 +777,8 @@
         "El B-59 llevaba un torpedo con cabeza nuclear de unos diez kilotones, comparable a la bomba de Hiroshima. El capitán Savitsky ordenó prepararlo. El oficial político estuvo de acuerdo. Hacía falta el tercer voto, el del jefe de flotilla Vasili Arjípov, y Arjípov se negó. Discutió, aguantó la presión e impuso emerger para restablecer contacto.",
         "Arjípov tenía prestigio interno: el año anterior había estado en el submarino K-19 cuando falló su reactor y había vivido de cerca las consecuencias. Murió en 1998 sin ninguna condecoración por aquello, y el episodio no se conoció públicamente hasta 2002, cuando se desclasificó y salió a la luz en una conferencia sobre la crisis celebrada en La Habana."
       ],
-      "fuente": "Archivos desclasificados del National Security Archive; conferencia de La Habana, 2002."
+      "fuente": "Archivos desclasificados del National Security Archive; conferencia de La Habana, 2002.",
+      "imagen": "img/el-hombre-que-dijo-que-no-dentro-de-un-submarino.png"
     },
     {
       "fecha": "2026-09-01",
@@ -774,7 +792,8 @@
         "En su contexto, Nietzsche no habla de detectives atormentados. Habla de moralistas: de quienes hacen del combate contra el mal su identidad y acaban adoptando la crueldad, el fanatismo y la mirada inquisitorial de aquello que persiguen. La sección del libro va sobre la genealogía de la moral y sobre cómo la indignación permanente deforma a quien la practica. El monstruo no es el enemigo; es el método.",
         "Detalle para la sobremesa: el aforismo siguiente, el 147, es una sola línea burlona tomada de un refranero italiano. Nietzsche no escribía sentencias solemnes aisladas, escribía series de golpes cortos, y arrancar uno del conjunto es justo lo que él criticaba de sus lectores."
       ],
-      "fuente": "Friedrich Nietzsche, Jenseits von Gut und Böse (1886), aforismo 146."
+      "fuente": "Friedrich Nietzsche, Jenseits von Gut und Böse (1886), aforismo 146.",
+      "imagen": "img/la-frase-de-nietzsche-que-casi-todo-el-mundo-usa-al-reves.png"
     },
     {
       "fecha": "2026-08-31",
@@ -788,7 +807,8 @@
         "La trampa mental está en la estrategia intuitiva: dividir en dos grupos de seis. Esa primera pesada no aporta información útil, porque siempre habrá un platillo más bajo y sigues con doce candidatas. La solución empieza pesando cuatro contra cuatro, y sobre todo exige diseñar la segunda pesada mezclando bolas de los dos grupos anteriores, algo que casi nadie hace de forma espontánea.",
         "La razón profunda es de teoría de la información. Cada pesada tiene tres resultados posibles, así que tres pesadas distinguen como máximo 27 situaciones. Hay 24 casos posibles (doce bolas, cada una pesada o ligera). Cabe justo, con tres de margen. Por eso el mismo acertijo con trece bolas ya no tiene solución si además quieres saber si la falsa pesa más o menos."
       ],
-      "fuente": "Problema de las doce monedas; Eureka, revista de la Sociedad Matemática de Cambridge (1945)."
+      "fuente": "Problema de las doce monedas; Eureka, revista de la Sociedad Matemática de Cambridge (1945).",
+      "imagen": "img/el-acertijo-que-se-resolvio-cambiando-la-pregunta.png"
     },
     {
       "fecha": "2026-08-30",
@@ -802,7 +822,8 @@
         "La máquina modelaba el cielo. Con una manivela se avanzaba o retrocedía en el tiempo y las esferas mostraban la posición del Sol y la Luna, las fases lunares, el calendario de eclipses y el ciclo de los juegos panhelénicos, incluidas las Olimpiadas. Incorporaba un engranaje de pasador y ranura que reproduce la velocidad irregular de la Luna en su órbita: alguien había convertido en piezas de bronce una anomalía astronómica observada a ojo.",
         "Lo relevante no es que existiera, sino el vacío que dejó. No hay nada de complejidad comparable hasta los relojes astronómicos europeos del siglo XIV. Todo ese conocimiento mecánico se perdió durante mil cuatrocientos años, y lo sabemos solo porque un barco se hundió en el lugar adecuado."
       ],
-      "fuente": "Freeth et al., Nature (2006); University College London, proyecto Anticitera (2021)."
+      "fuente": "Freeth et al., Nature (2006); University College London, proyecto Anticitera (2021).",
+      "imagen": "img/un-ordenador-de-bronce-mil-anos-antes-de-tiempo.png"
     },
     {
       "fecha": "2026-08-29",
@@ -816,7 +837,8 @@
         "Los médicos de la ciudad descartaron causa sobrenatural y dictaminaron sangre demasiado caliente, cuyo remedio era bailar hasta agotarla. Así que las autoridades habilitaron gremios, contrataron músicos y montaron un escenario para que los afectados siguieran. Fue, con toda probabilidad, la peor decisión sanitaria posible.",
         "Hay dos explicaciones principales. Una apunta al cornezuelo del centeno, un hongo con compuestos emparentados con el LSD, aunque no explica bien la coordinación del movimiento durante días. La otra, más aceptada hoy, habla de un trastorno psicógeno masivo en una población castigada por el hambre, la enfermedad y un contexto religioso que ya asociaba la danza involuntaria a un castigo divino. No fue un caso aislado: hay episodios documentados de manía danzante en el Rin desde el siglo XIV."
       ],
-      "fuente": "Archivos municipales de Estrasburgo; John Waller, A Time to Dance, a Time to Die (2008)."
+      "fuente": "Archivos municipales de Estrasburgo; John Waller, A Time to Dance, a Time to Die (2008).",
+      "imagen": "img/la-ciudad-que-bailo-hasta-caerse-muerta.png"
     },
     {
       "fecha": "2026-08-28",
@@ -830,7 +852,8 @@
         "La Vía Láctea contiene entre 100.000 y 400.000 millones de estrellas. Con las cifras en la mano, hay entre siete y treinta árboles por estrella de nuestra galaxia. El dato suele contarse como una nota optimista, y ahí está la trampa.",
         "El mismo trabajo estimó que el número de árboles ha caído en torno a un 46 por ciento desde el inicio de la civilización humana, y que se pierden unos 15.000 millones al año frente a unos 5.000 millones que se plantan o regeneran. La frase completa, la que sirve de verdad en una sobremesa, es que hay más árboles que estrellas en la galaxia y que hace diez mil años había casi el doble."
       ],
-      "fuente": "Crowther et al., Mapping tree density at a global scale, Nature (2015)."
+      "fuente": "Crowther et al., Mapping tree density at a global scale, Nature (2015).",
+      "imagen": "img/hay-mas-arboles-en-la-tierra-que-estrellas-en-la-via-lactea.png"
     }
   ],
   "enigmas": [
