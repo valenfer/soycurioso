@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-06",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los suimangas sí beben néctar con pajita",
+      "entradilla": "A diferencia de los colibríes, los suimangas crean un sello con la lengua y el pico para succionar néctar como diminutos fontaneros florales.",
+      "cuerpo": [
+        "Los colibríes tienen fama de beber néctar como si llevaran pajita incorporada, pero la película es más rara: según Berkeley, en realidad comprimen la lengua y la usan como una esponja que se llena y luego se escurre con el pico. Elegante, rápido y cero parecido a sorber un batido.",
+        "El giro lo ponen los suimangas, aves nectarívoras de África y Asia que ocupan un papel ecológico muy parecido. Un estudio con cámaras de alta velocidad, flores artificiales impresas en 3D y microtomografías encontró que ellos sí usan succión: presionan la base de la lengua contra la parte superior del pico, crean un sello hermético y generan presión negativa para arrastrar el néctar por un canal de la lengua.",
+        "La curiosidad es un ejemplo precioso de evolución convergente con trampa. Dos linajes resuelven el mismo problema —sacar comida de flores profundas con un pico largo—, pero no con el mismo truco. La naturaleza, como cualquier chapuzas brillante, llega al mismo enchufe usando cables distintos."
+      ],
+      "fuente": "Berkeley News — https://news.berkeley.edu/2026/04/13/sunbirds-suck-scientists-find-hummingbirds-dont",
+      "imagen": "img/los-suimangas-si-beben-nectar-con-pajita.webp"
+    },
+    {
       "fecha": "2026-10-05",
       "cat": "ciencia",
       "nivel": 4,
