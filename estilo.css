@@ -127,15 +127,16 @@ button,input{font:inherit;color:inherit}
 .muro{padding:40px 0 10px}
 .muro__titulo{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .muro__titulo h2{font-size:clamp(1.5rem,4vw,2.3rem)}
-.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:7px}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:18px}
 .pieza{
-  background:var(--loza);border:3px solid var(--tinta);
+  background:var(--loza);border:3px solid var(--tinta);border-radius:18px;overflow:hidden;
   display:flex;flex-direction:column;text-decoration:none;color:inherit;
+  box-shadow:0 10px 0 -3px rgba(20,73,168,.42), 0 16px 24px rgba(23,19,16,.16);
   transition:transform .14s ease, box-shadow .14s ease, border-color .14s ease;
   animation:asentar .5s both ease-out;
 }
 @keyframes asentar{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
-.pieza:hover{transform:translateY(-4px);box-shadow:0 10px 0 -3px rgba(20,73,168,.5);border-color:var(--hule)}
+.pieza:hover{transform:translateY(-6px);box-shadow:0 13px 0 -3px rgba(196,54,43,.64), 0 20px 30px rgba(13,43,99,.24);border-color:var(--hule)}
 .pieza[hidden]{display:none}
 .pieza__lamina{background:#fff;border-bottom:3px solid var(--tinta);overflow:hidden}
 .ilustracion{width:100%;height:auto;display:block;aspect-ratio:20/13;object-fit:cover}
