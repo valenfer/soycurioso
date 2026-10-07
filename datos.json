@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-07",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El escorpión gigante que dominaba tierra y agua",
+      "entradilla": "Praearcturus gigas medía más de un metro y pudo ser uno de los primeros grandes depredadores de la tierra firme hace 415 millones de años.",
+      "cuerpo": [
+        "Antes de que la tierra firme se llenara de bosques, reptiles y dramas de documental, ya había un bicho con pinzas haciendo valer su tamaño. El Natural History Museum explica que Praearcturus gigas, conocido por fósiles británicos desde hace más de un siglo, ha sido confirmado como uno de los mayores escorpiones prehistóricos.",
+        "La escala impone: más de un metro de longitud corporal estimada y pinzas de 16 centímetros. Vivió hace unos 415 millones de años, en el Devónico temprano, cuando la vida terrestre compleja aún estaba arrancando y pocos animales podían plantarle cara. Vamos, un casero con ocho patas en un barrio recién inaugurado.",
+        "La parte curiosa es que no era necesariamente un escorpión “solo de secano”. Los investigadores creen que probablemente cazaba tanto en tierra como en el agua, porque los ecosistemas terrestres aún no podían sostener por sí solos a depredadores tan grandes. Su historia difumina la frontera entre mar y tierra justo en el momento en que la vida estaba aprendiendo a mudarse de casa."
+      ],
+      "fuente": "Natural History Museum — https://www.nhm.ac.uk/discover/news/2026/june/worlds-largest-scorpion-revealed-415-million-year-old-fossils.html",
+      "imagen": "img/el-escorpion-gigante-que-dominaba-tierra-y-agua.webp"
+    },
+    {
       "fecha": "2026-10-06",
       "cat": "ciencia",
       "nivel": 4,
