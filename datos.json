@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-08",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El asteroide cacahuete que gira como una peonza",
+      "entradilla": "La sonda Lucy de la NASA vio que Donaldjohanson no rota como una piedra normal: cabecea en dos ejes y conserva señales de agua antigua.",
+      "cuerpo": [
+        "Donaldjohanson, un asteroide del cinturón principal, tiene nombre de paleoantropólogo y forma de aperitivo sospechoso. La sonda Lucy lo sobrevoló el 20 de abril de 2025 a unos 1.000 kilómetros de distancia y tomó sus primeras imágenes cercanas mientras viajaba hacia los asteroides troyanos de Júpiter.",
+        "NASA explica que el objeto mide unos 8 kilómetros de ancho y no gira limpiamente alrededor de un solo eje. Sus datos revelan una rotación en dos tiempos: da vueltas de extremo a extremo cada 10,5 días y además se bambolea alrededor de su eje largo cada 26,5 días. Vamos, una peonza cósmica con resaca gravitatoria.",
+        "La forma de cacahuete también cuenta historia. Probablemente nació cuando fragmentos de una colisión ocurrida hace unos 155 millones de años se juntaron suavemente por gravedad, formando dos lóbulos unidos por un cuello. Y el remate fino: conserva indicios de presencia breve de agua líquida en su pasado remoto. Hasta las piedras espaciales tienen biografía, solo que la escriben a golpes y radiación solar."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/missions/lucy/nasas-lucy-reveals-wobbling-peanut-shaped-asteroid/",
+      "imagen": "img/el-asteroide-cacahuete-que-gira-como-una-peonza.webp"
+    },
+    {
       "fecha": "2026-10-07",
       "cat": "ciencia",
       "nivel": 4,
