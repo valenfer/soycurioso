@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-09",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El pulpo gigante que superaba a un calamar",
+      "entradilla": "Nanaimoteuthis haggarti pudo medir hasta 19 metros en el Cretácico: un pulpo fósil reconstruido casi solo a partir de mandíbulas.",
+      "cuerpo": [
+        "Los pulpos no suelen dejar un gran archivo fósil: son blanditos, discretos y bastante malos para convertirse en piedra. Por eso Nanaimoteuthis haggarti entra con tentáculos de protagonista. El Natural History Museum explica que, hace más de 80 millones de años, este cefalópodo pudo alcanzar hasta 19 metros de longitud, más que muchos calamares gigantes actuales.",
+        "La reconstrucción sale de un material poco glamuroso pero muy útil: mandíbulas fosilizadas. El equipo analizó 15 mandíbulas ya conocidas y otras 12 halladas en Japón; al compararlas con la relación entre mandíbula, cabeza y cuerpo en pulpos vivos, estimó dos especies. La mayor, N. haggarti, rondaría entre 7 y 19 metros, así que incluso su versión prudente ya era un señor pulpo con pocas ganas de pasar desapercibido.",
+        "El desgaste de esas mandíbulas sugiere que comía presas duras, como ammonites y peces óseos, y quizá animales aún mayores. También pudo ser comida de mosasaurios y otros reptiles marinos, porque en el Cretácico el mar era básicamente un restaurante donde todos miraban a todos con hambre. La moraleja fina: incluso de una mandíbula puede salir una criatura enorme, si la ciencia tiene paciencia y buen calibrador."
+      ],
+      "fuente": "Natural History Museum — https://www.nhm.ac.uk/discover/news/2026/april/largest-ever-octopus-top-predator-dinosaur-era-oceans.html",
+      "imagen": "img/el-pulpo-gigante-que-superaba-a-un-calamar.webp"
+    },
+    {
       "fecha": "2026-10-08",
       "cat": "ciencia",
       "nivel": 4,
