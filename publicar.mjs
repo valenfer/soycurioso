@@ -302,7 +302,7 @@ function tarjetaHTML(d, i = 0, ruta = '') {
         <p class="pieza__seccion">${esc(SECCIONES[d.cat])}</p>
         <h3>${esc(d.titular)}</h3>
         <p>${esc(d.entradilla)}</p>
-        <div class="pieza__pie"><span class="pieza__enlace">Leer el desarrollo</span></div>
+        <div class="pieza__pie"><span class="pieza__enlace">Quiero saber más</span></div>
       </div>
     </a>`;
 }
@@ -392,7 +392,7 @@ function portada(hero, resto, enigma, hoy) {
       <p>${esc(hero.entradilla)}</p>
       <div class="carta__acciones">
         <div class="carta__botones">
-          <a class="boton" href="c/${hero.slug}.html">Leer el desarrollo</a>
+          <a class="boton" href="c/${hero.slug}.html">Quiero saber más</a>
           <a class="boton boton--azul" href="#" id="sorprendeme">Ponme otra cosa</a>
         </div>
       </div>
