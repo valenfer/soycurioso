@@ -391,7 +391,6 @@ function portada(hero, resto, enigma, hoy) {
     <div class="carta__detalle">
       <p>${esc(hero.entradilla)}</p>
       <div class="carta__acciones">
-        <div class="medida"><span>Nivel de cuñado:</span>${aceitunas(hero.nivel)}</div>
         <div class="carta__botones">
           <a class="boton" href="c/${hero.slug}.html">Leer el desarrollo</a>
           <a class="boton boton--azul" href="#" id="sorprendeme">Ponme otra cosa</a>
