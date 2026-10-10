@@ -77,10 +77,14 @@ button,input{font:inherit;color:inherit}
 }
 .carta__cuerpo{display:grid;grid-template-columns:minmax(0,42%) minmax(0,1fr)}
 .carta__lamina{border-right:3px solid var(--tinta);background:#fff}
-.carta__texto{padding:30px 34px 34px}
+.carta__titulo{padding:30px 34px 26px;display:flex;flex-direction:column;justify-content:center;min-width:0}
 .carta__seccion{font-family:'Caveat',cursive;font-size:1.55rem;color:var(--hule);margin:0 0 2px}
-.carta__texto h2{font-size:clamp(1.7rem,3.6vw,2.75rem);margin-bottom:14px}
-.carta__texto p{font-size:1.1rem;max-width:62ch;margin:0 0 20px}
+.carta__titulo h2{font-size:clamp(1.7rem,3.6vw,2.75rem);margin:0;text-wrap:balance;overflow-wrap:anywhere}
+.carta__detalle{grid-column:1 / -1;border-top:3px solid var(--tinta);padding:24px 34px 28px;background:#fffdf5}
+.carta__detalle > p{font-size:1.1rem;max-width:100ch;margin:0 0 20px;text-wrap:pretty}
+.carta__acciones{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.carta__acciones .medida{margin:0}
+.carta__botones{display:flex;gap:14px;flex-wrap:wrap}
 
 /* ---------- Botones ---------- */
 .boton{
@@ -227,6 +231,9 @@ button,input{font:inherit;color:inherit}
 @media (max-width:820px){
   .carta__cuerpo{grid-template-columns:1fr}
   .carta__lamina{border-right:0;border-bottom:3px solid var(--tinta)}
+  .carta__titulo{padding:24px 26px 26px}
+  .carta__detalle{padding:22px 26px 26px}
+  .carta__acciones{align-items:flex-start}
   .reserva{grid-template-columns:1fr}
   .pie__cols{grid-template-columns:1fr}
   .ficha__lamina{float:none;margin:0 0 18px;max-width:100%}

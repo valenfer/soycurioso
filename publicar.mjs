@@ -384,13 +384,19 @@ function portada(hero, resto, enigma, hoy) {
   <div class="carta__cinta"><span>El plato del día</span><span>${esc(SECCIONES[hero.cat])}</span></div>
   <div class="carta__cuerpo">
     <div class="carta__lamina">${imagenHTML(hero)}</div>
-    <div class="carta__texto">
+    <div class="carta__titulo">
       <p class="carta__seccion">${esc(SECCIONES[hero.cat])}</p>
       <h2>${esc(hero.titular)}</h2>
+    </div>
+    <div class="carta__detalle">
       <p>${esc(hero.entradilla)}</p>
-      <div class="medida"><span>Nivel de cuñado:</span>${aceitunas(hero.nivel)}</div>
-      <a class="boton" href="c/${hero.slug}.html">Leer el desarrollo</a>
-      <a class="boton boton--azul" href="#" id="sorprendeme">Ponme otra cosa</a>
+      <div class="carta__acciones">
+        <div class="medida"><span>Nivel de cuñado:</span>${aceitunas(hero.nivel)}</div>
+        <div class="carta__botones">
+          <a class="boton" href="c/${hero.slug}.html">Leer el desarrollo</a>
+          <a class="boton boton--azul" href="#" id="sorprendeme">Ponme otra cosa</a>
+        </div>
+      </div>
     </div>
   </div>
 </article>
