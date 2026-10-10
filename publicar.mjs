@@ -302,7 +302,7 @@ function tarjetaHTML(d, i = 0, ruta = '') {
         <p class="pieza__seccion">${esc(SECCIONES[d.cat])}</p>
         <h3>${esc(d.titular)}</h3>
         <p>${esc(d.entradilla)}</p>
-        <div class="pieza__pie">${aceitunas(d.nivel)}<span class="pieza__enlace">Leer el desarrollo</span></div>
+        <div class="pieza__pie"><span class="pieza__enlace">Leer el desarrollo</span></div>
       </div>
     </a>`;
 }
