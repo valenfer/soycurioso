@@ -506,9 +506,7 @@ function ficha(d, siguiente) {
       <h1>${esc(d.titular)}</h1>
       <p class="ficha__entradilla">${esc(d.entradilla)}</p>
       ${d.cuerpo.map(p => `<p>${esc(p)}</p>`).join('\n      ')}
-      <div class="medida" style="margin-top:26px"><span>Nivel de cuñado:</span>${aceitunas(d.nivel)}</div>
       <div class="ficha__pie">
-        <p class="fuente">Fuente: ${fuenteHTML(d.fuente)}</p>
         <button class="boton boton--fino" id="copiar" type="button">Guardarme el dato</button>
         <a class="boton boton--fino boton--azul" href="../">Volver a la carta</a>
       </div>
