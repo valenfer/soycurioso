@@ -322,8 +322,11 @@ function archivo(items, pagina, totalPaginas, categoria = null) {
     ${siguiente ? `<a class="boton boton--fino boton--azul" href="${siguiente}">Siguientes →</a>` : '<span></span>'}
   </nav>`;
   const filtros = `<nav class="filtros-archivo" aria-label="Filtrar archivo">
-    <a class="chip" href="${enCategoria ? '../' : './'}">Toda la carta</a>
-    ${Object.entries(SECCIONES).map(([id, nombre]) => `<a class="chip${categoria === id ? ' chip--activo' : ''}" href="${enCategoria ? `../categoria-${id}/` : `categoria-${id}/`}">${esc(nombre)}</a>`).join('')}
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-archivo">☰ <span>Menú</span></button>
+    <div class="menu-desplegable" id="menu-archivo">
+      <a class="chip" href="${enCategoria ? '../' : './'}">Toda la carta</a>
+      ${Object.entries(SECCIONES).map(([id, nombre]) => `<a class="chip${categoria === id ? ' chip--activo' : ''}" href="${enCategoria ? `../categoria-${id}/` : `categoria-${id}/`}">${esc(nombre)}</a>`).join('')}
+    </div>
   </nav>`;
   return `${cabezaHTML({
     titulo: `${SITIO.nombre} · ${categoria ? SECCIONES[categoria] : 'Archivo'} · Página ${pagina}`,
@@ -346,7 +349,17 @@ function archivo(items, pagina, totalPaginas, categoria = null) {
   ${suscripcionHTML()}
 </main>
 ${pieHTML(ruta, null)}
-<script>${guionSuscripcion}</script>
+<script>
+(function(){
+  var toggle = document.querySelector('.menu-toggle');
+  var menu = document.querySelector('.menu-desplegable');
+  if (toggle && menu) toggle.addEventListener('click', function(){
+    var abierto = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!abierto));
+    menu.classList.toggle('menu-desplegable--abierto', !abierto);
+  });
+})();
+${guionSuscripcion}</script>
 </body></html>`;
 }
 
@@ -401,7 +414,10 @@ function portada(hero, resto, enigma, hoy) {
 </article>
 
 <nav class="barra" aria-label="Secciones de la carta">
-  <div class="envoltorio barra__int" id="filtros">${chips}</div>
+  <div class="envoltorio barra__int" id="filtros">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-portada">☰ <span>Menú</span></button>
+    <div class="menu-desplegable" id="menu-portada">${chips}</div>
+  </div>
 </nav>
 
 <main class="envoltorio">
@@ -436,6 +452,13 @@ ${pieHTML('', { n: resto.length + 1, enigma: enigma ? 1 : 0, min: [hero, ...rest
   /* Filtros de la carta */
   var piezas = [].slice.call(document.querySelectorAll('.pieza'));
   var contador = document.getElementById('contador');
+  var menuToggle = document.querySelector('.menu-toggle');
+  var menu = document.querySelector('.menu-desplegable');
+  if (menuToggle && menu) menuToggle.addEventListener('click', function(){
+    var abierto = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', String(!abierto));
+    menu.classList.toggle('menu-desplegable--abierto', !abierto);
+  });
   document.getElementById('filtros').addEventListener('click', function(e){
     var b = e.target.closest('.chip'); if (!b) return;
     var f = b.dataset.filtro, n = 0;

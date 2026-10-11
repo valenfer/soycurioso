@@ -30,8 +30,8 @@
       <p class="lema">Una ración diaria de conocimiento que no cabe en una conversación normal.</p>
     </div>
     <p class="pizarrita">
-      <span>Sábado, 10 de octubre de 2026</span>
-      <span>Menú nº <b>283</b></span>
+      <span>Domingo, 11 de octubre de 2026</span>
+      <span>Menú nº <b>284</b></span>
       <span>Se sirve todos los días a las <b>8:00</b></span>
     </p>
   </div>
@@ -58,7 +58,10 @@
 </article>
 
 <nav class="barra" aria-label="Secciones de la carta">
-  <div class="envoltorio barra__int" id="filtros"><a class="chip" href="archivo/">Toda la carta</a><a class="chip" href="archivo/categoria-ciencia/">Ciencia al límite</a><a class="chip" href="archivo/categoria-tecnologia/">Tecnología extrema</a><a class="chip" href="archivo/categoria-filosofia/">Filosofía radical</a><a class="chip" href="archivo/categoria-historia/">La cara oculta de la historia</a><a class="chip" href="archivo/categoria-citas/">Citas que rompen la mesa</a><a class="chip" href="archivo/categoria-logica/">Lógica y escape room</a><a class="chip" href="archivo/categoria-psicologia/">Psicología radical</a><a class="chip" href="archivo/categoria-antropologia/">Antropología desquiciante</a></div>
+  <div class="envoltorio barra__int" id="filtros">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-portada">☰ <span>Menú</span></button>
+    <div class="menu-desplegable" id="menu-portada"><a class="chip" href="archivo/">Toda la carta</a><a class="chip" href="archivo/categoria-ciencia/">Ciencia al límite</a><a class="chip" href="archivo/categoria-tecnologia/">Tecnología extrema</a><a class="chip" href="archivo/categoria-filosofia/">Filosofía radical</a><a class="chip" href="archivo/categoria-historia/">La cara oculta de la historia</a><a class="chip" href="archivo/categoria-citas/">Citas que rompen la mesa</a><a class="chip" href="archivo/categoria-logica/">Lógica y escape room</a><a class="chip" href="archivo/categoria-psicologia/">Psicología radical</a><a class="chip" href="archivo/categoria-antropologia/">Antropología desquiciante</a></div>
+  </div>
 </nav>
 
 <main class="envoltorio">
@@ -236,6 +239,13 @@
   /* Filtros de la carta */
   var piezas = [].slice.call(document.querySelectorAll('.pieza'));
   var contador = document.getElementById('contador');
+  var menuToggle = document.querySelector('.menu-toggle');
+  var menu = document.querySelector('.menu-desplegable');
+  if (menuToggle && menu) menuToggle.addEventListener('click', function(){
+    var abierto = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', String(!abierto));
+    menu.classList.toggle('menu-desplegable--abierto', !abierto);
+  });
   document.getElementById('filtros').addEventListener('click', function(e){
     var b = e.target.closest('.chip'); if (!b) return;
     var f = b.dataset.filtro, n = 0;
