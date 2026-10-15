@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-15",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 4,
+      "titular": "El dinosaurio de las garras gigantes pasó casi un siglo en un cajón",
+      "entradilla": "Invictibellatrix amberina, un dinosaurio depredador con garras enormes, fue descrito a partir de un fósil de la Isla de Wight que llevaba casi 100 años guardado en un museo.",
+      "cuerpo": [
+        "Invictibellatrix amberina fue un dinosaurio terópodo hallado en rocas del Cretácico inferior de la Isla de Wight, en el sur de Inglaterra. El fósil apareció en 1923, pero permaneció casi un siglo en las colecciones del Dinosaur Isle Museum antes de que una revisión detallada revelara que pertenecía a una especie desconocida.",
+        "El animal tenía brazos relativamente largos y garras curvas de unos 20 centímetros. Los investigadores creen que pudo usar esas extremidades para sujetar presas, aunque la función exacta de las garras sigue siendo una hipótesis. Con semejante herramienta, eso sí, no parecía especialmente interesado en hacerse la manicura.",
+        "El nombre del género significa aproximadamente “bestia invencible” y el de la especie alude al ámbar, por el color de los sedimentos de la bahía de Compton. El hallazgo recuerda que un museo no solo conserva piezas famosas: también puede esconder durante décadas una especie nueva, esperando a que alguien vuelva a mirar el cajón adecuado."
+      ],
+      "fuente": "Dinosaur Isle Museum / PeerJ — https://peerj.com/articles/20089/",
+      "imagen": "img/invictibellatrix-el-dinosaurio-de-las-garras-gigantes.webp"
+    },
+    {
       "fecha": "2026-10-10",
       "cat": "ciencia",
       "nivel": 5,
