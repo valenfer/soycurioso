@@ -394,18 +394,18 @@ function portada(hero, resto, enigma, hoy) {
 </header>
 
 <article class="carta">
-  <div class="carta__cinta"><span>El plato del día</span><span>${esc(SECCIONES[hero.cat])}</span></div>
+  <div class="carta__cinta"><span>El plato del día</span><span id="plato-seccion">${esc(SECCIONES[hero.cat])}</span></div>
   <div class="carta__cuerpo">
-    <div class="carta__lamina">${imagenHTML(hero)}</div>
+    <div class="carta__lamina">${imagenHTML(hero).replace('<img ', '<img id="plato-imagen" ')}</div>
     <div class="carta__titulo">
-      <p class="carta__seccion">${esc(SECCIONES[hero.cat])}</p>
-      <h2>${esc(hero.titular)}</h2>
+      <p class="carta__seccion" id="plato-seccion-titulo">${esc(SECCIONES[hero.cat])}</p>
+      <h2 id="plato-titulo">${esc(hero.titular)}</h2>
     </div>
     <div class="carta__detalle">
-      <p>${esc(hero.entradilla)}</p>
+      <p id="plato-entradilla">${esc(hero.entradilla)}</p>
       <div class="carta__acciones">
         <div class="carta__botones">
-          <a class="boton" href="c/${hero.slug}.html">Quiero saber más</a>
+          <a class="boton" id="plato-enlace" href="c/${hero.slug}.html">Quiero saber más</a>
           <a class="boton boton--azul" href="#" id="sorprendeme">Ponme otra cosa</a>
         </div>
       </div>
@@ -473,8 +473,20 @@ ${pieHTML('', { n: resto.length + 1, enigma: enigma ? 1 : 0, min: [hero, ...rest
   /* Ponme otra cosa */
   document.getElementById('sorprendeme').addEventListener('click', function(e){
     e.preventDefault();
-    var vis = piezas.filter(function(p){ return !p.hidden; });
-    if (vis.length) window.location.href = vis[Math.floor(Math.random()*vis.length)].getAttribute('href');
+    var actual = document.getElementById('plato-titulo').textContent;
+    var vis = piezas.filter(function(p){ return !p.hidden && p.querySelector('h3').textContent !== actual; });
+    if (!vis.length) vis = piezas.filter(function(p){ return !p.hidden; });
+    if (!vis.length) return;
+    var pieza = vis[Math.floor(Math.random()*vis.length)];
+    var imagen = pieza.querySelector('img');
+    var categoria = pieza.querySelector('.pieza__seccion').textContent;
+    document.getElementById('plato-imagen').src = imagen.src;
+    document.getElementById('plato-imagen').alt = imagen.alt;
+    document.getElementById('plato-seccion').textContent = categoria;
+    document.getElementById('plato-seccion-titulo').textContent = categoria;
+    document.getElementById('plato-titulo').textContent = pieza.querySelector('h3').textContent;
+    document.getElementById('plato-entradilla').textContent = pieza.querySelector('.pieza__txt > p:not(.pieza__seccion)').textContent;
+    document.getElementById('plato-enlace').href = pieza.getAttribute('href');
   });
 
   /* Enigma */
