@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-16",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El wombat fabrica cubos sin tener un intestino cuadrado",
+      "entradilla": "Sus excrementos adquieren caras planas y esquinas dentro del colon gracias a zonas intestinales con distinta rigidez. Ni molde, ni esfínter cuadrado: biomecánica de precisión australiana.",
+      "cuerpo": [
+        "El wombat de nariz desnuda es famoso por producir excrementos con forma de cubo. La explicación no está en un esfínter cuadrado —el ano es redondo, como cabía esperar—, sino en el tramo final del intestino: las disecciones mostraron que los cubos se forman dentro del último 17 % del colon.",
+        "El tejido intestinal no se deforma por igual en toda su circunferencia. Los investigadores encontraron regiones aproximadamente dos veces más gruesas y hasta cuatro veces más rígidas que otras. Al contraerse, esas zonas duras y blandas se mueven a distinta velocidad y van moldeando caras planas y esquinas redondeadas.",
+        "La digestión lenta también ayuda: el alimento puede permanecer entre 40 y 80 horas en un intestino de 6 a 9 metros, perdiendo agua hasta adquirir la consistencia necesaria para conservar la forma. Los wombats depositan estos cubos en rocas, troncos y otros puntos visibles; que no rueden podría facilitar que la señal olorosa permanezca donde la dejaron. La naturaleza inventó el dado biodegradable sin necesidad de fábrica."
+      ],
+      "fuente": "Royal Society of Chemistry, Soft Matter — https://pubs.rsc.org/en-us/content/articlehtml/2021/sm/d0sm01230k?page=search",
+      "imagen": "img/el-wombat-fabrica-cubos.webp"
+    },
+    {
       "fecha": "2026-10-15",
       "cat": "ciencia",
       "nivel": 4,
