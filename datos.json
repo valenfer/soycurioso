@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-17",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Curiosity rompió una roca marciana y encontró azufre puro",
+      "entradilla": "Una rueda del rover abrió por accidente una piedra en Marte y dejó al descubierto cristales amarillos de azufre elemental, algo que ninguna misión había observado allí hasta entonces.",
+      "cuerpo": [
+        "El 30 de mayo de 2024, el rover Curiosity avanzaba por el canal Gediz Vallis, en el monte Sharp de Marte, cuando una de sus ruedas pasó sobre una roca y la partió. El interior mostró cristales de un amarillo intenso que el equipo identificó como azufre elemental: azufre puro, sin combinar con otros elementos.",
+        "Los minerales que contienen azufre no son una novedad marciana; Curiosity ya había encontrado sulfatos formados por mezclas de azufre y otros materiales. Lo inesperado era hallar el elemento en estado puro y, además, en una zona cubierta por muchas rocas de aspecto parecido. Las condiciones conocidas de aquel lugar no explicaban fácilmente cómo se había formado semejante depósito.",
+        "El descubrimiento fue accidental, porque el rover no puede romper todas las piedras para mirar dentro. Después perforó otra roca cercana, Mammoth Lakes, para analizar su composición con más detalle. Marte acababa de recordar a los científicos una norma bastante útil: cuando un planeta te pone piedras amarillas por todo el camino, conviene no juzgarlas solo por la fachada."
+      ],
+      "fuente": "NASA / Jet Propulsion Laboratory — https://www.jpl.nasa.gov/news/nasas-curiosity-rover-discovers-a-surprise-in-a-martian-rock/",
+      "imagen": "img/curiosity-rompio-una-roca-marciana-y-encontro-azufre-puro.webp"
+    },
+    {
       "fecha": "2026-10-16",
       "cat": "ciencia",
       "nivel": 4,
