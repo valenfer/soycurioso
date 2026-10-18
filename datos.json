@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-18",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Las ballenas jorobadas fabrican anillos de burbujas",
+      "entradilla": "Un estudio reunió 39 anillos creados por 11 ballenas jorobadas; la mayoría apareció durante acercamientos curiosos, no mientras cazaban ni peleaban.",
+      "cuerpo": [
+        "Las ballenas jorobadas son famosas por rodear bancos de peces con redes de burbujas, pero también pueden producir estructuras mucho más delicadas: anillos de aire que ascienden girando bajo el agua, parecidos a enormes anillos de humo submarinos.",
+        "Un estudio publicado en Marine Mammal Science reunió 12 episodios en los que 11 ballenas generaron 39 anillos. Los investigadores compararon el contexto de cada observación para averiguar si se trataba de alimentación, agresividad, descanso o simple interés por lo que ocurría alrededor.",
+        "La mayoría de los episodios mostró conducta inquisitiva y no presentó señales claras de alimentación ni de agresión. En varios casos, las ballenas se acercaron a barcos o nadadores antes de soltar los anillos, aunque los autores advierten que todavía hace falta investigar más para saber su función exacta. Puede que no estén diciendo «hola», pero desde luego dominan la papiroflexia con aire."
+      ],
+      "fuente": "Marine Mammal Science — https://doi.org/10.1111/mms.70026",
+      "imagen": "img/las-ballenas-jorobadas-fabrican-anillos-de-burbujas.webp"
+    },
+    {
       "fecha": "2026-10-17",
       "cat": "ciencia",
       "nivel": 4,
