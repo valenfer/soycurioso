@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-19",
+      "cat": "ciencia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "Curiosity ha encontrado unos acantilados marcianos que parecen pegados",
+      "entradilla": "El rover observa desde lejos una capa de formaciones talladas por el viento que tiene el color y la inclinación equivocados, como si alguien la hubiese colocado sobre el monte Sharp.",
+      "cuerpo": [
+        "El rover Curiosity de la NASA ha fotografiado una capa de acantilados marcianos llamados yardangs, formaciones esculpidas por el viento. La panorámica, tomada el 11 de agosto de 2026, muestra unas crestas lejanas con un aspecto tan peculiar que el equipo llevaba años esperando poder estudiarlas de cerca.",
+        "La capa se extiende unos 16 kilómetros por la zona noroccidental del monte Sharp y destaca por tres rarezas: tiene un color distinto, sus estratos están inclinados de una forma extraña y parece casi pegada sobre el paisaje. Una posibilidad es que se trate de ceniza depositada por antiguas erupciones volcánicas, aunque todavía no hay una explicación definitiva.",
+        "Curiosity ya ha subido aproximadamente un kilómetro desde el suelo del cráter Gale, un récord para un rover en Marte, y espera alcanzar la base de los yardangs en 2027. Allí podrá analizar sus materiales con el brazo robótico. Marte vuelve a demostrar que una montaña puede esconder una historia entera bajo una capa que, de lejos, parece un parche mal puesto."
+      ],
+      "fuente": "NASA / Jet Propulsion Laboratory — https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+      "imagen": "img/curiosity-ha-encontrado-unos-acantilados-marcianos-que-parecen-pegados.webp"
+    },
+    {
       "fecha": "2026-10-18",
       "cat": "ciencia",
       "nivel": 4,
