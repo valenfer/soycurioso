@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-20",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Perseverance descubrió que un rincón de Marte tuvo tres historias de agua",
+      "entradilla": "Las rocas del borde del cráter Jezero fueron alteradas por aguas subterráneas, un antiguo lago y una circulación posterior de agua caliente. Marte no tuvo una sola temporada mojada: tuvo una saga.",
+      "cuerpo": [
+        "Cuando el rover Perseverance llegó a la llamada Margin Unit, en el borde interior del cráter Jezero, los científicos esperaban encontrar rocas sedimentarias formadas junto a un antiguo lago. En cambio, hallaron rocas ígneas, nacidas del magma, que conservaban una historia geológica bastante más movida.",
+        "El análisis de minerales realizado con SuperCam indica que el agua interactuó con esas rocas al menos tres veces. Primero, aguas subterráneas ricas en dióxido de carbono reaccionaron con el olivino y dejaron carbonatos; después pudo intervenir el lago que ocupó Jezero; y, por último, circuló agua caliente bajo tierra, capaz de formar vetas de sulfato de calcio y fluorita.",
+        "La secuencia importa porque los carbonatos y la sílice pueden conservar pistas sobre ambientes antiguos y sobre posibles condiciones habitables. No demuestra que hubiera vida marciana, pero sí que el planeta tuvo un sistema de agua cambiante y químicamente activo. Marte, como ciertos dramas familiares, no tiene una sola versión de su pasado: tiene varias capas y todas vienen con minerales."
+      ],
+      "fuente": "NASA / Jet Propulsion Laboratory — https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+      "imagen": "img/perseverance-descubrio-que-un-rincon-de-marte-tuvo-tres-historias-de-agua.webp"
+    },
+    {
       "fecha": "2026-10-19",
       "cat": "ciencia",
       "nivel": 3,
