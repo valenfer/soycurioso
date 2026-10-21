@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-21",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El universo dibujó una clave de sol con dos cúmulos de galaxias",
+      "entradilla": "Una estructura de ondas de radio con forma de clave de sol nació cuando un agujero negro supermasivo lanzó partículas y, mucho después, dos cúmulos de galaxias chocaron. El cosmos también tiene oído para la pareidolia.",
+      "cuerpo": [
+        "Los astrónomos han estudiado una formación de ondas de radio apodada “Treble Clef” porque su silueta recuerda a una clave de sol. No es una melodía espacial, claro: es una enorme señal producida por partículas cargadas y campos magnéticos en un entorno de cúmulos de galaxias.",
+        "La explicación propuesta tiene dos actos. Primero, un agujero negro supermasivo expulsó una nube de partículas y campos magnéticos a velocidades cercanas a la de la luz. Después, la colisión de dos cúmulos de galaxias comprimió o reactivó esa nube, haciendo que volviera a brillar en ondas de radio.",
+        "La escena estaba casi escondida detrás del plano de la Vía Láctea, donde estrellas, gas y polvo dificultan la observación. Los telescopios Chandra y eROSITA detectaron el gas caliente de millones de grados, mientras LOFAR reveló el dibujo radiofónico. La forma musical es pareidolia, pero una pareidolia de dimensiones cósmicas y con un agujero negro haciendo de director de orquesta."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
+      "imagen": "img/el-universo-dibujo-una-clave-de-sol-con-dos-cumulos-de-galaxias.webp"
+    },
+    {
       "fecha": "2026-10-20",
       "cat": "ciencia",
       "nivel": 4,
