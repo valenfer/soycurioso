@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-22",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Euclid descubrió un cometa que se había colado en sus fotos",
+      "entradilla": "El telescopio espacial Euclid, diseñado para estudiar galaxias lejanas, detectó por accidente su primer cometa desconocido mientras este dejaba una raya borrosa entre varias exposiciones.",
+      "cuerpo": [
+        "Euclid observa el universo profundo con imágenes muy estables, pero entre sus fotografías de galaxias apareció algo que se movía deprisa. El investigador Mikko Pöntinen desarrolló un programa para rastrear objetos pequeños y su software señaló una raya extendida en varias imágenes.",
+        "Al seguir la posición prevista, el equipo encontró el objeto en cinco conjuntos de imágenes. No coincidía con ningún cometa o asteroide catalogado y, además, mostraba una nube difusa alrededor: la señal de que estaba expulsando polvo y gas. El Centro de Planetas Menores confirmó el hallazgo el 8 de octubre de 2026 y lo bautizó C/2026 S1 (Euclid).",
+        "El cometa estaba a unos 1.300 millones de kilómetros de la Tierra, aproximadamente entre las órbitas de Júpiter y Saturno, y tardará miles de años en completar su órbita. Euclid iba buscando galaxias remotas y acabó encontrando un visitante del barrio cósmico: la astronomía también tiene esos días en los que sales a por una cosa y vuelves con un cometa."
+      ],
+      "fuente": "Agencia Espacial Europea (ESA) — https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "imagen": "img/euclid-descubrio-un-cometa-que-se-habia-colado-en-sus-fotos.webp"
+    },
+    {
       "fecha": "2026-10-21",
       "cat": "ciencia",
       "nivel": 4,
