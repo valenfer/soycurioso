@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-23",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Los microbios antiguos se arrastran como células complejas",
+      "entradilla": "Unas arqueas de Asgard, parientes microbianos muy antiguos, cambian de forma cada minuto y avanzan por superficies con prolongaciones dinámicas. La vida compleja quizá empezó con más movimiento del que imaginábamos.",
+      "cuerpo": [
+        "Las arqueas de Asgard son microorganismos considerados parientes cercanos de las células eucariotas, las que forman animales, plantas, hongos y protistas. Hasta ahora se sabía poco sobre cómo se movían porque observarlas vivas exige mantenerlas en condiciones sin oxígeno.",
+        "Un equipo de la Universidad de Viena consiguió filmar dos cepas bajo el microscopio. Las células cambiaban drásticamente de forma cada minuto y extendían apéndices finos para agarrarse a las superficies y avanzar con un movimiento de arrastre que no se había descrito antes en microbios.",
+        "Los investigadores observaron además que los inhibidores de actina frenaban esas prolongaciones. La actina es parte del citoesqueleto que también ayuda a cambiar de forma y moverse a las células humanas, así que el hallazgo apunta a que algunas herramientas de la vida compleja podrían tener raíces de unos 2.000 millones de años. No eran animalitos con prisa, pero sí unos antepasados celulares bastante inquietos."
+      ],
+      "fuente": "Universidad de Viena — https://www.univie.ac.at/en/news/press-room/press-releases/detail/unexpected-dynamics-of-ancient-microbes-discovered; Nature, DOI 10.1038/s41586-026-11063-9",
+      "imagen": "img/los-microbios-antiguos-se-arrastran-como-celulas-complejas.webp"
+    },
+    {
       "fecha": "2026-10-22",
       "cat": "ciencia",
       "nivel": 4,
