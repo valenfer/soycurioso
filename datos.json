@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-29",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El insecto del ámbar con una pajita de casi el doble de su cuerpo",
+      "entradilla": "Cretodorus noonoo, atrapado en ámbar hace 99 millones de años, tenía una boca flexible y plegada casi dos veces más larga que su cuerpo. La evolución también inventó la pajita extensible, faltaba solo el batido.",
+      "cuerpo": [
+        "Un equipo de la Universidad de Tel Aviv describió en ámbar de Myanmar una especie desconocida de insecto, Cretodorus noonoo, que vivió hace unos 99 millones de años, cuando los dinosaurios aún dominaban el paisaje. El nombre Noo-Noo alude al aspirador de los Teletubbies, porque su aparato bucal recuerda a una manguera flexible.",
+        "Los investigadores estudiaron 13 fósiles con microtomografía computarizada y descubrieron piezas bucales extraordinariamente largas: en Noo-Noo llegaban a casi el doble de la longitud del cuerpo. Estaban cubiertas de pliegues transversales que permitían doblarlas sin que se retorcieran ni se aplastaran, como una pajita corrugada.",
+        "La hipótesis es que el insecto utilizaba esa estructura para alcanzar la savia escondida en grietas profundas de la corteza. En el extremo tenía dos lóbulos acanalados que probablemente se abrían y anclaban el aparato dentro de la grieta. Una solución desaparecida entre sus parientes actuales, pero bastante ingeniosa para un animal que cabía en una gota de resina."
+      ],
+      "fuente": "Universidad de Tel Aviv / Insects — https://doi.org/10.3390/insects17080789; Phys.org — https://phys.org/news/2026-10-rare-insect-discovery-reveals-species.html",
+      "imagen": "img/el-insecto-del-ambar-con-una-pajita-de-casi-el-doble-de-su-cuerpo.webp"
+    },
+    {
       "fecha": "2026-10-23",
       "cat": "ciencia",
       "nivel": 4,
