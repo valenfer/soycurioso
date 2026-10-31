@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-10-31",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Dos sifonóforos nuevos viven en el ascensor del océano",
+      "entradilla": "Bargmannia marlena y Bargmannia pyrosa son dos especies nuevas de sifonóforos descubiertas al combinar vídeos submarinos, fósiles de museo y ADN. En el océano profundo hasta las medusas vienen con árbol genealógico.",
+      "cuerpo": [
+        "Los sifonóforos son animales gelatinosos emparentados con las medusas y los corales. Aunque parecen una sola criatura alargada, forman colonias de zooides especializados que trabajan juntos; algunos de sus miembros nadan con campanas transparentes que expulsan agua a modo de pequeños motores.",
+        "Un equipo de MBARI, la Universidad de Gdańsk, la Universidad de Nueva York y Yale revisó ejemplares de museo, observaciones de robots submarinos y secuencias genéticas del género Bargmannia. El análisis identificó ocho especies y descubrió que dos eran desconocidas para la ciencia: Bargmannia marlena, con estómagos anaranjados elásticos, y Bargmannia pyrosa, de cuerpo rojo intenso.",
+        "Las especies pueden solaparse geográficamente, pero se reparten según la profundidad: sus poblaciones ocupan distintos pisos del océano, como si el agua tuviera un edificio entero de hábitats. Incluso lograron secuenciar ADN de un ejemplar histórico conservado en formol. El fondo marino sigue guardando biodiversidad a espuertas; solo necesita que bajemos con cámara y bastante paciencia."
+      ],
+      "fuente": "MBARI — https://www.mbari.org/news/new-research-reveals-the-hidden-diversity-of-deep-sea-siphonophores/; estudio: https://doi.org/10.1093/zoolinnean/zlag150",
+      "imagen": "img/dos-sifonoforos-nuevos-viven-en-el-ascensor-del-oceano.webp"
+    },
+    {
       "fecha": "2026-10-29",
       "cat": "ciencia",
       "nivel": 4,
