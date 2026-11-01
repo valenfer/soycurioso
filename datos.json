@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-01",
+      "cat": "ciencia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "Los tiburones detectan campos eléctricos como si llevaran un sexto sentido",
+      "entradilla": "Los tiburones pueden percibir diminutos campos eléctricos producidos por otros animales. No es magia: es una red de sensores en la cabeza, aunque para sus presas se parezca bastante a un superpoder.",
+      "cuerpo": [
+        "Los tiburones y otros peces cartilaginosos poseen unos órganos llamados ampollas de Lorenzini, pequeños poros conectados a canales llenos de gelatina. Funcionan como sensores capaces de detectar cambios eléctricos extremadamente débiles en el agua.",
+        "Cada animal genera electricidad al contraer los músculos o al mover los iones de sus nervios. Por eso un tiburón puede localizar presas escondidas bajo la arena aunque no las vea ni las huela con claridad. La técnica resulta especialmente útil cuando el agua está turbia o la presa permanece inmóvil.",
+        "El sistema también ayuda a orientarse porque los océanos interactúan con el campo magnético terrestre y producen señales eléctricas al moverse el agua salada. Dicho de otro modo: el tiburón lleva una brújula biológica y un detector de cenas en la cara. Muy práctico, poco tranquilizador."
+      ],
+      "fuente": "NOAA Fisheries — https://www.fisheries.noaa.gov/feature-story/sharks-are-more-cool-you-think",
+      "imagen": "img/los-tiburones-detectan-campos-electricos.webp"
+    },
+    {
       "fecha": "2026-10-31",
       "cat": "ciencia",
       "nivel": 4,
