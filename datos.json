@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-02",
+      "cat": "ciencia",
+      "nivel": 3,
+      "min": 3,
+      "titular": "El dinosaurio que comía fruta antes que las aves",
+      "entradilla": "Pinnitholus flavus, un pequeño dinosaurio herbívoro de hace unos 110 millones de años, conserva la evidencia más antigua conocida de una dieta basada en frutos. La fruta no esperó a los pájaros: ya tenía clientes prehistóricos.",
+      "cuerpo": [
+        "Pinnitholus flavus vivió hace unos 110 millones de años, durante el Cretácico, en lo que hoy es Utah. Era un dinosaurio pequeño y herbívoro, de unos 80 centímetros de largo, y sus restos fueron identificados a partir de un cráneo y otros fragmentos fósiles.",
+        "El equipo de la Universidad de Stony Brook y del Museo Americano de Historia Natural comparó sus dientes con los de otros dinosaurios y concluyó que estaban adaptados para triturar frutos blandos. El hallazgo aporta la evidencia más antigua conocida de frugivoría en dinosaurios y adelanta esa estrategia alimentaria unos 40 millones de años respecto a registros previos.",
+        "No significa que el animal fuese un antepasado directo de las aves actuales, sino que distintas ramas de dinosaurios pudieron explorar la misma despensa vegetal. La fruta llevaba millones de años sirviendo de comida antes de que las aves se quedaran con la fama; la evolución, como siempre, llega primero y deja que otro se lleve el titular."
+      ],
+      "fuente": "Stony Brook University — https://news.stonybrook.edu/university/pinnitholus-flavus-reveals-earliest-evidence-of-fruit-eating-in-dinosaurs/",
+      "imagen": "img/el-dinosaurio-que-comia-fruta-antes-que-las-aves.webp"
+    },
+    {
       "fecha": "2026-11-01",
       "cat": "ciencia",
       "nivel": 3,
