@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-03",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El Hubble ha perdido oxígeno en 37 galaxias enanas",
+      "entradilla": "El telescopio Hubble estudió 37 galaxias pequeñas y descubrió que conservan mucho menos oxígeno del que deberían. Las estrellas lo fabrican; las supernovas quizá lo están echando por la puerta cósmica.",
+      "cuerpo": [
+        "Un equipo que trabaja con el proyecto GLOW analizó 37 galaxias enanas cercanas usando datos del Hubble, Spitzer y varios radiotelescopios. Son galaxias con entre unos miles y cientos de millones de estrellas, mucho más pequeñas que la Vía Láctea.",
+        "Las simulaciones predecían que allí debería quedar bastante más oxígeno, un elemento que sirve como pista para seguir la distribución de otros elementos pesados. Pero las observaciones encontraron que estas galaxias solo retienen una pequeña fracción del oxígeno producido por sus estrellas.",
+        "La explicación más probable son los vientos galácticos: explosiones de supernova y estrellas masivas expulsan gas al espacio entre las galaxias con más eficacia de la que calculaban los modelos actuales. Todavía no se sabe cuánto oxígeno permanece en el halo que rodea cada galaxia y cuánto ha escapado por completo. El universo también pierde cosas por la puerta de atrás, solo que allí la puerta mide años luz."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+      "imagen": "img/el-hubble-ha-perdido-oxigeno-en-37-galaxias-enanas.webp"
+    },
+    {
       "fecha": "2026-11-02",
       "cat": "ciencia",
       "nivel": 3,
