@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-04",
+      "cat": "tecnologia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Un chip del tamaño de una uña separa la luz mezclada",
+      "entradilla": "Un chip fotónico ha aprendido a desenredar haces de luz parcialmente coherentes y a devolverlos separados. Puede ayudar a distinguir objetos que una cámara convencional confunde en una sola mancha luminosa.",
+      "cuerpo": [
+        "La luz de una bombilla no viaja toda perfectamente acompasada como la de un láser: sus ondas se mezclan con ritmos distintos. Cuando varias fuentes se superponen, una cámara puede convertirlas en una única mancha y perder parte de la información que llevaba la luz.",
+        "Un equipo de Stanford y otras instituciones ha demostrado un chip fotónico del tamaño de una uña que recibe esa mezcla y separa sus componentes en haces independientes. El dispositivo aprende las firmas de coherencia de la luz y dirige cada componente hacia una salida distinta; en las pruebas consiguió ordenar mezclas de dos y tres láseres infrarrojos.",
+        "La idea podría mejorar microscopios, cámaras y telescopios. Dos partículas fluorescentes que se solapan podrían dejar de parecer una sola, y una mancha lejana en un telescopio quizá revele que procede de varias estrellas u objetos. El chip no hace magia: simplemente evita que la luz esconda sus cartas tan fácilmente."
+      ],
+      "fuente": "Stanford Report — https://news.stanford.edu/stories/2026/11/chip-mixed-light-beams-microscopy",
+      "imagen": "img/un-chip-del-tamano-de-una-una-separa-la-luz-mezclada.webp"
+    },
+    {
       "fecha": "2026-11-03",
       "cat": "ciencia",
       "nivel": 4,
