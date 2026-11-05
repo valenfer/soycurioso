@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-05",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "El cerebro humano son dos órganos que se turnan para recordar",
+      "entradilla": "Un estudio con pacientes divididos por cirugía revela que cada hemisferio puede aprender y recordar de forma independiente. Tu memoria podría tener un plan B bastante más sofisticado de lo que presume.",
+      "cuerpo": [
+        "En algunas personas con epilepsia grave se separan quirúrgicamente las conexiones principales entre los dos hemisferios cerebrales para impedir que las crisis se propaguen. Durante décadas se ha pensado que, después de esa operación, ambos lados siguen trabajando como un sistema coordinado gracias a otras conexiones más pequeñas.",
+        "Investigadores de Stanford estudiaron a tres pacientes y descubrieron que cada hemisferio podía aprender y recordar por separado. Cuando una imagen aparecía en un lado del campo visual, el hemisferio que la recibía podía reconocerla más tarde, incluso cuando la prueba se hacía con el otro lado del cerebro ocultando la información al primero.",
+        "El resultado sugiere que cada hemisferio conserva capacidades de memoria más completas de lo esperado y que la conciencia unificada depende de una conversación entre ambos, no de que solo uno guarde los recuerdos. No llevamos dos cerebros con una reunión semanal, pero casi: el equipo de reserva también sabe dónde están las cosas."
+      ],
+      "fuente": "Stanford Medicine — https://med.stanford.edu/news/2026/09/brain-hemispheres-can-learn-and-remember-independently.html",
+      "imagen": "img/el-cerebro-humano-son-dos-organos-que-se-turnan-para-recordar.webp"
+    },
+    {
       "fecha": "2026-11-04",
       "cat": "tecnologia",
       "nivel": 4,
