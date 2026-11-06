@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-06",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "La Voyager 1 cruzará la frontera de un día-luz",
+      "entradilla": "El 17 de noviembre, la Voyager 1 alcanzará una distancia de un día-luz: la señal de radio tardará 24 horas en recorrer el camino hasta la sonda. La humanidad también sabe hacer viajes con una paciencia casi ofensiva.",
+      "cuerpo": [
+        "La Voyager 1 viaja tan lejos que el 17 de noviembre de 2026 alcanzará una distancia de un día-luz, la longitud que recorre la luz en 24 horas. No significa que la nave vaya a llegar a un lugar llamado “frontera”: es una forma de medir cuánto espacio la separa de la Tierra.",
+        "La consecuencia más curiosa es el retraso de las comunicaciones. Una orden enviada desde nuestro planeta necesitará aproximadamente un día para alcanzar la sonda, y la respuesta tardará otro día en volver. Cualquier conversación con Voyager 1 se parece menos a un chat y más a enviar una carta a alguien que vive al otro lado del Sistema Solar.",
+        "NASA propone celebrar el hito el 17 de noviembre con la activación “Shine Bright for Voyager”. Para localizar aproximadamente su dirección en el cielo hay que mirar hacia Ofiuco, aunque la nave es demasiado débil para verse a simple vista. Después de casi medio siglo de viaje, la Voyager 1 sigue convirtiendo el retraso de una señal en una regla cósmica bastante elegante."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "imagen": "img/la-voyager-1-cruzara-la-frontera-de-un-dia-luz.webp"
+    },
+    {
       "fecha": "2026-11-05",
       "cat": "ciencia",
       "nivel": 4,
