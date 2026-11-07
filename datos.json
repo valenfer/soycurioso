@@ -1,6 +1,21 @@
 {
   "curiosidades": [
     {
+      "fecha": "2026-11-07",
+      "cat": "ciencia",
+      "nivel": 4,
+      "min": 3,
+      "titular": "Un sistema avisa cuándo lanzar un cohete para cazar erupciones solares",
+      "entradilla": "Una alerta calcula dónde está una llamarada solar y cuánto durará, permitiendo lanzar un cohete justo a tiempo para observarla antes de que desaparezca. Soporte técnico, pero con plasma.",
+      "cuerpo": [
+        "Las llamaradas solares liberan energía y partículas, pero observarlas desde el suelo tiene un problema: la atmósfera absorbe parte de su luz. Los cohetes sonda pueden subir por encima de esa pantalla, aunque solo disponen de unos cinco minutos antes de volver a caer y una llamarada puede apagarse igual de deprisa.",
+        "Para resolverlo, un equipo desarrolló un sistema de alerta que localiza la llamarada y estima cuánto tiempo seguirá activa pocos minutos después de detectarla. El sistema combina rayos X y ultravioleta observados por el Solar Dynamics Observatory de NASA, los satélites GOES de la NOAA y observatorios terrestres.",
+        "La herramienta ayudó a coordinar el lanzamiento de dos cohetes desde Alaska en abril de 2024 y, en mayo de 2026, permitió que otro cohete Black Brant IX observara tres llamaradas pequeñas durante su vuelo. La misma idea podría mejorar futuras campañas de cohetes, observatorios solares y predicciones de meteorología espacial: perseguir una llamarada ya no consiste solo en mirar al cielo y cruzar los dedos."
+      ],
+      "fuente": "NASA Science — https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
+      "imagen": "img/un-sistema-avisa-cuando-lanzar-un-cohete-para-cazar-erupciones-solares.webp"
+    },
+    {
       "fecha": "2026-11-06",
       "cat": "ciencia",
       "nivel": 4,
